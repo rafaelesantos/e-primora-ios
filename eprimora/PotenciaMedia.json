@@ -1,0 +1,1706 @@
+[
+ {
+   "id": 1,
+   "nomeProduto": "AQUECEDOR CENTRAL - BOILLER",
+   "potenciaMedia": 1000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 2,
+   "nomeProduto": "AQUECEDOR CENTRAL - BOILLER",
+   "potenciaMedia": 1122,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 3,
+   "nomeProduto": "AQUECEDOR CENTRAL - BOILLER",
+   "potenciaMedia": 1500,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 4,
+   "nomeProduto": "AQUECEDOR CENTRAL - BOILLER",
+   "potenciaMedia": 2000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 5,
+   "nomeProduto": "AQUECEDOR CENTRAL - BOILLER",
+   "potenciaMedia": 3000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 6,
+   "nomeProduto": "AQUECEDOR CENTRAL - BOILLER",
+   "potenciaMedia": 5000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 7,
+   "nomeProduto": "AQUECEDOR CENTRAL - BOILLER",
+   "potenciaMedia": 7500,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 8,
+   "nomeProduto": "AQUECEDOR CENTRAL - BOILLER",
+   "potenciaMedia": 10000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 9,
+   "nomeProduto": "AQUECEDOR DE ÁGUA (200 L)",
+   "potenciaMedia": 2000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 10,
+   "nomeProduto": "AQUECEDOR DE ÁGUA (50 A 175 L)",
+   "potenciaMedia": 1500,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 11,
+   "nomeProduto": "AQUECEDOR DE ÁGUA CARDAL",
+   "potenciaMedia": 6600,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 12,
+   "nomeProduto": "BANHO MARIA (RESTAURANTE)",
+   "potenciaMedia": 1822,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 13,
+   "nomeProduto": "CAFETEIRA ELÉTRICA",
+   "potenciaMedia": 500,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 14,
+   "nomeProduto": "CAFETEIRA ELÉTRICA",
+   "potenciaMedia": 750,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 15,
+   "nomeProduto": "CHUVEIRO ELÉTRICO",
+   "potenciaMedia": 4000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 16,
+   "nomeProduto": "CHUVEIRO ELÉTRICO",
+   "potenciaMedia": 4500,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 17,
+   "nomeProduto": "CHUVEIRO QUATRO ESTAÇÕES",
+   "potenciaMedia": 6500,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 18,
+   "nomeProduto": "SAUNA COMERCIAL",
+   "potenciaMedia": 12000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 19,
+   "nomeProduto": "SAUNA RESIDENCIAL",
+   "potenciaMedia": 4500,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 20,
+   "nomeProduto": "TORNEIRA ELÉTRICA",
+   "potenciaMedia": 2000,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 21,
+   "nomeProduto": "VAPORIZADOR",
+   "potenciaMedia": 300,
+   "categoria": "Aparelhos Aquecimento Água"
+ },
+ {
+   "id": 22,
+   "nomeProduto": "FORNO MICROONDAS",
+   "potenciaMedia": 750,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 23,
+   "nomeProduto": "FORNO MICROONDAS",
+   "potenciaMedia": 800,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 24,
+   "nomeProduto": "FORNO MICROONDAS",
+   "potenciaMedia": 1500,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 25,
+   "nomeProduto": "FORNO MICROONDAS",
+   "potenciaMedia": 900,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 26,
+   "nomeProduto": "HIDROMASSAGEM C/ AQUECEDOR",
+   "potenciaMedia": 8500,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 27,
+   "nomeProduto": "HIDROMASSAGEM S/ AQUECEDOR",
+   "potenciaMedia": 1500,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 28,
+   "nomeProduto": "MÁQUINA DE LAVAR PRATOS",
+   "potenciaMedia": 1200,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 29,
+   "nomeProduto": "MÁQUINA DE LAVAR ROUPAS",
+   "potenciaMedia": 1000,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 30,
+   "nomeProduto": "SECADOR DE ROUPAS COMERCIAL",
+   "potenciaMedia": 5000,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 31,
+   "nomeProduto": "SECADOR DE ROUPAS ENXUTA",
+   "potenciaMedia": 2429,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 32,
+   "nomeProduto": "SECADOR DE ROUPAS INDUSTRIAL",
+   "potenciaMedia": 1100,
+   "categoria": "Sec. Roupa, Máq. Lav.Roupa, Máq. Lav. Louça, Microondas, Hidromassagem"
+ },
+ {
+   "id": 33,
+   "nomeProduto": "ASSADEIRA GRANDE",
+   "potenciaMedia": 1000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 34,
+   "nomeProduto": "ASSADEIRA PEQUENA",
+   "potenciaMedia": 500,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 35,
+   "nomeProduto": "ESTUFA",
+   "potenciaMedia": 1000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 36,
+   "nomeProduto": "ESTUFA DENTISTA",
+   "potenciaMedia": 1000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 37,
+   "nomeProduto": "FERRO DE SOLDA GRANDE",
+   "potenciaMedia": 600,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 38,
+   "nomeProduto": "FERRO DE SOLDA GRANDE",
+   "potenciaMedia": 600,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 39,
+   "nomeProduto": "FERRO DE SOLDA MÉDIO",
+   "potenciaMedia": 400,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 40,
+   "nomeProduto": "FERRO DE SOLDA PEQUENO",
+   "potenciaMedia": 100,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 41,
+   "nomeProduto": "FERRO ELÉTRICO",
+   "potenciaMedia": 550,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 42,
+   "nomeProduto": "FERRO ELÉTRICO AUTOMÁTICO",
+   "potenciaMedia": 1000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 43,
+   "nomeProduto": "FOGÃO COMUM C/ACENDEDOR",
+   "potenciaMedia": 90,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 44,
+   "nomeProduto": "FOGÃO ELÉTRICO",
+   "potenciaMedia": 2000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 45,
+   "nomeProduto": "FORNO ELÉT. ABC C/1 CÂMARA",
+   "potenciaMedia": 2000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 46,
+   "nomeProduto": "FORNO ELÉT. CAPITAL C/2 C",
+   "potenciaMedia": 10000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 47,
+   "nomeProduto": "FORNO ELÉT. CURITIBA",
+   "potenciaMedia": 38000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 48,
+   "nomeProduto": "FORNO ELÉT. ELETRO GRANT C/3 C",
+   "potenciaMedia": 24400,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 49,
+   "nomeProduto": "FORNO ELÉT. ESPECIAL C/2 CÂMARAS",
+   "potenciaMedia": 30000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 50,
+   "nomeProduto": "FORNO ELÉT. HIPER VULCÃO C/4 C",
+   "potenciaMedia": 22000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 51,
+   "nomeProduto": "FORNO ELÉT. ITAL BRAS C/2 C",
+   "potenciaMedia": 25000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 52,
+   "nomeProduto": "ASPIRADOR DE PÓ COMERCIAL",
+   "potenciaMedia": 2240,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 53,
+   "nomeProduto": "ASPIRADOR DE PÓ COMERCIAL",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 54,
+   "nomeProduto": "ASPIRADOR DE PÓ RESIDENCIAL",
+   "potenciaMedia": 750,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 55,
+   "nomeProduto": "BALANÇA ELÉTRICA",
+   "potenciaMedia": 20,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 56,
+   "nomeProduto": "BALCÃO FRIGORÍFICO GRANDE",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 57,
+   "nomeProduto": "BALCÃO FRIGORÍFICO PEQUENO",
+   "potenciaMedia": 500,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 58,
+   "nomeProduto": "BALCÃO PARA SORVETE",
+   "potenciaMedia": 1304,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 59,
+   "nomeProduto": "BALCÃO TÉRMICO",
+   "potenciaMedia": 762,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 60,
+   "nomeProduto": "BARBEADOR ELÉTRICO",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 61,
+   "nomeProduto": "BATEDEIRA DE BOLO",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 62,
+   "nomeProduto": "BATEDEIRA INDUSTRIAL",
+   "potenciaMedia": 304,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 63,
+   "nomeProduto": "BEBEDOURO",
+   "potenciaMedia": 200,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 64,
+   "nomeProduto": "BETONEIRA",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 65,
+   "nomeProduto": "CÂMARA DE FERMENTAÇÃO",
+   "potenciaMedia": 350,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 66,
+   "nomeProduto": "CÂMARA FRIGORÍFICA",
+   "potenciaMedia": 22080,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 67,
+   "nomeProduto": "CARREGADOR DE BATERIA",
+   "potenciaMedia": 660,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 68,
+   "nomeProduto": "CENTRAL DE AR (1TR)",
+   "potenciaMedia": 1817,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 69,
+   "nomeProduto": "CENTRAL TELEFÔNICA",
+   "potenciaMedia": 30,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 70,
+   "nomeProduto": "COMPACT DISC LASER",
+   "potenciaMedia": 30,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 71,
+   "nomeProduto": "COMPRESSOR",
+   "potenciaMedia": 368,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 72,
+   "nomeProduto": "CONJUNTO DE SOM/MICROSYSTEM",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 73,
+   "nomeProduto": "CORTADOR DE GRAMA",
+   "potenciaMedia": 1600,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 74,
+   "nomeProduto": "DECK",
+   "potenciaMedia": 30,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 75,
+   "nomeProduto": "DEPENADOR DE GALINHA",
+   "potenciaMedia": 891,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 76,
+   "nomeProduto": "DESCASCADOR DE BATATAS",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 77,
+   "nomeProduto": "DESEMPENO",
+   "potenciaMedia": 368,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 78,
+   "nomeProduto": "ELEVADOR GRANDE",
+   "potenciaMedia": 10304,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 79,
+   "nomeProduto": "ENCERADEIRA",
+   "potenciaMedia": 400,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 80,
+   "nomeProduto": "EQUALIZADOR",
+   "potenciaMedia": 30,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 81,
+   "nomeProduto": "ESMERIL",
+   "potenciaMedia": 2208,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 82,
+   "nomeProduto": "ESPIGADEIRA",
+   "potenciaMedia": 2208,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 83,
+   "nomeProduto": "ESPREMEDOR DE FRUTAS",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 84,
+   "nomeProduto": "ESTABILIZADOR",
+   "potenciaMedia": 920,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 85,
+   "nomeProduto": "ESTEIRA ROLANTE",
+   "potenciaMedia": 1472,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 86,
+   "nomeProduto": "ESTERELIZADOR MAT S. BELEZA",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 87,
+   "nomeProduto": "EXAUSTOR GRANDE",
+   "potenciaMedia": 400,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 88,
+   "nomeProduto": "EXAUSTOR PEQUENO",
+   "potenciaMedia": 200,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 89,
+   "nomeProduto": "FACA ELÉTRICA",
+   "potenciaMedia": 140,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 90,
+   "nomeProduto": "FATIADOR",
+   "potenciaMedia": 736,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 91,
+   "nomeProduto": "FAX",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 92,
+   "nomeProduto": "FORRAGEIRA",
+   "potenciaMedia": 736,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 93,
+   "nomeProduto": "FOTOCOLORIMENTO",
+   "potenciaMedia": 550,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 94,
+   "nomeProduto": "FREEZER",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 95,
+   "nomeProduto": "FREEZER HORIZONTAL 170 L",
+   "potenciaMedia": 90,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 96,
+   "nomeProduto": "FREEZER HORIZONTAL 220 L",
+   "potenciaMedia": 120,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 97,
+   "nomeProduto": "FREEZER HORIZONTAL 330 L",
+   "potenciaMedia": 150,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 98,
+   "nomeProduto": "FREEZER HORIZONTAL 480 L",
+   "potenciaMedia": 750,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 99,
+   "nomeProduto": "FREEZER HORIZONTAL 600 L",
+   "potenciaMedia": 750,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 100,
+   "nomeProduto": "FREEZER VERTICAL 120 L",
+   "potenciaMedia": 90,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 101,
+   "nomeProduto": "FREEZER VERTICAL 180 L",
+   "potenciaMedia": 120,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 102,
+   "nomeProduto": "FREEZER VERTICAL 280 L",
+   "potenciaMedia": 150,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 103,
+   "nomeProduto": "FRIGOBAR",
+   "potenciaMedia": 80,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 104,
+   "nomeProduto": "FURADEIRA GRANDE",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 105,
+   "nomeProduto": "FURADEIRA PEQUENA",
+   "potenciaMedia": 350,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 106,
+   "nomeProduto": "GELADEIRA",
+   "potenciaMedia": 90,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 107,
+   "nomeProduto": "GELADEIRA COMUM 253 L",
+   "potenciaMedia": 90,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 108,
+   "nomeProduto": "GELADEIRA COMUM 280 L",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 109,
+   "nomeProduto": "GELADEIRA COMUM 310 L",
+   "potenciaMedia": 120,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 110,
+   "nomeProduto": "GELADEIRA DUPLEX 430 L",
+   "potenciaMedia": 150,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 111,
+   "nomeProduto": "GELADEIRA TRIPLEX 430 L",
+   "potenciaMedia": 150,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 112,
+   "nomeProduto": "IMPRESSORA COMUM",
+   "potenciaMedia": 90,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 113,
+   "nomeProduto": "IMPRESSORA LASER",
+   "potenciaMedia": 898,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 114,
+   "nomeProduto": "IOGURTEIRA",
+   "potenciaMedia": 26,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 115,
+   "nomeProduto": "LÂMPADA DICROICA",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 116,
+   "nomeProduto": "LÂMPADA FLUORESCENTE",
+   "potenciaMedia": 20,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 117,
+   "nomeProduto": "LÂMPADA FLUORESCENTE",
+   "potenciaMedia": 32,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 118,
+   "nomeProduto": "LÂMPADA FLUORESCENTE",
+   "potenciaMedia": 40,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 119,
+   "nomeProduto": "LÂMPADA FLUORESCENTE",
+   "potenciaMedia": 110,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 120,
+   "nomeProduto": "LÂMPADA FLUORESCENTE COMPACTA",
+   "potenciaMedia": 9,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 121,
+   "nomeProduto": "LÂMPADA FLUORESCENTE COMPACTA",
+   "potenciaMedia": 11,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 122,
+   "nomeProduto": "LÂMPADA FLUORESCENTE COMPACTA",
+   "potenciaMedia": 13,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 123,
+   "nomeProduto": "LÂMPADA FLUORESCENTE COMPACTA",
+   "potenciaMedia": 15,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 124,
+   "nomeProduto": "LÂMPADA FLUORESCENTE COMPACTA",
+   "potenciaMedia": 16,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 125,
+   "nomeProduto": "LÂMPADA FLUORESCENTE COMPACTA",
+   "potenciaMedia": 26,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 126,
+   "nomeProduto": "LÂMPADA FLUORESCENTE COMPACTA",
+   "potenciaMedia": 28,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 127,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 5,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 128,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 15,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 129,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 20,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 130,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 40,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 131,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 60,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 132,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 75,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 133,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 90,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 134,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 135,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 150,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 136,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 200,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 137,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 250,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 138,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 300,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 139,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 350,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 140,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 500,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 141,
+   "nomeProduto": "LÂMPADA INCANDESCENTE",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 142,
+   "nomeProduto": "LÂMPADA INFRA VERMELHA",
+   "potenciaMedia": 150,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 143,
+   "nomeProduto": "LÂMPADA MISTA",
+   "potenciaMedia": 160,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 144,
+   "nomeProduto": "LÂMPADA MISTA",
+   "potenciaMedia": 250,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 145,
+   "nomeProduto": "LÂMPADA MISTA",
+   "potenciaMedia": 500,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 146,
+   "nomeProduto": "LÂMPADA VAPOR MERCÚRIO",
+   "potenciaMedia": 80,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 147,
+   "nomeProduto": "LÂMPADA VAPOR MERCÚRIO",
+   "potenciaMedia": 125,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 148,
+   "nomeProduto": "LÂMPADA VAPOR MERCÚRIO",
+   "potenciaMedia": 250,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 149,
+   "nomeProduto": "LÂMPADA VAPOR MERCÚRIO",
+   "potenciaMedia": 400,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 150,
+   "nomeProduto": "LÂMPADA VAPOR MERCÚRIO",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 151,
+   "nomeProduto": "LÂMPADA VAPOR METÁLICO",
+   "potenciaMedia": 400,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 152,
+   "nomeProduto": "LÂMPADA VAPOR METÁLICO",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 153,
+   "nomeProduto": "LÂMPADA VAPOR SÓDIO",
+   "potenciaMedia": 70,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 154,
+   "nomeProduto": "LÂMPADA VAPOR SÓDIO",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 155,
+   "nomeProduto": "LÂMPADA VAPOR SÓDIO",
+   "potenciaMedia": 250,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 156,
+   "nomeProduto": "LÂMPADA VAPOR SÓDIO",
+   "potenciaMedia": 400,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 157,
+   "nomeProduto": "LÂMPADA VAPOR SÓDIO",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 158,
+   "nomeProduto": "LAVA JATO",
+   "potenciaMedia": 30276,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 159,
+   "nomeProduto": "LIQUIDIFICADOR",
+   "potenciaMedia": 200,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 160,
+   "nomeProduto": "LIQUIDIFICADOR INDUSTRIAL",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 161,
+   "nomeProduto": "LIXADEIRA GRANDE",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 162,
+   "nomeProduto": "LIXADEIRA PEQUENA",
+   "potenciaMedia": 850,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 163,
+   "nomeProduto": "MÁQUINA COLAR SACO",
+   "potenciaMedia": 281,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 164,
+   "nomeProduto": "MÁQUINA CORTAR TECIDO MANUAL",
+   "potenciaMedia": 373,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 165,
+   "nomeProduto": "MÁQUINA DE CALCULAR",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 166,
+   "nomeProduto": "MÁQUINA DE CHOPP",
+   "potenciaMedia": 911,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 167,
+   "nomeProduto": "MÁQUINA DE COSTURA",
+   "potenciaMedia": 850,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 168,
+   "nomeProduto": "MÁQUINA DE ESCREVER ELÉTRICA",
+   "potenciaMedia": 140,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 169,
+   "nomeProduto": "MÁQUINA DE GELO",
+   "potenciaMedia": 792,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 170,
+   "nomeProduto": "MÁQUINA DE LAVA JATO",
+   "potenciaMedia": 1700,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 171,
+   "nomeProduto": "MÁQUINA DE OVERLOCK INDUSTRIAL",
+   "potenciaMedia": 373,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 172,
+   "nomeProduto": "MÁQUINA DE XEROX GRANDE",
+   "potenciaMedia": 2000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 173,
+   "nomeProduto": "MÁQUINA DE XEROX PEQUENA",
+   "potenciaMedia": 1400,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 174,
+   "nomeProduto": "MÁQUINA FATIAR PÃO",
+   "potenciaMedia": 324,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 175,
+   "nomeProduto": "MÁQUINA MOER FARINHA ROXA",
+   "potenciaMedia": 1104,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 176,
+   "nomeProduto": "MÁQUINA P/AMACIAR CARNE",
+   "potenciaMedia": 1417,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 177,
+   "nomeProduto": "MASSAGEADOR",
+   "potenciaMedia": 220,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 178,
+   "nomeProduto": "MASSEIRA",
+   "potenciaMedia": 2208,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 179,
+   "nomeProduto": "MERGULHÃO",
+   "potenciaMedia": 583,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 180,
+   "nomeProduto": "MICRO COMPUTADOR",
+   "potenciaMedia": 350,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 181,
+   "nomeProduto": "MINILAB",
+   "potenciaMedia": 3000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 182,
+   "nomeProduto": "MIX",
+   "potenciaMedia": 80,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 183,
+   "nomeProduto": "MODELADORA",
+   "potenciaMedia": 490,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 184,
+   "nomeProduto": "MOEDOR DE CAFÉ",
+   "potenciaMedia": 370,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 185,
+   "nomeProduto": "MOEDOR DE CARNE",
+   "potenciaMedia": 320,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 186,
+   "nomeProduto": "MOINHO",
+   "potenciaMedia": 606,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 187,
+   "nomeProduto": "MONITOR",
+   "potenciaMedia": 154,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 188,
+   "nomeProduto": "MULTI CORTE",
+   "potenciaMedia": 180,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 189,
+   "nomeProduto": "PISTOLA DE SOLDA",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 190,
+   "nomeProduto": "PLACA LUMINOSA",
+   "potenciaMedia": 220,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 191,
+   "nomeProduto": "PLAINA",
+   "potenciaMedia": 746,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 192,
+   "nomeProduto": "POLIDORA",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 193,
+   "nomeProduto": "PONTIADEIRA",
+   "potenciaMedia": 1417,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 194,
+   "nomeProduto": "PORTÃO ELÉTRICO",
+   "potenciaMedia": 184,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 195,
+   "nomeProduto": "POSTO MIX",
+   "potenciaMedia": 281,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 196,
+   "nomeProduto": "PRENSA",
+   "potenciaMedia": 1104,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 197,
+   "nomeProduto": "PROCESSADOR/CENTRÍFUGA",
+   "potenciaMedia": 460,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 198,
+   "nomeProduto": "PROJETOR",
+   "potenciaMedia": 215,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 199,
+   "nomeProduto": "PURIFICADOR DE AR",
+   "potenciaMedia": 25,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 200,
+   "nomeProduto": "RÁDIO COMUM",
+   "potenciaMedia": 30,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 201,
+   "nomeProduto": "RÁDIO RELÓGIO DIGITAL",
+   "potenciaMedia": 40,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 202,
+   "nomeProduto": "RADIOLA DE FICHA",
+   "potenciaMedia": 300,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 203,
+   "nomeProduto": "RALADOR DE COCO",
+   "potenciaMedia": 467,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 204,
+   "nomeProduto": "REBOBINADOR",
+   "potenciaMedia": 15,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 205,
+   "nomeProduto": "RECEPTOR DE SATÉLITE",
+   "potenciaMedia": 110,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 206,
+   "nomeProduto": "REFLETOR",
+   "potenciaMedia": 500,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 207,
+   "nomeProduto": "REFLETOR ODONTOLÓGICO",
+   "potenciaMedia": 150,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 208,
+   "nomeProduto": "REGISTRADORA ELÉTRICA",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 209,
+   "nomeProduto": "SECADOR DE CABELOS GRANDE",
+   "potenciaMedia": 1250,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 210,
+   "nomeProduto": "SECADOR DE CABELOS PEQUENO",
+   "potenciaMedia": 700,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 211,
+   "nomeProduto": "SECADOR DE ROUPAS COMERCIAL",
+   "potenciaMedia": 5000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 212,
+   "nomeProduto": "SECADOR DE ROUPAS ENXUTA",
+   "potenciaMedia": 2429,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 213,
+   "nomeProduto": "SECADOR DE ROUPAS INDUSTRIAL",
+   "potenciaMedia": 1100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 214,
+   "nomeProduto": "SECRETÁRIA ELETRÔNICA",
+   "potenciaMedia": 20,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 215,
+   "nomeProduto": "SERRA ELÉTRICA",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 216,
+   "nomeProduto": "SERRA TICO TICO GRANDE",
+   "potenciaMedia": 600,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 217,
+   "nomeProduto": "SERRA TICO TICO PEQUENA",
+   "potenciaMedia": 240,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 218,
+   "nomeProduto": "SORVETEIRA",
+   "potenciaMedia": 20,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 219,
+   "nomeProduto": "STERILAIR",
+   "potenciaMedia": 396,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 220,
+   "nomeProduto": "SUPERZON OU SIMILAR",
+   "potenciaMedia": 40,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 221,
+   "nomeProduto": "TECLADO",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 222,
+   "nomeProduto": "TELEFONE SEM FIO",
+   "potenciaMedia": 10,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 223,
+   "nomeProduto": "TELEVISOR 12 A 20 POL",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 224,
+   "nomeProduto": "TELEVISOR 28 A 30 POL",
+   "potenciaMedia": 150,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 225,
+   "nomeProduto": "TELEVISOR 5 A 10 POL",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 226,
+   "nomeProduto": "TELEVISOR PRETO E BRANCO",
+   "potenciaMedia": 90,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 227,
+   "nomeProduto": "TELEX",
+   "potenciaMedia": 60,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 228,
+   "nomeProduto": "TOCA DISCOS",
+   "potenciaMedia": 30,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 229,
+   "nomeProduto": "TOMADA COZINHA",
+   "potenciaMedia": 600,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 230,
+   "nomeProduto": "TOMADA USO GERAL",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 231,
+   "nomeProduto": "TORNEIRA ELÉTRICA",
+   "potenciaMedia": 2000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 232,
+   "nomeProduto": "TORNO",
+   "potenciaMedia": 1817,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 233,
+   "nomeProduto": "TORQUIA",
+   "potenciaMedia": 7266,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 234,
+   "nomeProduto": "TOUCA TÉRMICA",
+   "potenciaMedia": 700,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 235,
+   "nomeProduto": "TRAÇADEIRA",
+   "potenciaMedia": 3680,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 236,
+   "nomeProduto": "TRITURADOR DE LIXO",
+   "potenciaMedia": 1214,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 237,
+   "nomeProduto": "TURBO CIRCULADOR",
+   "potenciaMedia": 200,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 238,
+   "nomeProduto": "TV AM/FM",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 239,
+   "nomeProduto": "VENTILADOR GRANDE",
+   "potenciaMedia": 200,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 240,
+   "nomeProduto": "VENTILADOR MÉDIO",
+   "potenciaMedia": 100,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 241,
+   "nomeProduto": "VENTILADOR PEQUENO",
+   "potenciaMedia": 50,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 242,
+   "nomeProduto": "VIBRADOR",
+   "potenciaMedia": 1000,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 243,
+   "nomeProduto": "VÍDEO CASSETE",
+   "potenciaMedia": 30,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 244,
+   "nomeProduto": "VÍDEO GAME",
+   "potenciaMedia": 10,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 245,
+   "nomeProduto": "VÍDEO POQUER",
+   "potenciaMedia": 202,
+   "categoria": "Eletrodomésticos Comuns"
+ },
+ {
+   "id": 246,
+   "nomeProduto": "FORNO ELÉT. MAG FORNO C/2 C",
+   "potenciaMedia": 21600,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 247,
+   "nomeProduto": "FORNO ELÉT. METALCONTE C/1 C",
+   "potenciaMedia": 3000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 248,
+   "nomeProduto": "FORNO ELÉT. OLÍMPIO C/2 CÂMARAS",
+   "potenciaMedia": 52200,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 249,
+   "nomeProduto": "FORNO ELÉT. PASTELAR ITAL BRAS",
+   "potenciaMedia": 16500,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 250,
+   "nomeProduto": "FORNO ELÉT. SIRE C/1 CÂMARA",
+   "potenciaMedia": 3000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 251,
+   "nomeProduto": "FORNO ELÉT. TUBOS LISBOA C/1 C",
+   "potenciaMedia": 28000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 252,
+   "nomeProduto": "FORNO ELÉT. UNIVERSAL C/2 C",
+   "potenciaMedia": 35000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 253,
+   "nomeProduto": "FORNO ELÉT. UNIVERSAL C/2 C",
+   "potenciaMedia": 36000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 254,
+   "nomeProduto": "FORNO ELÉT.SUPERFECTA C/2 C",
+   "potenciaMedia": 28000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 255,
+   "nomeProduto": "FORNO MICROONDAS",
+   "potenciaMedia": 1140,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 256,
+   "nomeProduto": "FORNO P/CERÂMICA GRANDE",
+   "potenciaMedia": 8500,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 257,
+   "nomeProduto": "FORNO P/CERÂMICA MÉDIO",
+   "potenciaMedia": 6000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 258,
+   "nomeProduto": "FORNO P/CERÂMICA PEQUENO",
+   "potenciaMedia": 2000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 259,
+   "nomeProduto": "FRITADEIRA",
+   "potenciaMedia": 2500,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 260,
+   "nomeProduto": "FRITADEIRA DE BATATAS",
+   "potenciaMedia": 3000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 261,
+   "nomeProduto": "FRITADEIRA DE BATATAS",
+   "potenciaMedia": 5000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 262,
+   "nomeProduto": "GRELHA ELÉTRICA GRANDE",
+   "potenciaMedia": 1500,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 263,
+   "nomeProduto": "GRELHA ELÉTRICA PEQUENA",
+   "potenciaMedia": 500,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 264,
+   "nomeProduto": "GRILL",
+   "potenciaMedia": 1200,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 265,
+   "nomeProduto": "MICRO FORNO ELÉTRICO",
+   "potenciaMedia": 1000,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 266,
+   "nomeProduto": "PANELA ELÉTRICA",
+   "potenciaMedia": 1200,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 267,
+   "nomeProduto": "PIPOQUEIRA RESIDENCIAL",
+   "potenciaMedia": 80,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 268,
+   "nomeProduto": "TORRADEIRA",
+   "potenciaMedia": 800,
+   "categoria": "Fogões Elétricos, Forno Elétrico e Similares"
+ },
+ {
+   "id": 269,
+   "nomeProduto": "AR CONDICIONADO 10000 BTU's",
+   "potenciaMedia": 1400,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 270,
+   "nomeProduto": "AR CONDICIONADO 10500 BTU's",
+   "potenciaMedia": 1550,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 271,
+   "nomeProduto": "AR CONDICIONADO 11000 BTU's",
+   "potenciaMedia": 1600,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 272,
+   "nomeProduto": "AR CONDICIONADO 12000 BTU's",
+   "potenciaMedia": 1700,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 273,
+   "nomeProduto": "AR CONDICIONADO 14000 BTU's",
+   "potenciaMedia": 1900,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 274,
+   "nomeProduto": "AR CONDICIONADO 15000 BTU's",
+   "potenciaMedia": 2000,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 275,
+   "nomeProduto": "AR CONDICIONADO 16000 BTU's",
+   "potenciaMedia": 2100,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 276,
+   "nomeProduto": "AR CONDICIONADO 18000 BTU's",
+   "potenciaMedia": 2600,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 277,
+   "nomeProduto": "AR CONDICIONADO 21000 BTU's",
+   "potenciaMedia": 2800,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 278,
+   "nomeProduto": "AR CONDICIONADO 26000 BTU's",
+   "potenciaMedia": 3200,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 279,
+   "nomeProduto": "AR CONDICIONADO 30000 BTU's",
+   "potenciaMedia": 3600,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 280,
+   "nomeProduto": "AR CONDICIONADO 6000 BTU's",
+   "potenciaMedia": 800,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 281,
+   "nomeProduto": "AR CONDICIONADO 7100 BTU's",
+   "potenciaMedia": 900,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 282,
+   "nomeProduto": "AR CONDICIONADO 7500 BTU's",
+   "potenciaMedia": 1200,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 283,
+   "nomeProduto": "AR CONDICIONADO 8500 BTU's",
+   "potenciaMedia": 1300,
+   "categoria": "Condicionador de Ar"
+ },
+ {
+   "id": 284,
+   "nomeProduto": "AR CONDICIONADO 9000 BTU's",
+   "potenciaMedia": 1400,
+   "categoria": "Condicionador de Ar"
+ }
+]

@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C98B93222C00F050014DE3F /* PotenciaMedia.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C98B93122C00F050014DE3F /* PotenciaMedia.json */; };
+		4C98B93522C0113F0014DE3F /* HomeAppliancesDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B93422C0113F0014DE3F /* HomeAppliancesDatabase.swift */; };
+		4C98B93822C015040014DE3F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B93722C015040014DE3F /* GradientView.swift */; };
 		4CE14476225C2FDA0078B979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE14475225C2FDA0078B979 /* AppDelegate.swift */; };
 		4CE14478225C2FDA0078B979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE14477225C2FDA0078B979 /* ViewController.swift */; };
 		4CE1447B225C2FDA0078B979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE14479225C2FDA0078B979 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		49A9CC9A31A3BE37A2EC09E7 /* Pods-eprimora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eprimora.debug.xcconfig"; path = "Target Support Files/Pods-eprimora/Pods-eprimora.debug.xcconfig"; sourceTree = "<group>"; };
+		4C98B93122C00F050014DE3F /* PotenciaMedia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PotenciaMedia.json; sourceTree = "<group>"; };
+		4C98B93422C0113F0014DE3F /* HomeAppliancesDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppliancesDatabase.swift; sourceTree = "<group>"; };
+		4C98B93722C015040014DE3F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		4CE14472225C2FDA0078B979 /* eprimora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eprimora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE14475225C2FDA0078B979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CE14477225C2FDA0078B979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,8 +52,23 @@
 				49A9CC9A31A3BE37A2EC09E7 /* Pods-eprimora.debug.xcconfig */,
 				F707F2C5EAE5055B2E7F4D8A /* Pods-eprimora.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C98B93322C010FE0014DE3F /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4C98B93422C0113F0014DE3F /* HomeAppliancesDatabase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		4C98B93622C014C40014DE3F /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				4C98B93722C015040014DE3F /* GradientView.swift */,
+			);
+			path = GradientView;
 			sourceTree = "<group>";
 		};
 		4CE14469225C2FDA0078B979 = {
@@ -71,12 +92,15 @@
 		4CE14474225C2FDA0078B979 /* eprimora */ = {
 			isa = PBXGroup;
 			children = (
+				4C98B93622C014C40014DE3F /* GradientView */,
+				4C98B93322C010FE0014DE3F /* Database */,
 				4CE14475225C2FDA0078B979 /* AppDelegate.swift */,
 				4CE14477225C2FDA0078B979 /* ViewController.swift */,
 				4CE14479225C2FDA0078B979 /* Main.storyboard */,
 				4CE1447C225C2FDB0078B979 /* Assets.xcassets */,
 				4CE1447E225C2FDB0078B979 /* LaunchScreen.storyboard */,
 				4CE14481225C2FDB0078B979 /* Info.plist */,
+				4C98B93122C00F050014DE3F /* PotenciaMedia.json */,
 			);
 			path = eprimora;
 			sourceTree = "<group>";
@@ -150,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE14480225C2FDB0078B979 /* LaunchScreen.storyboard in Resources */,
+				4C98B93222C00F050014DE3F /* PotenciaMedia.json in Resources */,
 				4CE1447D225C2FDB0078B979 /* Assets.xcassets in Resources */,
 				4CE1447B225C2FDA0078B979 /* Main.storyboard in Resources */,
 			);
@@ -204,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C98B93522C0113F0014DE3F /* HomeAppliancesDatabase.swift in Sources */,
 				4CE14478225C2FDA0078B979 /* ViewController.swift in Sources */,
+				4C98B93822C015040014DE3F /* GradientView.swift in Sources */,
 				4CE14476225C2FDA0078B979 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
