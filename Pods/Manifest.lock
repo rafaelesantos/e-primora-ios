@@ -1,20 +1,24 @@
 PODS:
+  - FontAwesome.swift (1.7.1)
   - NumberPicker (0.7.0)
   - SharkORM (2.3.62)
 
 DEPENDENCIES:
+  - FontAwesome.swift
   - NumberPicker
   - SharkORM
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FontAwesome.swift
     - NumberPicker
     - SharkORM
 
 SPEC CHECKSUMS:
+  FontAwesome.swift: 8d9792fa2d2347055da35bd97752b3960bd75952
   NumberPicker: f1a93880f7b8df5c6c81e6b5ae800322e910b732
   SharkORM: ff65244dfc2e1fa4613badad7c42f6febc1951cc
 
-PODFILE CHECKSUM: ad43be3a8e9cc1f97c4f5c05b329184cce909d25
+PODFILE CHECKSUM: 77e7d9c8e6f82aba821c69dd9c9ae6bb52780d88
 
 COCOAPODS: 1.7.1

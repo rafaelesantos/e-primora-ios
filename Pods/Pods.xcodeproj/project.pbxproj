@@ -3,125 +3,145 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01314E35952AB4EA8A4B95875D114FF6 /* SharkSyncChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 64672FDD7CFDC54051AD625B413E07E3 /* SharkSyncChange.m */; };
-		03881A5249048030EB9C0DA05214F805 /* SRKLazyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CAF745CB70CA44FA48E502902B36C3 /* SRKLazyLoader.m */; };
-		056DFA2AA0F9DAD4898088516BA7FFDB /* SharkORM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8726FA9BE6A402E1C1EB16C4C544F8 /* SharkORM.m */; };
-		0B5E62B93FA288343082C9911001F33E /* SyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A0FF3DD3EF862A1D9E0BAEEC641B8E /* SyncService.m */; };
-		0C7294EE90A6C656CD18FDEA3B7049D0 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = DA12B75CF2635F54522D6DEB8F71B079 /* sqlite3.c */; };
-		0E7103BD5F1466D7DF62CF18A4DB6247 /* SRKCompoundIndex+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8046A6BF8245FA3AABDCA4D79A6FFD9 /* SRKCompoundIndex+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12041AE7F261F4808C47DDF30644353F /* SRKDefunctObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CE67860DBC7958F96FAB683033378 /* SRKDefunctObject.m */; };
-		167FAB0D612B71609C1C9A85ABF5DB51 /* SRKIndexDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DD37F164ED78A67EE100132377F5AEF0 /* SRKIndexDefinition.m */; };
-		191CE24B3D98479A327822CE81DF344E /* SRKAES256Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFFA362E0537010F8AA218A674DADC9 /* SRKAES256Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1AD645AB4534F00D8E20FD002E377602 /* Pods-eprimora-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7827AED4167041AAA360C1BFC3D830 /* Pods-eprimora-dummy.m */; };
-		1DC951CF981782A1E4410B701F1AFE00 /* SyncRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 951DA0B20F4AF82D66C0C60124481DA5 /* SyncRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		292BEE45127CE4F8BA6013CA17DF9252 /* SharkSyncGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B8BC20FFBA6D84517655CE967DB930 /* SharkSyncGroup.m */; };
-		2ACE2F7656F5FCCAA603D77D61DA9DCB /* SRKSyncObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B13E3848A5F5F1C074FD61535A4DFA /* SRKSyncObject.m */; };
-		2CB904FC3693D96A83653FEA91891ED2 /* SRKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 80296935E75B46CC88A9DD0502327BD4 /* SRKEvent.m */; };
-		2D1FE955128D8DC6FA5FEB8041D97A48 /* SRKLazyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F75072E96AE6939C325F42BD7C3E6D /* SRKLazyLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D55B8795D70ABC2CF06DFA2E4819C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3503B5349093EACDC9498947D301D631 /* SRKQueryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F718B4403CBFFC8C4FDA7CE8CDF6DAA /* SRKQueryProfile.m */; };
-		35A33458F35669587B876212538BC562 /* SRKEventRegistryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F34213E2792D6D6E6737E778301329 /* SRKEventRegistryObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3798407B92E3A33233BFA2953B5416A5 /* SRKDeferredChange.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E7B3B0AB4595D7C996C71A678D2BCC /* SRKDeferredChange.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3968A87093F25D579EF9CEBBB668F79B /* SRKQueryAsyncHandler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A93B17D5E89CC287FD3586545896C3D /* SRKQueryAsyncHandler+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3EA2C7125C40AB301B09CB7341B97491 /* SRKEventRegistryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8FB9CE7DCE3BD4B10DDAB25921B6EC /* SRKEventRegistryObject.m */; };
-		3EB3AC38FAFCDED57006954AEA8F2892 /* SharkSchemaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6DE6D9440DA94B2C07354DBBA7CFA /* SharkSchemaManager.m */; };
-		41E88AAEA9B194D018085D9CA897D996 /* SRKDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ADB1B4C30511E4EBBBD874B96F5A75 /* SRKDefinitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01314E35952AB4EA8A4B95875D114FF6 /* SharkSyncChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C69B5F02718684967CCFBE3526191C2 /* SharkSyncChange.m */; };
+		03881A5249048030EB9C0DA05214F805 /* SRKLazyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4300C809F4171D829C67730E100E5 /* SRKLazyLoader.m */; };
+		056DFA2AA0F9DAD4898088516BA7FFDB /* SharkORM.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BCE3544E6D2EB4B8A4563CDC21F98D /* SharkORM.m */; };
+		08FA521531A6DFC1209732035429ED00 /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701BCCA766368311E0034300B4CEF1A0 /* FontAwesomeImageView.swift */; };
+		0B5E62B93FA288343082C9911001F33E /* SyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = CA104AE6DCEDB848B327FCD0FE49255E /* SyncService.m */; };
+		0C7294EE90A6C656CD18FDEA3B7049D0 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C05E4D9C10C75975710D8BC75E84C7 /* sqlite3.c */; };
+		0E7103BD5F1466D7DF62CF18A4DB6247 /* SRKCompoundIndex+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDA0C0B07D29E7516B8A17E8F9BC355 /* SRKCompoundIndex+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FB5FF51B597E1E0312C5F1438BAB51B /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE290A7B51C6C0EAB57131DBF110832F /* FontAwesome.swift-dummy.m */; };
+		12041AE7F261F4808C47DDF30644353F /* SRKDefunctObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EA25A7D0BDA6195A573AFE15C96FC74B /* SRKDefunctObject.m */; };
+		167FAB0D612B71609C1C9A85ABF5DB51 /* SRKIndexDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 114E35D5FB4E336270ABA071439393DA /* SRKIndexDefinition.m */; };
+		191CE24B3D98479A327822CE81DF344E /* SRKAES256Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4AFD0DECF7F0CE6598E91866DB2BC0 /* SRKAES256Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DC951CF981782A1E4410B701F1AFE00 /* SyncRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B09B4082038AAE919C2334AB14DFC03 /* SyncRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22CAB863C8E98C2BD1CEEA2381A46A34 /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268E69FF6D32E54799C0736E23385B0 /* FontAwesomeTextRepresentable.swift */; };
+		26D86A5A6215B671C527751DFD6BFE1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F67321D34EE01369F5810E71B7660 /* UIKit.framework */; };
+		292BEE45127CE4F8BA6013CA17DF9252 /* SharkSyncGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080DD3974E13CAE7A9B631702DF946C /* SharkSyncGroup.m */; };
+		2ACE2F7656F5FCCAA603D77D61DA9DCB /* SRKSyncObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D48E9F3EA93DDB72BADBDC27F5DD18 /* SRKSyncObject.m */; };
+		2CB904FC3693D96A83653FEA91891ED2 /* SRKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A7D170D764000980AEB9136A56696C /* SRKEvent.m */; };
+		2D1FE955128D8DC6FA5FEB8041D97A48 /* SRKLazyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1DC17BBAC5AD10793003D29E18F5ED /* SRKLazyLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D55B8795D70ABC2CF06DFA2E4819C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		3503B5349093EACDC9498947D301D631 /* SRKQueryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519C9F414E6FC7484FD6E65869AA7F9 /* SRKQueryProfile.m */; };
+		35A33458F35669587B876212538BC562 /* SRKEventRegistryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 942523689D895D691FA607303B829D4B /* SRKEventRegistryObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3798407B92E3A33233BFA2953B5416A5 /* SRKDeferredChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 3902E715C24B3C829C7CDD1664F123CD /* SRKDeferredChange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3968A87093F25D579EF9CEBBB668F79B /* SRKQueryAsyncHandler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAA33B94DBC698605F041ED8E8AD869 /* SRKQueryAsyncHandler+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EA2C7125C40AB301B09CB7341B97491 /* SRKEventRegistryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0A294310638970CC3AFA278AA0A451 /* SRKEventRegistryObject.m */; };
+		3EB3AC38FAFCDED57006954AEA8F2892 /* SharkSchemaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 625C5EE5084D174D1D7A32D726320032 /* SharkSchemaManager.m */; };
+		41E88AAEA9B194D018085D9CA897D996 /* SRKDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BB51097B743ACD0FB83B13874534FC /* SRKDefinitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4D298A3DA32DD95C5E123BAAF121CF18 /* NumberPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */; };
-		517ACE974648340DFBACD94C054D2FAE /* SRKCommitOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D52BF950202658882033F26C81AA6036 /* SRKCommitOptions.m */; };
-		522C8BC92EA877E8E22C2760CA1D25D3 /* SRKResultSet+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 036A8BECF77A90019EED9D852AAFDBB9 /* SRKResultSet+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5232642BD9C7311DF89D0B5012349958 /* SRKCommitOptions+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A07F5CDBFE287C042B866319A9BBAFC2 /* SRKCommitOptions+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C370BE64CCD364AF32D4CBE288EAFB9 /* SharkORM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB72A912DCAC8CC8F3C1AF65B9811C /* SharkORM-dummy.m */; };
-		5D8EBB0378BD008B63A161979FF7D277 /* SRKAES256Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4835850EBC938F74246DAB188D8679BB /* SRKAES256Extension.m */; };
-		6391BF0508337838E9511069A2032CF2 /* SyncComms.m in Sources */ = {isa = PBXBuildFile; fileRef = D816824D0D2129E3449FFB81C35273F0 /* SyncComms.m */; };
-		669903B74FF7C9EA73EFCA0B17EFD762 /* SRKIndexDefinition+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E321A9E747BFE7A3F6984A78B21A65E7 /* SRKIndexDefinition+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		68A62936379B52B3BB4F3613ADEEB17C /* SRKJoinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E19915FF5430778C80E8A25F416C7B /* SRKJoinObject.m */; };
-		69B9CFBF3399300C3EF03C008D1EA0EC /* SRKError.m in Sources */ = {isa = PBXBuildFile; fileRef = E151FC042750BFB56F7AB5CD44A9618C /* SRKError.m */; };
-		6D06BF5D9F5867BCBCC0E349D3F72A7A /* SharkSync+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 111F49B67970A5D58B92F5CA283DB3B5 /* SharkSync+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6DCC3301E80FD80984CD24C8F6582BE7 /* SRKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F9483C5F79800D4510B2E84BD40CD /* SRKUtilities.m */; };
-		6EC146FBB6C9239BED7D52A883518875 /* SRKEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1341BA9F0FCA4B45470FBDD6A30B70 /* SRKEntity.m */; };
-		708B3E9FC80D7E83041BB50AC314CC52 /* SRKUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 371D2F8F2A5A6DB46A10CFFCE1482F84 /* SRKUnsupportedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		725CCB0E5DD1A75F1AAB88220912244D /* SRKDefunctObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 134E8AD17DEBB07F3CB8DF43003BA6F8 /* SRKDefunctObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		738A7DAAF6D4F559BD16D176C99549C9 /* SRKSyncNodesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 485EF3992B8E2F78D66C1F48AD90D53C /* SRKSyncNodesList.m */; };
-		7395E1C95BDEA466C6D119B89A0713B9 /* SRKRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A747789AB836FFEC6F7F61DC338696 /* SRKRelationship.m */; };
-		74C8F4A90DEB0EEBAE95D65B48B1CF5E /* SyncComms.h in Headers */ = {isa = PBXBuildFile; fileRef = 2798501B08F0B709FBB893C281805EE7 /* SyncComms.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		76D62EAFE7EB488D03956C510A611941 /* SRKRawResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 29039D1914843166AF48311F78F4745B /* SRKRawResults.m */; };
-		78B040449204FF48AFA490E3F11EA520 /* SRKContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DCFF9D68B2EB35654A0A093DAEC650F8 /* SRKContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7D20594E00793F5377EF0441D8E2BF15 /* SRKIndexProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4398FE7A85268577FD67B26E26B6FF30 /* SRKIndexProperty.m */; };
-		8024B4B42F27E7201444EA21EB286B22 /* SRKEncryptedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE0849D3D29A846C74CA3D757828328 /* SRKEncryptedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		818A05002FDA4E205599DF42DA80665E /* SRKSQLiteHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 383007BF3B4631705035380205BF41E6 /* SRKSQLiteHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		827BE414B4B68BD97BF6FE03773C7F64 /* SRKResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FB56B2D0BE102F9A07BB3A0073882281 /* SRKResultSet.m */; };
-		8465CF2637B1BD1DE6CEC26785A2F19D /* SyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA42D6ED95667B925B30264C3F655428 /* SyncRequest.m */; };
-		8578643B2F268C1C0405D5B4104E5006 /* SharkORM.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED4B002C198326BBB0B01BA741C0967 /* SharkORM.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85C150E366FC5457E947CA2F31D68E88 /* SRKJoinObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C874FA4B95004347AAB308063431A4F4 /* SRKJoinObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		88E5CDE5B57F3ED058C6560A6F31A77C /* SRKEventBlockHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B298BD8B74C0B283CB5C978AB40CB9 /* SRKEventBlockHolder.m */; };
-		8D7DA44EBDF4252D46B551DA1F95EDD5 /* SRKStringObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 561C138E0916204ABBE04123B254DAC2 /* SRKStringObject.m */; };
-		8DDEDF4EF2C42048BC056E3C8B706C97 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = F0167D254DCFC6E14C0F28F4181CC409 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8F6B7FFB164AFD8FDC046E30D37684BD /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EAF8C2CA21004119FA9EA732204F74 /* sqlite3.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8FBBD4BEA94399BFE439FFE2809B30E6 /* SharkSchemaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A462E803D1684987E1D4DE2625446106 /* SharkSchemaManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9169CAECF86998DF4AA22BBEF85CEF66 /* SRKSyncObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC5697DEDB507B15FFC9AD87CD2F45B /* SRKSyncObject+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		92FAF7B92B94BE415A0C6C933AE47A67 /* SRKSyncRegisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A7620D2659374D8756293E50638E0B97 /* SRKSyncRegisteredClass.m */; };
-		93F179F5224850FADA517589C06CD2E5 /* NumberPickerLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0935AA15BFBFFFDD079701EFD68B5CC1 /* NumberPickerLineCell.swift */; };
-		954664531AC4926541474B27116E3075 /* NumberPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FED6AAD581B61F243D5DA5816C80D27 /* NumberPicker-dummy.m */; };
-		95FDE6EC1AD4DF56621B641E36BBA02B /* SRKSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F7D175CAD681AE3CE8342971A98E9D /* SRKSettings.m */; };
-		9A510E68582B751EA50568B7C9DA0EDA /* SRKEncryptedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E487D7015A1CB8703B16F5F8EB2A19BC /* SRKEncryptedObject.m */; };
-		A6295200D751E8ECBEBDB4F8D968C7F9 /* SRKRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9611933B1EC6D832F4E67AFD8659D /* SRKRegistry.m */; };
-		A698580DC1981176CBBE861D2A66C9D3 /* SRKTransaction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B1C95DC72587837578E6A2E2177F98 /* SRKTransaction+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A7188463C7AD2F65981522FA5F8B3BCE /* SyncNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 3224CC3E941227AFC18D7A1FDAB4F047 /* SyncNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A73E7A9061540ECD1CAC2E823E2BA443 /* SRKTransactionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0733CBCB7B13CC68170C7A291F82FB69 /* SRKTransactionInfo.m */; };
-		A7A9660AF5B6A163CF290953975B413F /* SRKQueryAsyncHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB41A7E2A4A6E1E176AFE795F835056 /* SRKQueryAsyncHandler.m */; };
-		A88AABB6F39D7C5BC4CDA412A5CF5C82 /* NumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF35019BB3CB3BDDFF5096C3168661 /* NumberPicker.swift */; };
-		A8C942B76AE447156EA83A7BA29E05EB /* SRKEntity+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A745F5D071E18B16AABA5B2E383857D2 /* SRKEntity+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A9320914E24E912CE93A2DDD089F28F2 /* NumberPicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A2A127860AB3CFFFB8207F4A18ACC8 /* NumberPicker.xcassets */; };
-		AB653AF05EEA399413997BF1A4D5DA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AC38E8F77F083936C40EFD93EFFDAB58 /* SRKSyncNodesList.h in Headers */ = {isa = PBXBuildFile; fileRef = F38FD7A5FCB0E51BB698D6BC84C914E0 /* SRKSyncNodesList.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD77685CFE83CBB8517962EF685ECBE8 /* SRKDeferredChange.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7D419AB5168FF3281DF6E0F7548266 /* SRKDeferredChange.m */; };
-		AF5B55A1A98CE890404B9612F48357B5 /* SRKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAF707630A91E1A6D400B4B39983372 /* SRKUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B072DCDAEDB7CC106D87AC2FAED2748D /* Pods-eprimora-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6959D27FF54C0C9D2A8763AF348FA339 /* Pods-eprimora-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7BCB13B7833CF480999678A2A3E3D5A /* SRKSQLiteHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EFC54C42318F0B444B7815CF75B96 /* SRKSQLiteHandle.m */; };
-		B9C4BF6300153E24675D597AB68B3384 /* SRKEventHandler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2706F197ACA5289EC62EF8585BB89A07 /* SRKEventHandler+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BA059DB955E9F971A138BCF4EFBC788C /* SharkORM+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 777D4BB98B833C97A4F6CE305CD1969A /* SharkORM+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BCF05554BBDE4586EF2B70D266159783 /* SRKEntityChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BC9235339D7153AFC7B867A5FD1AD2 /* SRKEntityChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD3255CCBD7AEA978392C75E8AC98C89 /* SRKTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1FC0F682F39F88B2D4E6F184406D5 /* SRKTransaction.m */; };
-		BFB9D87C2EB49C7D6FC1773B666BA738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BFDA9772C7B6D8AADBF3D92A82916B13 /* SRKTransactionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9F5F9156DF7170DC21D6F664799BA8 /* SRKTransactionInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C2160AF518EC114F9BA238BBA5E2DF5F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81A4C3A7F6C34377E8DA5B3F093C156 /* UIView+Extensions.swift */; };
-		C7F5BE79A6F08521FC643544339EB017 /* SharkSyncChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F63BD5E47241588196103C087870571 /* SharkSyncChange.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CD8E84BFA1E06338943E1F923F627F53 /* SRKRegistryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC66BE437D4678F6E7BF45CD3029A73 /* SRKRegistryEntry.m */; };
-		CDDE856FE465955C00EC2AA24F3BDEAA /* SRKQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 71308F7137B32513A2924318B5F03A8D /* SRKQuery.m */; };
-		CFC415B0EF490051F1CF430EB2F8AB99 /* SRKRegistryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3E83210212936CDDD77F5C67A50EFA /* SRKRegistryEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D37082BBD440882DDE085A323D084B62 /* SRKEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9A57FECD40D3170B84F3BE0929ECD /* SRKEventHandler.m */; };
-		D53A3583007A2D53F18482BA18025CF2 /* SRKRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 97120C5DD9F6B8891FF9D8A84C149517 /* SRKRelationship.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6ADCE39FFCAE34AFCCC612CDD59D5BC /* SRKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B66968EB2AF723413FD232D44C570 /* SRKContext.m */; };
-		DB57EDC045DDE71EA232C7BA9B61E228 /* SRKRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DC55234A413B35EC31A9165C605777 /* SRKRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DCC60350E57C6C47D318C6C26A9D3FFC /* SharkSyncGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = A21DF74F06144EB1E68DB2901F84C726 /* SharkSyncGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DDD53F845ED43039B5CDC6DDC05FAC05 /* SRKGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4987EA85FCB202E106C2A8D14B5773 /* SRKGlobals.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE9425D61F27936C0EBB5B2117D3D5FE /* SRKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F859CCDDF8F666149A443600D78CF /* SRKObject.m */; };
-		DFE4B95ADD5C09AA7C7887A206E7FF2F /* NumberPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5779D302F0C8E1036C45FF3A1BE9E103 /* NumberPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E15288FFB9A806A957F354E585581E98 /* SRKGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1CB467135727213B147B6BF4EF116 /* SRKGlobals.m */; };
-		E15F9EC6B4EF187170253E0DF3DDF7F6 /* SRKEventBlockHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = F52D4FD3BE0BB97AB044FC64DF6D332E /* SRKEventBlockHolder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E48636FF1047B0A5447B9D1962D0350A /* SyncService.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CAE719ED2F1AAC6BFD636A6323695E /* SyncService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E941C08753FBB9E9089EFC29D137C278 /* SRKSyncRegisteredClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D31FD5364B8DEA04C6A347AC66E6338 /* SRKSyncRegisteredClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB0B865B1DCF6689357130D9D7A7F118 /* SRKSyncOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 41483F415E67A7E2964B2B64B05D96F8 /* SRKSyncOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EDDDE706A6B902E28F083D5660F98F44 /* SyncNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C232F98A208D5580489EEE04EB979 /* SyncNetwork.m */; };
-		EFC2CB7E5774E290B20823E751856434 /* SRKCompoundIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CE001CB686C71FAB8AE877EAF5FF9F /* SRKCompoundIndex.m */; };
-		F4D2BF800286D169537A170AF4A277AB /* SRKQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B77CF1F9A7E91176CD7C7F3FB172CB7 /* SRKQuery+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7582C7D942920F4736D24F994D8EA81 /* SRKSyncOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0F7E02137B074E37CA3CE62B0D1502 /* SRKSyncOptions.m */; };
-		F9333A2CF271A50D46D2D0878D783E4D /* SRKEntityChain.m in Sources */ = {isa = PBXBuildFile; fileRef = AB726CEB4007CEF949C755046C1D06E5 /* SRKEntityChain.m */; };
-		FE32E8AACDCB8854C5D0FE33C11CCBAB /* SharkSync.m in Sources */ = {isa = PBXBuildFile; fileRef = E89F582E18598DCD1DB659A6CDCE0E94 /* SharkSync.m */; };
-		FF444F58CCF74A7382F9D44ECD10339A /* SRKUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 393C9AF91C3A1EF34D068831259178DD /* SRKUnsupportedObject.m */; };
+		506ACADC63134125FA6DF10CF06FD027 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = BBAB5555E40F150FEED08375EC5D12E9 /* Font Awesome 5 Brands-Regular-400.otf */; };
+		517ACE974648340DFBACD94C054D2FAE /* SRKCommitOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9563B4634EFD73CB0FF9898E43DA77 /* SRKCommitOptions.m */; };
+		522C8BC92EA877E8E22C2760CA1D25D3 /* SRKResultSet+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 44575D9AD88865A9BBF11C4E1965C53A /* SRKResultSet+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5232642BD9C7311DF89D0B5012349958 /* SRKCommitOptions+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 821DC12BFC599675711ED7B2A3DF3436 /* SRKCommitOptions+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55286D2DEC1DB91F601519B9649B49C2 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 61D3FF49311E9CA88EB8773048F90BBE /* Font Awesome 5 Free-Regular-400.otf */; };
+		5C370BE64CCD364AF32D4CBE288EAFB9 /* SharkORM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FB0FCD829D9D7AEBC2FEAA8B4849B2 /* SharkORM-dummy.m */; };
+		5D8EBB0378BD008B63A161979FF7D277 /* SRKAES256Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 589F46A194BE39B9F697D06DF70FB63B /* SRKAES256Extension.m */; };
+		632EC0ADDD99413F1C10964C64CF72B6 /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA18A18EF9BA5EF006ECFDBEF593694 /* FontAwesomeImageRepresentable.swift */; };
+		6391BF0508337838E9511069A2032CF2 /* SyncComms.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A8C4C7614EEF7C34F6382B71BF4C3 /* SyncComms.m */; };
+		669903B74FF7C9EA73EFCA0B17EFD762 /* SRKIndexDefinition+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 919830F197D5B811B37C6DF2D723C421 /* SRKIndexDefinition+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68A62936379B52B3BB4F3613ADEEB17C /* SRKJoinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F8ADB9FAE4F6D11A60840D330D697C /* SRKJoinObject.m */; };
+		69B9CFBF3399300C3EF03C008D1EA0EC /* SRKError.m in Sources */ = {isa = PBXBuildFile; fileRef = 072D0E12059F8CD18B1C3BF6975F8C58 /* SRKError.m */; };
+		69BAE3981B0F62CD5C715CE4CC388438 /* Pods-eprimora-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6959D27FF54C0C9D2A8763AF348FA339 /* Pods-eprimora-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CADCBC18CE422499677C423AB08B95A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		6D06BF5D9F5867BCBCC0E349D3F72A7A /* SharkSync+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD13EAF7FBA8B9A9AAFBE99BC2C7552 /* SharkSync+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DCC3301E80FD80984CD24C8F6582BE7 /* SRKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C37462306E0135254AAECDEC410D52 /* SRKUtilities.m */; };
+		6EC146FBB6C9239BED7D52A883518875 /* SRKEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AA47BC94B9FC0915025F8045322DA8 /* SRKEntity.m */; };
+		708B3E9FC80D7E83041BB50AC314CC52 /* SRKUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C31BC714152CBC7DEBD350E835B8C121 /* SRKUnsupportedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		725CCB0E5DD1A75F1AAB88220912244D /* SRKDefunctObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E828105A0AB6934C43FB3193FEC1F1C /* SRKDefunctObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		738A7DAAF6D4F559BD16D176C99549C9 /* SRKSyncNodesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2814A1ED1A4EA24E88D2E2E568C0563C /* SRKSyncNodesList.m */; };
+		7395E1C95BDEA466C6D119B89A0713B9 /* SRKRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A529C7B49CF570CEC3E9FF76CDE595 /* SRKRelationship.m */; };
+		74C8F4A90DEB0EEBAE95D65B48B1CF5E /* SyncComms.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1F281D77943A48E9912A0BA1441A06 /* SyncComms.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		769E73BAE26F14766F3D2F8CC2A295EF /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */; };
+		76D62EAFE7EB488D03956C510A611941 /* SRKRawResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9619F7DF1C5D4E4B81AEE9F2F3648 /* SRKRawResults.m */; };
+		78B040449204FF48AFA490E3F11EA520 /* SRKContext.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEDC37CB4493E7953A01E233565EB2F /* SRKContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BFE4CB72D9AD8D1781B864B5C1EE1B6 /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD00D643881CCA15382E8B4F8B7FA94 /* FontAwesomeBarButtonItem.swift */; };
+		7D20594E00793F5377EF0441D8E2BF15 /* SRKIndexProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B247AFD771B53B604D449C0CB7955247 /* SRKIndexProperty.m */; };
+		8024B4B42F27E7201444EA21EB286B22 /* SRKEncryptedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A5F10DA57A6C87534B4BBD780F11E7 /* SRKEncryptedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81254017D2D4A97CBE1534E22E519329 /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDDA019E4809D92D494ABA9D171BEC /* FontAwesomeExtension.swift */; };
+		818A05002FDA4E205599DF42DA80665E /* SRKSQLiteHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 451D564BDF1EFDFE98E9031B728E152F /* SRKSQLiteHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		827BE414B4B68BD97BF6FE03773C7F64 /* SRKResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5ACD10A721F98D9D68E4F052F9C5B /* SRKResultSet.m */; };
+		8465CF2637B1BD1DE6CEC26785A2F19D /* SyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892BA94B342DBAB8BE898DA9EBEA6E5 /* SyncRequest.m */; };
+		8578643B2F268C1C0405D5B4104E5006 /* SharkORM.h in Headers */ = {isa = PBXBuildFile; fileRef = 633853B0CF8582B28D9504A6058A7C79 /* SharkORM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C150E366FC5457E947CA2F31D68E88 /* SRKJoinObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A28A6B35BECAAA38A3CCB3191B258C1 /* SRKJoinObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88703EFA5F39A9C53799FB29E017AD42 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10284566373E2005A87154458E6FB916 /* Font Awesome 5 Free-Solid-900.otf */; };
+		88E5CDE5B57F3ED058C6560A6F31A77C /* SRKEventBlockHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9151022ED2878D746BFA7B0A5988723D /* SRKEventBlockHolder.m */; };
+		8D7DA44EBDF4252D46B551DA1F95EDD5 /* SRKStringObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A244FF3DCC9971D35DC4C3D83F02243F /* SRKStringObject.m */; };
+		8DC785D0EC04427925ED3F93017DC624 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269DB92D8C482F20A00CCF8E667889EA /* FontAwesomeSegmentedControl.swift */; };
+		8DDEDF4EF2C42048BC056E3C8B706C97 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B6D575A2C852F47EB8BB3763ABED45 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F6B7FFB164AFD8FDC046E30D37684BD /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4C211D3E41C2E9CF8EDBAED53CF73F /* sqlite3.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FBBD4BEA94399BFE439FFE2809B30E6 /* SharkSchemaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEF48B4127C7B0849B956BE33BA48D6 /* SharkSchemaManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9169CAECF86998DF4AA22BBEF85CEF66 /* SRKSyncObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DA08C1BE0A26E32D5F27A1A3700E0F /* SRKSyncObject+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92FAF7B92B94BE415A0C6C933AE47A67 /* SRKSyncRegisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A7E449B7362B8BE7DB31E444538558 /* SRKSyncRegisteredClass.m */; };
+		93F179F5224850FADA517589C06CD2E5 /* NumberPickerLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F445C9B34C6F855A92D5D59EA1AB2E /* NumberPickerLineCell.swift */; };
+		954664531AC4926541474B27116E3075 /* NumberPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A5C4C8EA6FE06EBD3B17B367EE5926 /* NumberPicker-dummy.m */; };
+		95FDE6EC1AD4DF56621B641E36BBA02B /* SRKSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5BE69F1B9BE7CBB71CCA9F8A43DF2E /* SRKSettings.m */; };
+		9A510E68582B751EA50568B7C9DA0EDA /* SRKEncryptedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8E782B3431C37C9A464696C809CEF /* SRKEncryptedObject.m */; };
+		9DE3360E24D9FE3ADA0C2162E8DBE1A5 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A717711AB5CA85E8ADE7ED52C6054DC8 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40FD679EA4164AAB96094D8AE90CD09 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788EF9BD18B79F80BA4AF0A3583F899 /* FontAwesomeView.swift */; };
+		A6295200D751E8ECBEBDB4F8D968C7F9 /* SRKRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351FC88E60F2733B2CC9772EB180B65 /* SRKRegistry.m */; };
+		A698580DC1981176CBBE861D2A66C9D3 /* SRKTransaction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 552156E5F1DA822D67DAC7B6A156A92C /* SRKTransaction+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7188463C7AD2F65981522FA5F8B3BCE /* SyncNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 42382E9BDCE410DCFA15816F5D4F4F9B /* SyncNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A73E7A9061540ECD1CAC2E823E2BA443 /* SRKTransactionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6911821263EF130DB06662E3057B2F /* SRKTransactionInfo.m */; };
+		A7A9660AF5B6A163CF290953975B413F /* SRKQueryAsyncHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3036A68D5003EA344AE057AFC1D54F5B /* SRKQueryAsyncHandler.m */; };
+		A88AABB6F39D7C5BC4CDA412A5CF5C82 /* NumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73B10648E3118293934B45C432386F /* NumberPicker.swift */; };
+		A8C942B76AE447156EA83A7BA29E05EB /* SRKEntity+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B138CE813A2B27C763D04380368738A4 /* SRKEntity+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9320914E24E912CE93A2DDD089F28F2 /* NumberPicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65D8DACBDE5CC82B9B6E3783DF936CB /* NumberPicker.xcassets */; };
+		AB653AF05EEA399413997BF1A4D5DA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		AC38E8F77F083936C40EFD93EFFDAB58 /* SRKSyncNodesList.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F00D32190AC5BBC7B5F4571A4AFB1F /* SRKSyncNodesList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD77685CFE83CBB8517962EF685ECBE8 /* SRKDeferredChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 932912D8CECDB82BD3A17BB5B473F19C /* SRKDeferredChange.m */; };
+		AF5B55A1A98CE890404B9612F48357B5 /* SRKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 105A181CB180EC9064081EDA9F4AA81C /* SRKUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7BCB13B7833CF480999678A2A3E3D5A /* SRKSQLiteHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9644C8339662FB9CCA4281E964399 /* SRKSQLiteHandle.m */; };
+		B7CF417E221A0D79FE3A6493D8FC37D9 /* Pods-eprimora-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7827AED4167041AAA360C1BFC3D830 /* Pods-eprimora-dummy.m */; };
+		B9C4BF6300153E24675D597AB68B3384 /* SRKEventHandler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BFE4775C206D1B3258FE6B86CCADCB /* SRKEventHandler+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA059DB955E9F971A138BCF4EFBC788C /* SharkORM+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CE88DD6B28BAD80DFBFFC30BAC1C22 /* SharkORM+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCF05554BBDE4586EF2B70D266159783 /* SRKEntityChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 047875E1B069B64639B488B57B536A98 /* SRKEntityChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD3255CCBD7AEA978392C75E8AC98C89 /* SRKTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4409C11DC8B501F3901633E14A40A5EA /* SRKTransaction.m */; };
+		BFDA9772C7B6D8AADBF3D92A82916B13 /* SRKTransactionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB8B3AF10AADF89722C394DEC690628 /* SRKTransactionInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2160AF518EC114F9BA238BBA5E2DF5F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1E8C3B55553DABB3D887359C78444 /* UIView+Extensions.swift */; };
+		C472BF180CE883EE3D8D12C5D1BFDFA7 /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF2C129196EF7B10CE888D2E1D2DD74 /* FontAwesomeTabBarItem.swift */; };
+		C7BA1B3FC4C025CAF4C156B2912BF3F8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */; };
+		C7F5BE79A6F08521FC643544339EB017 /* SharkSyncChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B723C349D1AA4C27CB5E0C1E05C431B /* SharkSyncChange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD8E84BFA1E06338943E1F923F627F53 /* SRKRegistryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4967A6A23267393EB1CF9F698CE24370 /* SRKRegistryEntry.m */; };
+		CDDE856FE465955C00EC2AA24F3BDEAA /* SRKQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8FCC7386BCB469B9005F75DE554C /* SRKQuery.m */; };
+		CFC415B0EF490051F1CF430EB2F8AB99 /* SRKRegistryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A560488F77C9E28D5661ED6A1AA213AB /* SRKRegistryEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D37082BBD440882DDE085A323D084B62 /* SRKEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34827A523085BA3F8E3190E8950CC /* SRKEventHandler.m */; };
+		D53A3583007A2D53F18482BA18025CF2 /* SRKRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD2683CEAEA25E8643973FD967EABF6 /* SRKRelationship.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6ADCE39FFCAE34AFCCC612CDD59D5BC /* SRKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CD044170B5CC9C7D813AF98F0318A3F7 /* SRKContext.m */; };
+		D71293F143E62C33E8676E4E6CC8DA6F /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724E687AB70DC398FC23D4B707B7B76C /* FontAwesome.swift */; };
+		DB57EDC045DDE71EA232C7BA9B61E228 /* SRKRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = F45070CDA1AFC8DB24FD84D5707C19BD /* SRKRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC7A22B339CA1049C19D06C7A93DF302 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B2D373B6FBBAC735FF749ECC2FDBF /* Enum.swift */; };
+		DCC60350E57C6C47D318C6C26A9D3FFC /* SharkSyncGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9030FB0B67133035EB56F52D06F0DA /* SharkSyncGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDD53F845ED43039B5CDC6DDC05FAC05 /* SRKGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 997580FD322900B3BCA16E4DB795C4DB /* SRKGlobals.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE9425D61F27936C0EBB5B2117D3D5FE /* SRKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6872E95E79DDEA15DAE0071416858D7F /* SRKObject.m */; };
+		DFE4B95ADD5C09AA7C7887A206E7FF2F /* NumberPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2338DDBE5B3DF38F1DF088305A83FC /* NumberPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E15288FFB9A806A957F354E585581E98 /* SRKGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4DFA85CEC0C3F1B12D3DA4D84D3413 /* SRKGlobals.m */; };
+		E15F9EC6B4EF187170253E0DF3DDF7F6 /* SRKEventBlockHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D6DB1815C074E9C0F1366B1554CE27 /* SRKEventBlockHolder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E48636FF1047B0A5447B9D1962D0350A /* SyncService.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FDFA9A6E5ACF1AE5E9916FC4233097F /* SyncService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E941C08753FBB9E9089EFC29D137C278 /* SRKSyncRegisteredClass.h in Headers */ = {isa = PBXBuildFile; fileRef = ED48F4EFD7570DBECAD80A5B3BADC06B /* SRKSyncRegisteredClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB0B865B1DCF6689357130D9D7A7F118 /* SRKSyncOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB7AAA2DDD3454718D2FF1D24E83B30 /* SRKSyncOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDDDE706A6B902E28F083D5660F98F44 /* SyncNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2304568FFFA62FC2A1AF5374D64CD0 /* SyncNetwork.m */; };
+		EFC2CB7E5774E290B20823E751856434 /* SRKCompoundIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3E0D562E2ABEEA08E5E4FC2F92FE7 /* SRKCompoundIndex.m */; };
+		F16CA15E849B786ABF46BE4B3A4E8632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		F4D2BF800286D169537A170AF4A277AB /* SRKQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 66500056FA47FCC25745B134C254AF3C /* SRKQuery+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7582C7D942920F4736D24F994D8EA81 /* SRKSyncOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70401FAE8B9307493E13E12465CA2959 /* SRKSyncOptions.m */; };
+		F9333A2CF271A50D46D2D0878D783E4D /* SRKEntityChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B9ACDE1A81F54A809EF6F64010E6AA /* SRKEntityChain.m */; };
+		FE32E8AACDCB8854C5D0FE33C11CCBAB /* SharkSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF29F2352D2BAEE2F98E7F7BA05C077 /* SharkSync.m */; };
+		FE49B0792565E3DBA62187EBEB4E1E58 /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A92C1EFC94664D3193F3C0C780CC5 /* FontAwesomeStateRequirement.swift */; };
+		FF444F58CCF74A7382F9D44ECD10339A /* SRKUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9B528B5B414E75EDF3ADE546ECEA5C /* SRKUnsupportedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1115AB3AB4EED2CFC0CF059F947D1BBF /* PBXContainerItemProxy */ = {
+		1F01781DBDF8025237A95435D7805B10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F11267DB4D5EE1D54642DD4AF5EC033C;
-			remoteInfo = SharkORM;
+			remoteGlobalIDString = 312C2515DD038726C0FB3BBC872539FA;
+			remoteInfo = NumberPicker;
 		};
 		3EB2536158092BE8F48F129446531ED4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -130,152 +150,208 @@
 			remoteGlobalIDString = 404F33ED232A94416A1A7F8D462BC385;
 			remoteInfo = "NumberPicker-NumberPicker";
 		};
-		E8092A1B95657BD07863E745F45EA908 /* PBXContainerItemProxy */ = {
+		6E7A8BB2007268BDB2E68DC7A878589D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 312C2515DD038726C0FB3BBC872539FA;
-			remoteInfo = NumberPicker;
+			remoteGlobalIDString = BB240150692F32EC312F3CF346C8B9D1;
+			remoteInfo = FontAwesome.swift;
+		};
+		A732CC36DC4C8E055DDD94F04855F785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11267DB4D5EE1D54642DD4AF5EC033C;
+			remoteInfo = SharkORM;
+		};
+		D06B65A6786DC2E10084C7B8E08BEF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC20DD2E50259D674257304EC016C93;
+			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CAE719ED2F1AAC6BFD636A6323695E /* SyncService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncService.h; path = SharkORM/Sync/Comms/SyncService.h; sourceTree = "<group>"; };
-		036A8BECF77A90019EED9D852AAFDBB9 /* SRKResultSet+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKResultSet+Private.h"; path = "SharkORM/Private/SRKResultSet+Private.h"; sourceTree = "<group>"; };
-		05A2A127860AB3CFFFB8207F4A18ACC8 /* NumberPicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = NumberPicker.xcassets; path = NumberPicker/Assets/NumberPicker.xcassets; sourceTree = "<group>"; };
-		0733CBCB7B13CC68170C7A291F82FB69 /* SRKTransactionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKTransactionInfo.m; path = SharkORM/Core/Transactions/SRKTransactionInfo.m; sourceTree = "<group>"; };
-		0935AA15BFBFFFDD079701EFD68B5CC1 /* NumberPickerLineCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberPickerLineCell.swift; path = NumberPicker/Classes/NumberPickerLineCell.swift; sourceTree = "<group>"; };
-		099D2897295C7D0CE8687F810B47C8B5 /* SharkORM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SharkORM.modulemap; sourceTree = "<group>"; };
-		0A93B17D5E89CC287FD3586545896C3D /* SRKQueryAsyncHandler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKQueryAsyncHandler+Private.h"; path = "SharkORM/Private/SRKQueryAsyncHandler+Private.h"; sourceTree = "<group>"; };
-		0B5CE67860DBC7958F96FAB683033378 /* SRKDefunctObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKDefunctObject.m; path = SharkORM/Sync/SRKDefunctObject.m; sourceTree = "<group>"; };
-		0D31FD5364B8DEA04C6A347AC66E6338 /* SRKSyncRegisteredClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncRegisteredClass.h; path = SharkORM/Sync/SRKSyncRegisteredClass.h; sourceTree = "<group>"; };
-		0DC66BE437D4678F6E7BF45CD3029A73 /* SRKRegistryEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRegistryEntry.m; path = SharkORM/Core/Registry/SRKRegistryEntry.m; sourceTree = "<group>"; };
-		111F49B67970A5D58B92F5CA283DB3B5 /* SharkSync+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharkSync+Private.h"; path = "SharkORM/Sync/SharkSync+Private.h"; sourceTree = "<group>"; };
-		134E8AD17DEBB07F3CB8DF43003BA6F8 /* SRKDefunctObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDefunctObject.h; path = SharkORM/Sync/SRKDefunctObject.h; sourceTree = "<group>"; };
-		15D4394BDB55833661FD83589ACD1565 /* NumberPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NumberPicker-Info.plist"; sourceTree = "<group>"; };
+		021B0BB2CF7814C1A455435DAB43D628 /* FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		028DA9AA7D1CFA92CD1CB4D2528BD849 /* SharkORM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SharkORM-prefix.pch"; sourceTree = "<group>"; };
+		032F67321D34EE01369F5810E71B7660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		047875E1B069B64639B488B57B536A98 /* SRKEntityChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEntityChain.h; path = SharkORM/Core/PersistableObjects/SRKEntityChain.h; sourceTree = "<group>"; };
+		072D0E12059F8CD18B1C3BF6975F8C58 /* SRKError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKError.m; path = SharkORM/Core/SRKError.m; sourceTree = "<group>"; };
+		0AD34827A523085BA3F8E3190E8950CC /* SRKEventHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventHandler.m; path = SharkORM/Core/Events/SRKEventHandler.m; sourceTree = "<group>"; };
+		0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		0EDA0C0B07D29E7516B8A17E8F9BC355 /* SRKCompoundIndex+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKCompoundIndex+Private.h"; path = "SharkORM/Private/SRKCompoundIndex+Private.h"; sourceTree = "<group>"; };
+		10284566373E2005A87154458E6FB916 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Solid-900.otf"; path = "FontAwesome/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		105A181CB180EC9064081EDA9F4AA81C /* SRKUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKUtilities.h; path = SharkORM/Core/SRKUtilities.h; sourceTree = "<group>"; };
+		114E35D5FB4E336270ABA071439393DA /* SRKIndexDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKIndexDefinition.m; path = SharkORM/Core/Indexing/SRKIndexDefinition.m; sourceTree = "<group>"; };
 		169C324099934C87E6B23680FCB35388 /* SharkORM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SharkORM.framework; path = SharkORM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1788EF9BD18B79F80BA4AF0A3583F899 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		1892BA94B342DBAB8BE898DA9EBEA6E5 /* SyncRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncRequest.m; path = SharkORM/Sync/Comms/SyncRequest.m; sourceTree = "<group>"; };
 		1958678518CEB1F9BCF170363E52862B /* Pods-eprimora-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eprimora-frameworks.sh"; sourceTree = "<group>"; };
-		1F7F9483C5F79800D4510B2E84BD40CD /* SRKUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKUtilities.m; path = SharkORM/Core/SRKUtilities.m; sourceTree = "<group>"; };
-		1FED6AAD581B61F243D5DA5816C80D27 /* NumberPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NumberPicker-dummy.m"; sourceTree = "<group>"; };
+		1A28A6B35BECAAA38A3CCB3191B258C1 /* SRKJoinObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKJoinObject.h; path = SharkORM/Core/Queries/SRKJoinObject.h; sourceTree = "<group>"; };
+		1B09B4082038AAE919C2334AB14DFC03 /* SyncRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncRequest.h; path = SharkORM/Sync/Comms/SyncRequest.h; sourceTree = "<group>"; };
+		1D4C211D3E41C2E9CF8EDBAED53CF73F /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = SharkORM/SQLite/sqlite3.h; sourceTree = "<group>"; };
+		1D9030FB0B67133035EB56F52D06F0DA /* SharkSyncGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSyncGroup.h; path = SharkORM/Sync/SharkSyncGroup.h; sourceTree = "<group>"; };
+		1E4DFA85CEC0C3F1B12D3DA4D84D3413 /* SRKGlobals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKGlobals.m; path = SharkORM/Core/SRKGlobals.m; sourceTree = "<group>"; };
+		1F73B10648E3118293934B45C432386F /* NumberPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberPicker.swift; path = NumberPicker/Classes/NumberPicker.swift; sourceTree = "<group>"; };
+		1FD2683CEAEA25E8643973FD967EABF6 /* SRKRelationship.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRelationship.h; path = SharkORM/Core/SRKRelationship.h; sourceTree = "<group>"; };
+		1FDFA9A6E5ACF1AE5E9916FC4233097F /* SyncService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncService.h; path = SharkORM/Sync/Comms/SyncService.h; sourceTree = "<group>"; };
+		2080DD3974E13CAE7A9B631702DF946C /* SharkSyncGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSyncGroup.m; path = SharkORM/Sync/SharkSyncGroup.m; sourceTree = "<group>"; };
 		210FD9AE772EC983AE8B76FAF8084AF0 /* Pods_eprimora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_eprimora.framework; path = "Pods-eprimora.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21DE66C17C2EA08BE15BD2CDD8FCA2D4 /* NumberPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NumberPicker.modulemap; sourceTree = "<group>"; };
-		2706F197ACA5289EC62EF8585BB89A07 /* SRKEventHandler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKEventHandler+Private.h"; path = "SharkORM/Private/SRKEventHandler+Private.h"; sourceTree = "<group>"; };
-		2798501B08F0B709FBB893C281805EE7 /* SyncComms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncComms.h; path = SharkORM/Sync/Comms/SyncComms.h; sourceTree = "<group>"; };
-		29039D1914843166AF48311F78F4745B /* SRKRawResults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRawResults.m; path = SharkORM/Core/PersistableObjects/SRKRawResults.m; sourceTree = "<group>"; };
-		2A1341BA9F0FCA4B45470FBDD6A30B70 /* SRKEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEntity.m; path = SharkORM/Core/PersistableObjects/SRKEntity.m; sourceTree = "<group>"; };
+		21C05E4D9C10C75975710D8BC75E84C7 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqlite3.c; path = SharkORM/SQLite/sqlite3.c; sourceTree = "<group>"; };
+		21C37462306E0135254AAECDEC410D52 /* SRKUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKUtilities.m; path = SharkORM/Core/SRKUtilities.m; sourceTree = "<group>"; };
+		23621862A99429490F9C983069F078BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		23A529C7B49CF570CEC3E9FF76CDE595 /* SRKRelationship.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRelationship.m; path = SharkORM/Core/SRKRelationship.m; sourceTree = "<group>"; };
+		24BB51097B743ACD0FB83B13874534FC /* SRKDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDefinitions.h; path = SharkORM/Core/SRKDefinitions.h; sourceTree = "<group>"; };
+		25ED68204224F57EC3ADFC462ADE0F8C /* NumberPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NumberPicker-Info.plist"; sourceTree = "<group>"; };
+		269DB92D8C482F20A00CCF8E667889EA /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
+		26B4300C809F4171D829C67730E100E5 /* SRKLazyLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKLazyLoader.m; path = SharkORM/Core/SRKLazyLoader.m; sourceTree = "<group>"; };
+		2814A1ED1A4EA24E88D2E2E568C0563C /* SRKSyncNodesList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncNodesList.m; path = SharkORM/Sync/Comms/SRKSyncNodesList.m; sourceTree = "<group>"; };
+		28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0C107ECF038274C724660644DCAFDA /* SharkORM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SharkORM.modulemap; sourceTree = "<group>"; };
 		2EE95AA8CD33ADA1B9BB43BCAF0FA8F4 /* Pods-eprimora-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eprimora-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F4C2FCE51FFF9EFA5A47BED5E7F7242 /* SharkORM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SharkORM-prefix.pch"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3224CC3E941227AFC18D7A1FDAB4F047 /* SyncNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncNetwork.h; path = SharkORM/Sync/Comms/SyncNetwork.h; sourceTree = "<group>"; };
-		371D2F8F2A5A6DB46A10CFFCE1482F84 /* SRKUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKUnsupportedObject.h; path = SharkORM/Core/PersistableObjects/SRKUnsupportedObject.h; sourceTree = "<group>"; };
-		37A0FF3DD3EF862A1D9E0BAEEC641B8E /* SyncService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncService.m; path = SharkORM/Sync/Comms/SyncService.m; sourceTree = "<group>"; };
-		383007BF3B4631705035380205BF41E6 /* SRKSQLiteHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSQLiteHandle.h; path = SharkORM/Core/SRKSQLiteHandle.h; sourceTree = "<group>"; };
-		393C9AF91C3A1EF34D068831259178DD /* SRKUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKUnsupportedObject.m; path = SharkORM/Core/PersistableObjects/SRKUnsupportedObject.m; sourceTree = "<group>"; };
-		3BB41A7E2A4A6E1E176AFE795F835056 /* SRKQueryAsyncHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQueryAsyncHandler.m; path = SharkORM/Core/Queries/SRKQueryAsyncHandler.m; sourceTree = "<group>"; };
+		2FF29F2352D2BAEE2F98E7F7BA05C077 /* SharkSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSync.m; path = SharkORM/Sync/SharkSync.m; sourceTree = "<group>"; };
+		3036A68D5003EA344AE057AFC1D54F5B /* SRKQueryAsyncHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQueryAsyncHandler.m; path = SharkORM/Core/Queries/SRKQueryAsyncHandler.m; sourceTree = "<group>"; };
+		32B6D575A2C852F47EB8BB3763ABED45 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = SharkORM/SQLite/sqlite3ext.h; sourceTree = "<group>"; };
+		32F7C0D68D84682B3CF2B9363803BF22 /* SharkORM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SharkORM.xcconfig; sourceTree = "<group>"; };
+		36B9ACDE1A81F54A809EF6F64010E6AA /* SRKEntityChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEntityChain.m; path = SharkORM/Core/PersistableObjects/SRKEntityChain.m; sourceTree = "<group>"; };
+		3902E715C24B3C829C7CDD1664F123CD /* SRKDeferredChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDeferredChange.h; path = SharkORM/Sync/SRKDeferredChange.h; sourceTree = "<group>"; };
+		3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = "FontAwesome.swift-FontAwesome.swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E515414B9D776D065613B404B1C196A /* Pods-eprimora-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eprimora-acknowledgements.plist"; sourceTree = "<group>"; };
-		41483F415E67A7E2964B2B64B05D96F8 /* SRKSyncOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncOptions.h; path = SharkORM/Sync/SRKSyncOptions.h; sourceTree = "<group>"; };
+		40E1E8C3B55553DABB3D887359C78444 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "NumberPicker/Classes/UIView+Extensions.swift"; sourceTree = "<group>"; };
 		41D8B9FB26E11727525FA9C821779055 /* Pods-eprimora-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eprimora-Info.plist"; sourceTree = "<group>"; };
-		42CE001CB686C71FAB8AE877EAF5FF9F /* SRKCompoundIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKCompoundIndex.m; path = SharkORM/Core/Indexing/SRKCompoundIndex.m; sourceTree = "<group>"; };
-		4398FE7A85268577FD67B26E26B6FF30 /* SRKIndexProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKIndexProperty.m; path = SharkORM/Core/Indexing/SRKIndexProperty.m; sourceTree = "<group>"; };
-		4835850EBC938F74246DAB188D8679BB /* SRKAES256Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKAES256Extension.m; path = SharkORM/Core/PersistableObjects/SRKAES256Extension.m; sourceTree = "<group>"; };
+		42382E9BDCE410DCFA15816F5D4F4F9B /* SyncNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncNetwork.h; path = SharkORM/Sync/Comms/SyncNetwork.h; sourceTree = "<group>"; };
+		4351FC88E60F2733B2CC9772EB180B65 /* SRKRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRegistry.m; path = SharkORM/Core/Registry/SRKRegistry.m; sourceTree = "<group>"; };
+		4409C11DC8B501F3901633E14A40A5EA /* SRKTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKTransaction.m; path = SharkORM/Core/Transactions/SRKTransaction.m; sourceTree = "<group>"; };
+		44575D9AD88865A9BBF11C4E1965C53A /* SRKResultSet+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKResultSet+Private.h"; path = "SharkORM/Private/SRKResultSet+Private.h"; sourceTree = "<group>"; };
+		451D564BDF1EFDFE98E9031B728E152F /* SRKSQLiteHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSQLiteHandle.h; path = SharkORM/Core/SRKSQLiteHandle.h; sourceTree = "<group>"; };
 		4841CD51186832F2049996E13EC778C6 /* Pods-eprimora.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-eprimora.modulemap"; sourceTree = "<group>"; };
-		485EF3992B8E2F78D66C1F48AD90D53C /* SRKSyncNodesList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncNodesList.m; path = SharkORM/Sync/Comms/SRKSyncNodesList.m; sourceTree = "<group>"; };
-		4A0F859CCDDF8F666149A443600D78CF /* SRKObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKObject.m; path = SharkORM/Core/PersistableObjects/SRKObject.m; sourceTree = "<group>"; };
-		4B3B66968EB2AF723413FD232D44C570 /* SRKContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKContext.m; path = SharkORM/Core/Transactions/SRKContext.m; sourceTree = "<group>"; };
-		4DA9A57FECD40D3170B84F3BE0929ECD /* SRKEventHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventHandler.m; path = SharkORM/Core/Events/SRKEventHandler.m; sourceTree = "<group>"; };
-		4DB56F69BF6CB0E964F67911EDFE3572 /* ResourceBundle-NumberPicker-NumberPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NumberPicker-NumberPicker-Info.plist"; sourceTree = "<group>"; };
-		4F63BD5E47241588196103C087870571 /* SharkSyncChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSyncChange.h; path = SharkORM/Sync/SharkSyncChange.h; sourceTree = "<group>"; };
-		4FE0849D3D29A846C74CA3D757828328 /* SRKEncryptedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEncryptedObject.h; path = SharkORM/Core/PersistableObjects/SRKEncryptedObject.h; sourceTree = "<group>"; };
-		506EFC54C42318F0B444B7815CF75B96 /* SRKSQLiteHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSQLiteHandle.m; path = SharkORM/Core/SRKSQLiteHandle.m; sourceTree = "<group>"; };
-		50F7D175CAD681AE3CE8342971A98E9D /* SRKSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSettings.m; path = SharkORM/Core/SRKSettings.m; sourceTree = "<group>"; };
+		4967A6A23267393EB1CF9F698CE24370 /* SRKRegistryEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRegistryEntry.m; path = SharkORM/Core/Registry/SRKRegistryEntry.m; sourceTree = "<group>"; };
+		4A1F281D77943A48E9912A0BA1441A06 /* SyncComms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncComms.h; path = SharkORM/Sync/Comms/SyncComms.h; sourceTree = "<group>"; };
+		4B42ACEDFA1CA98AE2520EC29AEBA2F5 /* NumberPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NumberPicker.xcconfig; sourceTree = "<group>"; };
+		4B723C349D1AA4C27CB5E0C1E05C431B /* SharkSyncChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSyncChange.h; path = SharkORM/Sync/SharkSyncChange.h; sourceTree = "<group>"; };
+		4C69B5F02718684967CCFBE3526191C2 /* SharkSyncChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSyncChange.m; path = SharkORM/Sync/SharkSyncChange.m; sourceTree = "<group>"; };
+		4E265812A2412FBE106C05C1211D6881 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		4E6911821263EF130DB06662E3057B2F /* SRKTransactionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKTransactionInfo.m; path = SharkORM/Core/Transactions/SRKTransactionInfo.m; sourceTree = "<group>"; };
+		4E828105A0AB6934C43FB3193FEC1F1C /* SRKDefunctObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDefunctObject.h; path = SharkORM/Sync/SRKDefunctObject.h; sourceTree = "<group>"; };
+		4FA18A18EF9BA5EF006ECFDBEF593694 /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
 		53E587111C137AAF271CEAEC1EF28346 /* Pods-eprimora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eprimora.debug.xcconfig"; sourceTree = "<group>"; };
-		561C138E0916204ABBE04123B254DAC2 /* SRKStringObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKStringObject.m; path = SharkORM/Core/PersistableObjects/SRKStringObject.m; sourceTree = "<group>"; };
-		56F34213E2792D6D6E6737E778301329 /* SRKEventRegistryObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEventRegistryObject.h; path = SharkORM/Core/Events/SRKEventRegistryObject.h; sourceTree = "<group>"; };
-		5779D302F0C8E1036C45FF3A1BE9E103 /* NumberPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberPicker-umbrella.h"; sourceTree = "<group>"; };
-		5DA9611933B1EC6D832F4E67AFD8659D /* SRKRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRegistry.m; path = SharkORM/Core/Registry/SRKRegistry.m; sourceTree = "<group>"; };
-		5ED4B002C198326BBB0B01BA741C0967 /* SharkORM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkORM.h; path = SharkORM/SharkORM.h; sourceTree = "<group>"; };
-		5F718B4403CBFFC8C4FDA7CE8CDF6DAA /* SRKQueryProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQueryProfile.m; path = SharkORM/Core/Queries/SRKQueryProfile.m; sourceTree = "<group>"; };
-		62EF2E0CF21EBD758A9F9566EBF4C7CB /* SharkORM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SharkORM.xcconfig; sourceTree = "<group>"; };
-		64672FDD7CFDC54051AD625B413E07E3 /* SharkSyncChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSyncChange.m; path = SharkORM/Sync/SharkSyncChange.m; sourceTree = "<group>"; };
-		64A9D73983D38A1E3C6E6E838F91920D /* NumberPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberPicker-prefix.pch"; sourceTree = "<group>"; };
+		552156E5F1DA822D67DAC7B6A156A92C /* SRKTransaction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKTransaction+Private.h"; path = "SharkORM/Private/SRKTransaction+Private.h"; sourceTree = "<group>"; };
+		56D48E9F3EA93DDB72BADBDC27F5DD18 /* SRKSyncObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncObject.m; path = SharkORM/Sync/SRKSyncObject.m; sourceTree = "<group>"; };
+		57F8ADB9FAE4F6D11A60840D330D697C /* SRKJoinObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKJoinObject.m; path = SharkORM/Core/Queries/SRKJoinObject.m; sourceTree = "<group>"; };
+		589F46A194BE39B9F697D06DF70FB63B /* SRKAES256Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKAES256Extension.m; path = SharkORM/Core/PersistableObjects/SRKAES256Extension.m; sourceTree = "<group>"; };
+		5CB7AAA2DDD3454718D2FF1D24E83B30 /* SRKSyncOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncOptions.h; path = SharkORM/Sync/SRKSyncOptions.h; sourceTree = "<group>"; };
+		61D3FF49311E9CA88EB8773048F90BBE /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		625C5EE5084D174D1D7A32D726320032 /* SharkSchemaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSchemaManager.m; path = SharkORM/Core/SharkSchemaManager.m; sourceTree = "<group>"; };
+		633853B0CF8582B28D9504A6058A7C79 /* SharkORM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkORM.h; path = SharkORM/SharkORM.h; sourceTree = "<group>"; };
+		63F00D32190AC5BBC7B5F4571A4AFB1F /* SRKSyncNodesList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncNodesList.h; path = SharkORM/Sync/Comms/SRKSyncNodesList.h; sourceTree = "<group>"; };
+		66500056FA47FCC25745B134C254AF3C /* SRKQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKQuery+Private.h"; path = "SharkORM/Private/SRKQuery+Private.h"; sourceTree = "<group>"; };
+		6872E95E79DDEA15DAE0071416858D7F /* SRKObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKObject.m; path = SharkORM/Core/PersistableObjects/SRKObject.m; sourceTree = "<group>"; };
+		690ADA548920D982DD901C832AB08072 /* SharkORM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SharkORM-Info.plist"; sourceTree = "<group>"; };
 		6959D27FF54C0C9D2A8763AF348FA339 /* Pods-eprimora-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eprimora-umbrella.h"; sourceTree = "<group>"; };
-		6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NumberPicker.xcconfig; sourceTree = "<group>"; };
-		6A8726FA9BE6A402E1C1EB16C4C544F8 /* SharkORM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkORM.m; path = SharkORM/Core/SharkORM.m; sourceTree = "<group>"; };
-		6B77CF1F9A7E91176CD7C7F3FB172CB7 /* SRKQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKQuery+Private.h"; path = "SharkORM/Private/SRKQuery+Private.h"; sourceTree = "<group>"; };
+		6A8A92C1EFC94664D3193F3C0C780CC5 /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
 		6B7827AED4167041AAA360C1BFC3D830 /* Pods-eprimora-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eprimora-dummy.m"; sourceTree = "<group>"; };
-		6B9F5F9156DF7170DC21D6F664799BA8 /* SRKTransactionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKTransactionInfo.h; path = SharkORM/Core/Transactions/SRKTransactionInfo.h; sourceTree = "<group>"; };
-		6EDF35019BB3CB3BDDFF5096C3168661 /* NumberPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberPicker.swift; path = NumberPicker/Classes/NumberPicker.swift; sourceTree = "<group>"; };
-		71308F7137B32513A2924318B5F03A8D /* SRKQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQuery.m; path = SharkORM/Core/Queries/SRKQuery.m; sourceTree = "<group>"; };
-		74A747789AB836FFEC6F7F61DC338696 /* SRKRelationship.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRelationship.m; path = SharkORM/Core/SRKRelationship.m; sourceTree = "<group>"; };
-		777D4BB98B833C97A4F6CE305CD1969A /* SharkORM+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharkORM+Private.h"; path = "SharkORM/Private/SharkORM+Private.h"; sourceTree = "<group>"; };
-		7CA1FC0F682F39F88B2D4E6F184406D5 /* SRKTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKTransaction.m; path = SharkORM/Core/Transactions/SRKTransaction.m; sourceTree = "<group>"; };
-		80296935E75B46CC88A9DD0502327BD4 /* SRKEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEvent.m; path = SharkORM/Core/Events/SRKEvent.m; sourceTree = "<group>"; };
-		85E19915FF5430778C80E8A25F416C7B /* SRKJoinObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKJoinObject.m; path = SharkORM/Core/Queries/SRKJoinObject.m; sourceTree = "<group>"; };
-		8AEB72A912DCAC8CC8F3C1AF65B9811C /* SharkORM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SharkORM-dummy.m"; sourceTree = "<group>"; };
-		8C8FB9CE7DCE3BD4B10DDAB25921B6EC /* SRKEventRegistryObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventRegistryObject.m; path = SharkORM/Core/Events/SRKEventRegistryObject.m; sourceTree = "<group>"; };
-		8D1C232F98A208D5580489EEE04EB979 /* SyncNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncNetwork.m; path = SharkORM/Sync/Comms/SyncNetwork.m; sourceTree = "<group>"; };
-		8EFFA362E0537010F8AA218A674DADC9 /* SRKAES256Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKAES256Extension.h; path = SharkORM/Core/PersistableObjects/SRKAES256Extension.h; sourceTree = "<group>"; };
-		951DA0B20F4AF82D66C0C60124481DA5 /* SyncRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncRequest.h; path = SharkORM/Sync/Comms/SyncRequest.h; sourceTree = "<group>"; };
-		97120C5DD9F6B8891FF9D8A84C149517 /* SRKRelationship.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRelationship.h; path = SharkORM/Core/SRKRelationship.h; sourceTree = "<group>"; };
+		6F9B528B5B414E75EDF3ADE546ECEA5C /* SRKUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKUnsupportedObject.m; path = SharkORM/Core/PersistableObjects/SRKUnsupportedObject.m; sourceTree = "<group>"; };
+		701BCCA766368311E0034300B4CEF1A0 /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
+		70401FAE8B9307493E13E12465CA2959 /* SRKSyncOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncOptions.m; path = SharkORM/Sync/SRKSyncOptions.m; sourceTree = "<group>"; };
+		70EEE9AE81AA5E3AAA07FCAB54B461E1 /* NumberPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberPicker-prefix.pch"; sourceTree = "<group>"; };
+		724E687AB70DC398FC23D4B707B7B76C /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		75A5C4C8EA6FE06EBD3B17B367EE5926 /* NumberPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NumberPicker-dummy.m"; sourceTree = "<group>"; };
+		78C76268F5C2955D9ADA7EA1D7919B53 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		7E9563B4634EFD73CB0FF9898E43DA77 /* SRKCommitOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKCommitOptions.m; path = SharkORM/Core/PersistableObjects/SRKCommitOptions.m; sourceTree = "<group>"; };
+		821DC12BFC599675711ED7B2A3DF3436 /* SRKCommitOptions+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKCommitOptions+Private.h"; path = "SharkORM/Private/SRKCommitOptions+Private.h"; sourceTree = "<group>"; };
+		83DDDA019E4809D92D494ABA9D171BEC /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeExtension.swift; path = FontAwesome/FontAwesomeExtension.swift; sourceTree = "<group>"; };
+		8519C9F414E6FC7484FD6E65869AA7F9 /* SRKQueryProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQueryProfile.m; path = SharkORM/Core/Queries/SRKQueryProfile.m; sourceTree = "<group>"; };
+		86C3E0D562E2ABEEA08E5E4FC2F92FE7 /* SRKCompoundIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKCompoundIndex.m; path = SharkORM/Core/Indexing/SRKCompoundIndex.m; sourceTree = "<group>"; };
+		8879CBBACB7EB4128D8B97A4E83E5014 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		8CB9619F7DF1C5D4E4B81AEE9F2F3648 /* SRKRawResults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRawResults.m; path = SharkORM/Core/PersistableObjects/SRKRawResults.m; sourceTree = "<group>"; };
+		8EEF48B4127C7B0849B956BE33BA48D6 /* SharkSchemaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSchemaManager.h; path = SharkORM/Core/SharkSchemaManager.h; sourceTree = "<group>"; };
+		8F1DC17BBAC5AD10793003D29E18F5ED /* SRKLazyLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKLazyLoader.h; path = SharkORM/Core/SRKLazyLoader.h; sourceTree = "<group>"; };
+		90BCE3544E6D2EB4B8A4563CDC21F98D /* SharkORM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkORM.m; path = SharkORM/Core/SharkORM.m; sourceTree = "<group>"; };
+		9151022ED2878D746BFA7B0A5988723D /* SRKEventBlockHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventBlockHolder.m; path = SharkORM/Core/Events/SRKEventBlockHolder.m; sourceTree = "<group>"; };
+		919830F197D5B811B37C6DF2D723C421 /* SRKIndexDefinition+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKIndexDefinition+Private.h"; path = "SharkORM/Private/SRKIndexDefinition+Private.h"; sourceTree = "<group>"; };
+		932912D8CECDB82BD3A17BB5B473F19C /* SRKDeferredChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKDeferredChange.m; path = SharkORM/Sync/SRKDeferredChange.m; sourceTree = "<group>"; };
+		93FB0FCD829D9D7AEBC2FEAA8B4849B2 /* SharkORM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SharkORM-dummy.m"; sourceTree = "<group>"; };
+		942523689D895D691FA607303B829D4B /* SRKEventRegistryObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEventRegistryObject.h; path = SharkORM/Core/Events/SRKEventRegistryObject.h; sourceTree = "<group>"; };
+		96BFE4775C206D1B3258FE6B86CCADCB /* SRKEventHandler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKEventHandler+Private.h"; path = "SharkORM/Private/SRKEventHandler+Private.h"; sourceTree = "<group>"; };
+		997580FD322900B3BCA16E4DB795C4DB /* SRKGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKGlobals.h; path = SharkORM/Core/SRKGlobals.h; sourceTree = "<group>"; };
+		9CD8E782B3431C37C9A464696C809CEF /* SRKEncryptedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEncryptedObject.m; path = SharkORM/Core/PersistableObjects/SRKEncryptedObject.m; sourceTree = "<group>"; };
 		9CFD3C9513690A004486EA414C6EFA2E /* Pods-eprimora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eprimora.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FC1CB467135727213B147B6BF4EF116 /* SRKGlobals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKGlobals.m; path = SharkORM/Core/SRKGlobals.m; sourceTree = "<group>"; };
-		A07F5CDBFE287C042B866319A9BBAFC2 /* SRKCommitOptions+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKCommitOptions+Private.h"; path = "SharkORM/Private/SRKCommitOptions+Private.h"; sourceTree = "<group>"; };
-		A21DF74F06144EB1E68DB2901F84C726 /* SharkSyncGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSyncGroup.h; path = SharkORM/Sync/SharkSyncGroup.h; sourceTree = "<group>"; };
-		A3CAF745CB70CA44FA48E502902B36C3 /* SRKLazyLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKLazyLoader.m; path = SharkORM/Core/SRKLazyLoader.m; sourceTree = "<group>"; };
-		A462E803D1684987E1D4DE2625446106 /* SharkSchemaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSchemaManager.h; path = SharkORM/Core/SharkSchemaManager.h; sourceTree = "<group>"; };
-		A745F5D071E18B16AABA5B2E383857D2 /* SRKEntity+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKEntity+Private.h"; path = "SharkORM/Private/SRKEntity+Private.h"; sourceTree = "<group>"; };
-		A7620D2659374D8756293E50638E0B97 /* SRKSyncRegisteredClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncRegisteredClass.m; path = SharkORM/Sync/SRKSyncRegisteredClass.m; sourceTree = "<group>"; };
-		AB726CEB4007CEF949C755046C1D06E5 /* SRKEntityChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEntityChain.m; path = SharkORM/Core/PersistableObjects/SRKEntityChain.m; sourceTree = "<group>"; };
-		AC4987EA85FCB202E106C2A8D14B5773 /* SRKGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKGlobals.h; path = SharkORM/Core/SRKGlobals.h; sourceTree = "<group>"; };
-		AFC5697DEDB507B15FFC9AD87CD2F45B /* SRKSyncObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKSyncObject+Private.h"; path = "SharkORM/Sync/SRKSyncObject+Private.h"; sourceTree = "<group>"; };
-		B0DC55234A413B35EC31A9165C605777 /* SRKRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRegistry.h; path = SharkORM/Core/Registry/SRKRegistry.h; sourceTree = "<group>"; };
-		B5EAF8C2CA21004119FA9EA732204F74 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = SharkORM/SQLite/sqlite3.h; sourceTree = "<group>"; };
-		B5F75072E96AE6939C325F42BD7C3E6D /* SRKLazyLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKLazyLoader.h; path = SharkORM/Core/SRKLazyLoader.h; sourceTree = "<group>"; };
-		B6B298BD8B74C0B283CB5C978AB40CB9 /* SRKEventBlockHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventBlockHolder.m; path = SharkORM/Core/Events/SRKEventBlockHolder.m; sourceTree = "<group>"; };
-		BA42D6ED95667B925B30264C3F655428 /* SyncRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncRequest.m; path = SharkORM/Sync/Comms/SyncRequest.m; sourceTree = "<group>"; };
+		A0A7D170D764000980AEB9136A56696C /* SRKEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEvent.m; path = SharkORM/Core/Events/SRKEvent.m; sourceTree = "<group>"; };
+		A0D6DB1815C074E9C0F1366B1554CE27 /* SRKEventBlockHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEventBlockHolder.h; path = SharkORM/Core/Events/SRKEventBlockHolder.h; sourceTree = "<group>"; };
+		A244FF3DCC9971D35DC4C3D83F02243F /* SRKStringObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKStringObject.m; path = SharkORM/Core/PersistableObjects/SRKStringObject.m; sourceTree = "<group>"; };
+		A43B2D373B6FBBAC735FF749ECC2FDBF /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		A560488F77C9E28D5661ED6A1AA213AB /* SRKRegistryEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRegistryEntry.h; path = SharkORM/Core/Registry/SRKRegistryEntry.h; sourceTree = "<group>"; };
+		A717711AB5CA85E8ADE7ED52C6054DC8 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		A750E8960ACB559F92516C703EB725CB /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		A7AA47BC94B9FC0915025F8045322DA8 /* SRKEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEntity.m; path = SharkORM/Core/PersistableObjects/SRKEntity.m; sourceTree = "<group>"; };
+		AB4AFD0DECF7F0CE6598E91866DB2BC0 /* SRKAES256Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKAES256Extension.h; path = SharkORM/Core/PersistableObjects/SRKAES256Extension.h; sourceTree = "<group>"; };
+		ADD13EAF7FBA8B9A9AAFBE99BC2C7552 /* SharkSync+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharkSync+Private.h"; path = "SharkORM/Sync/SharkSync+Private.h"; sourceTree = "<group>"; };
+		AFF9644C8339662FB9CCA4281E964399 /* SRKSQLiteHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSQLiteHandle.m; path = SharkORM/Core/SRKSQLiteHandle.m; sourceTree = "<group>"; };
+		B138CE813A2B27C763D04380368738A4 /* SRKEntity+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKEntity+Private.h"; path = "SharkORM/Private/SRKEntity+Private.h"; sourceTree = "<group>"; };
+		B1A7E449B7362B8BE7DB31E444538558 /* SRKSyncRegisteredClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncRegisteredClass.m; path = SharkORM/Sync/SRKSyncRegisteredClass.m; sourceTree = "<group>"; };
+		B247AFD771B53B604D449C0CB7955247 /* SRKIndexProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKIndexProperty.m; path = SharkORM/Core/Indexing/SRKIndexProperty.m; sourceTree = "<group>"; };
+		B65D8DACBDE5CC82B9B6E3783DF936CB /* NumberPicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = NumberPicker.xcassets; path = NumberPicker/Assets/NumberPicker.xcassets; sourceTree = "<group>"; };
+		B6CE88DD6B28BAD80DFBFFC30BAC1C22 /* SharkORM+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharkORM+Private.h"; path = "SharkORM/Private/SharkORM+Private.h"; sourceTree = "<group>"; };
+		B6D5ACD10A721F98D9D68E4F052F9C5B /* SRKResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKResultSet.m; path = SharkORM/Core/PersistableObjects/SRKResultSet.m; sourceTree = "<group>"; };
+		B8A5F10DA57A6C87534B4BBD780F11E7 /* SRKEncryptedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEncryptedObject.h; path = SharkORM/Core/PersistableObjects/SRKEncryptedObject.h; sourceTree = "<group>"; };
+		BBAB5555E40F150FEED08375EC5D12E9 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 		BC13C5EEC143ADA103CA339F05024018 /* NumberPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NumberPicker.framework; path = NumberPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C81A4C3A7F6C34377E8DA5B3F093C156 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "NumberPicker/Classes/UIView+Extensions.swift"; sourceTree = "<group>"; };
-		C874FA4B95004347AAB308063431A4F4 /* SRKJoinObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKJoinObject.h; path = SharkORM/Core/Queries/SRKJoinObject.h; sourceTree = "<group>"; };
+		BDD00D643881CCA15382E8B4F8B7FA94 /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
+		BDF2C129196EF7B10CE888D2E1D2DD74 /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		C31BC714152CBC7DEBD350E835B8C121 /* SRKUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKUnsupportedObject.h; path = SharkORM/Core/PersistableObjects/SRKUnsupportedObject.h; sourceTree = "<group>"; };
+		C5DA08C1BE0A26E32D5F27A1A3700E0F /* SRKSyncObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKSyncObject+Private.h"; path = "SharkORM/Sync/SRKSyncObject+Private.h"; sourceTree = "<group>"; };
+		C8F445C9B34C6F855A92D5D59EA1AB2E /* NumberPickerLineCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberPickerLineCell.swift; path = NumberPicker/Classes/NumberPickerLineCell.swift; sourceTree = "<group>"; };
 		C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NumberPicker.bundle; path = "NumberPicker-NumberPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0F7E02137B074E37CA3CE62B0D1502 /* SRKSyncOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncOptions.m; path = SharkORM/Sync/SRKSyncOptions.m; sourceTree = "<group>"; };
-		D4B1C95DC72587837578E6A2E2177F98 /* SRKTransaction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKTransaction+Private.h"; path = "SharkORM/Private/SRKTransaction+Private.h"; sourceTree = "<group>"; };
-		D52BF950202658882033F26C81AA6036 /* SRKCommitOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKCommitOptions.m; path = SharkORM/Core/PersistableObjects/SRKCommitOptions.m; sourceTree = "<group>"; };
-		D8046A6BF8245FA3AABDCA4D79A6FFD9 /* SRKCompoundIndex+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKCompoundIndex+Private.h"; path = "SharkORM/Private/SRKCompoundIndex+Private.h"; sourceTree = "<group>"; };
-		D816824D0D2129E3449FFB81C35273F0 /* SyncComms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncComms.m; path = SharkORM/Sync/Comms/SyncComms.m; sourceTree = "<group>"; };
-		DA12B75CF2635F54522D6DEB8F71B079 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqlite3.c; path = SharkORM/SQLite/sqlite3.c; sourceTree = "<group>"; };
-		DC7D419AB5168FF3281DF6E0F7548266 /* SRKDeferredChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKDeferredChange.m; path = SharkORM/Sync/SRKDeferredChange.m; sourceTree = "<group>"; };
-		DCFF9D68B2EB35654A0A093DAEC650F8 /* SRKContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKContext.h; path = SharkORM/Core/Transactions/SRKContext.h; sourceTree = "<group>"; };
-		DD37F164ED78A67EE100132377F5AEF0 /* SRKIndexDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKIndexDefinition.m; path = SharkORM/Core/Indexing/SRKIndexDefinition.m; sourceTree = "<group>"; };
-		E151FC042750BFB56F7AB5CD44A9618C /* SRKError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKError.m; path = SharkORM/Core/SRKError.m; sourceTree = "<group>"; };
-		E1B8BC20FFBA6D84517655CE967DB930 /* SharkSyncGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSyncGroup.m; path = SharkORM/Sync/SharkSyncGroup.m; sourceTree = "<group>"; };
-		E321A9E747BFE7A3F6984A78B21A65E7 /* SRKIndexDefinition+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKIndexDefinition+Private.h"; path = "SharkORM/Private/SRKIndexDefinition+Private.h"; sourceTree = "<group>"; };
-		E487D7015A1CB8703B16F5F8EB2A19BC /* SRKEncryptedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEncryptedObject.m; path = SharkORM/Core/PersistableObjects/SRKEncryptedObject.m; sourceTree = "<group>"; };
-		E89F582E18598DCD1DB659A6CDCE0E94 /* SharkSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSync.m; path = SharkORM/Sync/SharkSync.m; sourceTree = "<group>"; };
-		E8C6D5D00CA171F147051DFE9889FA06 /* SharkORM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SharkORM-Info.plist"; sourceTree = "<group>"; };
-		ED3E83210212936CDDD77F5C67A50EFA /* SRKRegistryEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRegistryEntry.h; path = SharkORM/Core/Registry/SRKRegistryEntry.h; sourceTree = "<group>"; };
-		F0167D254DCFC6E14C0F28F4181CC409 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = SharkORM/SQLite/sqlite3ext.h; sourceTree = "<group>"; };
-		F38FD7A5FCB0E51BB698D6BC84C914E0 /* SRKSyncNodesList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncNodesList.h; path = SharkORM/Sync/Comms/SRKSyncNodesList.h; sourceTree = "<group>"; };
-		F4B13E3848A5F5F1C074FD61535A4DFA /* SRKSyncObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncObject.m; path = SharkORM/Sync/SRKSyncObject.m; sourceTree = "<group>"; };
-		F4BC9235339D7153AFC7B867A5FD1AD2 /* SRKEntityChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEntityChain.h; path = SharkORM/Core/PersistableObjects/SRKEntityChain.h; sourceTree = "<group>"; };
-		F52D4FD3BE0BB97AB044FC64DF6D332E /* SRKEventBlockHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEventBlockHolder.h; path = SharkORM/Core/Events/SRKEventBlockHolder.h; sourceTree = "<group>"; };
-		F6ADB1B4C30511E4EBBBD874B96F5A75 /* SRKDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDefinitions.h; path = SharkORM/Core/SRKDefinitions.h; sourceTree = "<group>"; };
-		F7A6DE6D9440DA94B2C07354DBBA7CFA /* SharkSchemaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSchemaManager.m; path = SharkORM/Core/SharkSchemaManager.m; sourceTree = "<group>"; };
-		F9E7B3B0AB4595D7C996C71A678D2BCC /* SRKDeferredChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDeferredChange.h; path = SharkORM/Sync/SRKDeferredChange.h; sourceTree = "<group>"; };
-		FB56B2D0BE102F9A07BB3A0073882281 /* SRKResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKResultSet.m; path = SharkORM/Core/PersistableObjects/SRKResultSet.m; sourceTree = "<group>"; };
-		FEAF707630A91E1A6D400B4B39983372 /* SRKUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKUtilities.h; path = SharkORM/Core/SRKUtilities.h; sourceTree = "<group>"; };
+		CA104AE6DCEDB848B327FCD0FE49255E /* SyncService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncService.m; path = SharkORM/Sync/Comms/SyncService.m; sourceTree = "<group>"; };
+		CBB8B3AF10AADF89722C394DEC690628 /* SRKTransactionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKTransactionInfo.h; path = SharkORM/Core/Transactions/SRKTransactionInfo.h; sourceTree = "<group>"; };
+		CBEDC37CB4493E7953A01E233565EB2F /* SRKContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKContext.h; path = SharkORM/Core/Transactions/SRKContext.h; sourceTree = "<group>"; };
+		CC1E8FCC7386BCB469B9005F75DE554C /* SRKQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQuery.m; path = SharkORM/Core/Queries/SRKQuery.m; sourceTree = "<group>"; };
+		CD044170B5CC9C7D813AF98F0318A3F7 /* SRKContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKContext.m; path = SharkORM/Core/Transactions/SRKContext.m; sourceTree = "<group>"; };
+		CF2304568FFFA62FC2A1AF5374D64CD0 /* SyncNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncNetwork.m; path = SharkORM/Sync/Comms/SyncNetwork.m; sourceTree = "<group>"; };
+		D268E69FF6D32E54799C0736E23385B0 /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		DC5BE69F1B9BE7CBB71CCA9F8A43DF2E /* SRKSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSettings.m; path = SharkORM/Core/SRKSettings.m; sourceTree = "<group>"; };
+		DD0A294310638970CC3AFA278AA0A451 /* SRKEventRegistryObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventRegistryObject.m; path = SharkORM/Core/Events/SRKEventRegistryObject.m; sourceTree = "<group>"; };
+		EA25A7D0BDA6195A573AFE15C96FC74B /* SRKDefunctObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKDefunctObject.m; path = SharkORM/Sync/SRKDefunctObject.m; sourceTree = "<group>"; };
+		ED48F4EFD7570DBECAD80A5B3BADC06B /* SRKSyncRegisteredClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncRegisteredClass.h; path = SharkORM/Sync/SRKSyncRegisteredClass.h; sourceTree = "<group>"; };
+		EFAA33B94DBC698605F041ED8E8AD869 /* SRKQueryAsyncHandler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKQueryAsyncHandler+Private.h"; path = "SharkORM/Private/SRKQueryAsyncHandler+Private.h"; sourceTree = "<group>"; };
+		F13A8C4C7614EEF7C34F6382B71BF4C3 /* SyncComms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncComms.m; path = SharkORM/Sync/Comms/SyncComms.m; sourceTree = "<group>"; };
+		F1F5268BE482E55B6FEE8171D1CE6CEE /* ResourceBundle-NumberPicker-NumberPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NumberPicker-NumberPicker-Info.plist"; sourceTree = "<group>"; };
+		F45070CDA1AFC8DB24FD84D5707C19BD /* SRKRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRegistry.h; path = SharkORM/Core/Registry/SRKRegistry.h; sourceTree = "<group>"; };
+		FD85155D34B46B19D92DDD9BFB6AC530 /* NumberPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NumberPicker.modulemap; sourceTree = "<group>"; };
+		FE2338DDBE5B3DF38F1DF088305A83FC /* NumberPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberPicker-umbrella.h"; sourceTree = "<group>"; };
+		FE290A7B51C6C0EAB57131DBF110832F /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C125EB7A89F6CEBCD9C944D0D065907 /* Frameworks */ = {
+		62F96AF46B13DB8FB3298A08BD38E542 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB9D87C2EB49C7D6FC1773B666BA738 /* Foundation.framework in Frameworks */,
+				F16CA15E849B786ABF46BE4B3A4E8632 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889FC90E007AF2C9DE5C84516B57F606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BA1B3FC4C025CAF4C156B2912BF3F8 /* CoreText.framework in Frameworks */,
+				6CADCBC18CE422499677C423AB08B95A /* Foundation.framework in Frameworks */,
+				26D86A5A6215B671C527751DFD6BFE1A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A858C5752415813CC30BB248922F4511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E461109F7C8F6856E2B401CB6EBC27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,25 +377,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C6835FB7E5B4692C1D8F8031B53D62C /* NumberPicker */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EDF35019BB3CB3BDDFF5096C3168661 /* NumberPicker.swift */,
-				0935AA15BFBFFFDD079701EFD68B5CC1 /* NumberPickerLineCell.swift */,
-				C81A4C3A7F6C34377E8DA5B3F093C156 /* UIView+Extensions.swift */,
-				269CB112EE61D55C17D21313B3682D68 /* Resources */,
-				882A4E671A7DC67F21FC63DE5B712534 /* Support Files */,
+				092FD875F565846165BF2D8B053941F7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		092FD875F565846165BF2D8B053941F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */,
+				23621862A99429490F9C983069F078BB /* Foundation.framework */,
+				032F67321D34EE01369F5810E71B7660 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		12ACA48D535F7E5F860FFED55A2C0533 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD85155D34B46B19D92DDD9BFB6AC530 /* NumberPicker.modulemap */,
+				4B42ACEDFA1CA98AE2520EC29AEBA2F5 /* NumberPicker.xcconfig */,
+				75A5C4C8EA6FE06EBD3B17B367EE5926 /* NumberPicker-dummy.m */,
+				25ED68204224F57EC3ADFC462ADE0F8C /* NumberPicker-Info.plist */,
+				70EEE9AE81AA5E3AAA07FCAB54B461E1 /* NumberPicker-prefix.pch */,
+				FE2338DDBE5B3DF38F1DF088305A83FC /* NumberPicker-umbrella.h */,
+				F1F5268BE482E55B6FEE8171D1CE6CEE /* ResourceBundle-NumberPicker-NumberPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NumberPicker";
+			sourceTree = "<group>";
+		};
+		299E0675197438F0F5B98C43AF195AC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B65D8DACBDE5CC82B9B6E3783DF936CB /* NumberPicker.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		387D907D980A5DCC6A292827830BA2DA /* NumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1F73B10648E3118293934B45C432386F /* NumberPicker.swift */,
+				C8F445C9B34C6F855A92D5D59EA1AB2E /* NumberPickerLineCell.swift */,
+				40E1E8C3B55553DABB3D887359C78444 /* UIView+Extensions.swift */,
+				299E0675197438F0F5B98C43AF195AC1 /* Resources */,
+				12ACA48D535F7E5F860FFED55A2C0533 /* Support Files */,
 			);
 			name = NumberPicker;
 			path = NumberPicker;
-			sourceTree = "<group>";
-		};
-		269CB112EE61D55C17D21313B3682D68 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				05A2A127860AB3CFFFB8207F4A18ACC8 /* NumberPicker.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		4C706F681B2FC34902C8F3F4FD9180A9 /* Targets Support Files */ = {
@@ -330,15 +439,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6F81A75C9439FA224D0A3AC993E928F6 /* Products */ = {
+		5FE3C0A16018DB17A970492C4A4CE5B9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */,
-				BC13C5EEC143ADA103CA339F05024018 /* NumberPicker.framework */,
-				210FD9AE772EC983AE8B76FAF8084AF0 /* Pods_eprimora.framework */,
-				169C324099934C87E6B23680FCB35388 /* SharkORM.framework */,
+				BBAB5555E40F150FEED08375EC5D12E9 /* Font Awesome 5 Brands-Regular-400.otf */,
+				61D3FF49311E9CA88EB8773048F90BBE /* Font Awesome 5 Free-Regular-400.otf */,
+				10284566373E2005A87154458E6FB916 /* Font Awesome 5 Free-Solid-900.otf */,
 			);
-			name = Products;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		64D30A38A5679EA0A87B5F50A2B95F3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C0C107ECF038274C724660644DCAFDA /* SharkORM.modulemap */,
+				32F7C0D68D84682B3CF2B9363803BF22 /* SharkORM.xcconfig */,
+				93FB0FCD829D9D7AEBC2FEAA8B4849B2 /* SharkORM-dummy.m */,
+				690ADA548920D982DD901C832AB08072 /* SharkORM-Info.plist */,
+				028DA9AA7D1CFA92CD1CB4D2528BD849 /* SharkORM-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SharkORM";
 			sourceTree = "<group>";
 		};
 		7DE90793B1FB01CFD56D6B5DDDE062AE /* Pods-eprimora */ = {
@@ -358,170 +479,176 @@
 			path = "Target Support Files/Pods-eprimora";
 			sourceTree = "<group>";
 		};
-		882A4E671A7DC67F21FC63DE5B712534 /* Support Files */ = {
+		7EBD1C0E9BE170172468B0E87722ABDA /* SharkORM */ = {
 			isa = PBXGroup;
 			children = (
-				21DE66C17C2EA08BE15BD2CDD8FCA2D4 /* NumberPicker.modulemap */,
-				6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */,
-				1FED6AAD581B61F243D5DA5816C80D27 /* NumberPicker-dummy.m */,
-				15D4394BDB55833661FD83589ACD1565 /* NumberPicker-Info.plist */,
-				64A9D73983D38A1E3C6E6E838F91920D /* NumberPicker-prefix.pch */,
-				5779D302F0C8E1036C45FF3A1BE9E103 /* NumberPicker-umbrella.h */,
-				4DB56F69BF6CB0E964F67911EDFE3572 /* ResourceBundle-NumberPicker-NumberPicker-Info.plist */,
+				633853B0CF8582B28D9504A6058A7C79 /* SharkORM.h */,
+				90BCE3544E6D2EB4B8A4563CDC21F98D /* SharkORM.m */,
+				B6CE88DD6B28BAD80DFBFFC30BAC1C22 /* SharkORM+Private.h */,
+				8EEF48B4127C7B0849B956BE33BA48D6 /* SharkSchemaManager.h */,
+				625C5EE5084D174D1D7A32D726320032 /* SharkSchemaManager.m */,
+				2FF29F2352D2BAEE2F98E7F7BA05C077 /* SharkSync.m */,
+				ADD13EAF7FBA8B9A9AAFBE99BC2C7552 /* SharkSync+Private.h */,
+				4B723C349D1AA4C27CB5E0C1E05C431B /* SharkSyncChange.h */,
+				4C69B5F02718684967CCFBE3526191C2 /* SharkSyncChange.m */,
+				1D9030FB0B67133035EB56F52D06F0DA /* SharkSyncGroup.h */,
+				2080DD3974E13CAE7A9B631702DF946C /* SharkSyncGroup.m */,
+				21C05E4D9C10C75975710D8BC75E84C7 /* sqlite3.c */,
+				1D4C211D3E41C2E9CF8EDBAED53CF73F /* sqlite3.h */,
+				32B6D575A2C852F47EB8BB3763ABED45 /* sqlite3ext.h */,
+				AB4AFD0DECF7F0CE6598E91866DB2BC0 /* SRKAES256Extension.h */,
+				589F46A194BE39B9F697D06DF70FB63B /* SRKAES256Extension.m */,
+				7E9563B4634EFD73CB0FF9898E43DA77 /* SRKCommitOptions.m */,
+				821DC12BFC599675711ED7B2A3DF3436 /* SRKCommitOptions+Private.h */,
+				86C3E0D562E2ABEEA08E5E4FC2F92FE7 /* SRKCompoundIndex.m */,
+				0EDA0C0B07D29E7516B8A17E8F9BC355 /* SRKCompoundIndex+Private.h */,
+				CBEDC37CB4493E7953A01E233565EB2F /* SRKContext.h */,
+				CD044170B5CC9C7D813AF98F0318A3F7 /* SRKContext.m */,
+				3902E715C24B3C829C7CDD1664F123CD /* SRKDeferredChange.h */,
+				932912D8CECDB82BD3A17BB5B473F19C /* SRKDeferredChange.m */,
+				24BB51097B743ACD0FB83B13874534FC /* SRKDefinitions.h */,
+				4E828105A0AB6934C43FB3193FEC1F1C /* SRKDefunctObject.h */,
+				EA25A7D0BDA6195A573AFE15C96FC74B /* SRKDefunctObject.m */,
+				B8A5F10DA57A6C87534B4BBD780F11E7 /* SRKEncryptedObject.h */,
+				9CD8E782B3431C37C9A464696C809CEF /* SRKEncryptedObject.m */,
+				A7AA47BC94B9FC0915025F8045322DA8 /* SRKEntity.m */,
+				B138CE813A2B27C763D04380368738A4 /* SRKEntity+Private.h */,
+				047875E1B069B64639B488B57B536A98 /* SRKEntityChain.h */,
+				36B9ACDE1A81F54A809EF6F64010E6AA /* SRKEntityChain.m */,
+				072D0E12059F8CD18B1C3BF6975F8C58 /* SRKError.m */,
+				A0A7D170D764000980AEB9136A56696C /* SRKEvent.m */,
+				A0D6DB1815C074E9C0F1366B1554CE27 /* SRKEventBlockHolder.h */,
+				9151022ED2878D746BFA7B0A5988723D /* SRKEventBlockHolder.m */,
+				0AD34827A523085BA3F8E3190E8950CC /* SRKEventHandler.m */,
+				96BFE4775C206D1B3258FE6B86CCADCB /* SRKEventHandler+Private.h */,
+				942523689D895D691FA607303B829D4B /* SRKEventRegistryObject.h */,
+				DD0A294310638970CC3AFA278AA0A451 /* SRKEventRegistryObject.m */,
+				997580FD322900B3BCA16E4DB795C4DB /* SRKGlobals.h */,
+				1E4DFA85CEC0C3F1B12D3DA4D84D3413 /* SRKGlobals.m */,
+				114E35D5FB4E336270ABA071439393DA /* SRKIndexDefinition.m */,
+				919830F197D5B811B37C6DF2D723C421 /* SRKIndexDefinition+Private.h */,
+				B247AFD771B53B604D449C0CB7955247 /* SRKIndexProperty.m */,
+				1A28A6B35BECAAA38A3CCB3191B258C1 /* SRKJoinObject.h */,
+				57F8ADB9FAE4F6D11A60840D330D697C /* SRKJoinObject.m */,
+				8F1DC17BBAC5AD10793003D29E18F5ED /* SRKLazyLoader.h */,
+				26B4300C809F4171D829C67730E100E5 /* SRKLazyLoader.m */,
+				6872E95E79DDEA15DAE0071416858D7F /* SRKObject.m */,
+				CC1E8FCC7386BCB469B9005F75DE554C /* SRKQuery.m */,
+				66500056FA47FCC25745B134C254AF3C /* SRKQuery+Private.h */,
+				3036A68D5003EA344AE057AFC1D54F5B /* SRKQueryAsyncHandler.m */,
+				EFAA33B94DBC698605F041ED8E8AD869 /* SRKQueryAsyncHandler+Private.h */,
+				8519C9F414E6FC7484FD6E65869AA7F9 /* SRKQueryProfile.m */,
+				8CB9619F7DF1C5D4E4B81AEE9F2F3648 /* SRKRawResults.m */,
+				F45070CDA1AFC8DB24FD84D5707C19BD /* SRKRegistry.h */,
+				4351FC88E60F2733B2CC9772EB180B65 /* SRKRegistry.m */,
+				A560488F77C9E28D5661ED6A1AA213AB /* SRKRegistryEntry.h */,
+				4967A6A23267393EB1CF9F698CE24370 /* SRKRegistryEntry.m */,
+				1FD2683CEAEA25E8643973FD967EABF6 /* SRKRelationship.h */,
+				23A529C7B49CF570CEC3E9FF76CDE595 /* SRKRelationship.m */,
+				B6D5ACD10A721F98D9D68E4F052F9C5B /* SRKResultSet.m */,
+				44575D9AD88865A9BBF11C4E1965C53A /* SRKResultSet+Private.h */,
+				DC5BE69F1B9BE7CBB71CCA9F8A43DF2E /* SRKSettings.m */,
+				451D564BDF1EFDFE98E9031B728E152F /* SRKSQLiteHandle.h */,
+				AFF9644C8339662FB9CCA4281E964399 /* SRKSQLiteHandle.m */,
+				A244FF3DCC9971D35DC4C3D83F02243F /* SRKStringObject.m */,
+				63F00D32190AC5BBC7B5F4571A4AFB1F /* SRKSyncNodesList.h */,
+				2814A1ED1A4EA24E88D2E2E568C0563C /* SRKSyncNodesList.m */,
+				56D48E9F3EA93DDB72BADBDC27F5DD18 /* SRKSyncObject.m */,
+				C5DA08C1BE0A26E32D5F27A1A3700E0F /* SRKSyncObject+Private.h */,
+				5CB7AAA2DDD3454718D2FF1D24E83B30 /* SRKSyncOptions.h */,
+				70401FAE8B9307493E13E12465CA2959 /* SRKSyncOptions.m */,
+				ED48F4EFD7570DBECAD80A5B3BADC06B /* SRKSyncRegisteredClass.h */,
+				B1A7E449B7362B8BE7DB31E444538558 /* SRKSyncRegisteredClass.m */,
+				4409C11DC8B501F3901633E14A40A5EA /* SRKTransaction.m */,
+				552156E5F1DA822D67DAC7B6A156A92C /* SRKTransaction+Private.h */,
+				CBB8B3AF10AADF89722C394DEC690628 /* SRKTransactionInfo.h */,
+				4E6911821263EF130DB06662E3057B2F /* SRKTransactionInfo.m */,
+				C31BC714152CBC7DEBD350E835B8C121 /* SRKUnsupportedObject.h */,
+				6F9B528B5B414E75EDF3ADE546ECEA5C /* SRKUnsupportedObject.m */,
+				105A181CB180EC9064081EDA9F4AA81C /* SRKUtilities.h */,
+				21C37462306E0135254AAECDEC410D52 /* SRKUtilities.m */,
+				4A1F281D77943A48E9912A0BA1441A06 /* SyncComms.h */,
+				F13A8C4C7614EEF7C34F6382B71BF4C3 /* SyncComms.m */,
+				42382E9BDCE410DCFA15816F5D4F4F9B /* SyncNetwork.h */,
+				CF2304568FFFA62FC2A1AF5374D64CD0 /* SyncNetwork.m */,
+				1B09B4082038AAE919C2334AB14DFC03 /* SyncRequest.h */,
+				1892BA94B342DBAB8BE898DA9EBEA6E5 /* SyncRequest.m */,
+				1FDFA9A6E5ACF1AE5E9916FC4233097F /* SyncService.h */,
+				CA104AE6DCEDB848B327FCD0FE49255E /* SyncService.m */,
+				64D30A38A5679EA0A87B5F50A2B95F3F /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NumberPicker";
+			name = SharkORM;
+			path = SharkORM;
 			sourceTree = "<group>";
 		};
-		9468BCEEB01B2B82F01ACE61D974D0E6 /* Pods */ = {
+		851DAA030D39EC9C55CD708F9A5B3237 /* FontAwesome.swift */ = {
 			isa = PBXGroup;
 			children = (
-				1C6835FB7E5B4692C1D8F8031B53D62C /* NumberPicker */,
-				EC9CDCB0A13903EF3540D2737B523A94 /* SharkORM */,
+				A43B2D373B6FBBAC735FF749ECC2FDBF /* Enum.swift */,
+				724E687AB70DC398FC23D4B707B7B76C /* FontAwesome.swift */,
+				BDD00D643881CCA15382E8B4F8B7FA94 /* FontAwesomeBarButtonItem.swift */,
+				83DDDA019E4809D92D494ABA9D171BEC /* FontAwesomeExtension.swift */,
+				4FA18A18EF9BA5EF006ECFDBEF593694 /* FontAwesomeImageRepresentable.swift */,
+				701BCCA766368311E0034300B4CEF1A0 /* FontAwesomeImageView.swift */,
+				269DB92D8C482F20A00CCF8E667889EA /* FontAwesomeSegmentedControl.swift */,
+				6A8A92C1EFC94664D3193F3C0C780CC5 /* FontAwesomeStateRequirement.swift */,
+				BDF2C129196EF7B10CE888D2E1D2DD74 /* FontAwesomeTabBarItem.swift */,
+				D268E69FF6D32E54799C0736E23385B0 /* FontAwesomeTextRepresentable.swift */,
+				1788EF9BD18B79F80BA4AF0A3583F899 /* FontAwesomeView.swift */,
+				5FE3C0A16018DB17A970492C4A4CE5B9 /* Resources */,
+				D0EA124EF33EDBBA1153DFC093FF61DA /* Support Files */,
 			);
-			name = Pods;
+			name = FontAwesome.swift;
+			path = FontAwesome.swift;
 			sourceTree = "<group>";
 		};
-		9FF1897AC71A8C8AA70182B9BB6FD595 /* Support Files */ = {
+		97E7E7B7255F5711E366FB51F2C9B076 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				099D2897295C7D0CE8687F810B47C8B5 /* SharkORM.modulemap */,
-				62EF2E0CF21EBD758A9F9566EBF4C7CB /* SharkORM.xcconfig */,
-				8AEB72A912DCAC8CC8F3C1AF65B9811C /* SharkORM-dummy.m */,
-				E8C6D5D00CA171F147051DFE9889FA06 /* SharkORM-Info.plist */,
-				2F4C2FCE51FFF9EFA5A47BED5E7F7242 /* SharkORM-prefix.pch */,
+				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */,
+				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
+				C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */,
+				BC13C5EEC143ADA103CA339F05024018 /* NumberPicker.framework */,
+				210FD9AE772EC983AE8B76FAF8084AF0 /* Pods_eprimora.framework */,
+				169C324099934C87E6B23680FCB35388 /* SharkORM.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SharkORM";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9468BCEEB01B2B82F01ACE61D974D0E6 /* Pods */,
-				6F81A75C9439FA224D0A3AC993E928F6 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E0A3A27754BB6FB1EE5CDEEA52BE08D9 /* Pods */,
+				97E7E7B7255F5711E366FB51F2C9B076 /* Products */,
 				4C706F681B2FC34902C8F3F4FD9180A9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D0EA124EF33EDBBA1153DFC093FF61DA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				A750E8960ACB559F92516C703EB725CB /* FontAwesome.swift.modulemap */,
+				4E265812A2412FBE106C05C1211D6881 /* FontAwesome.swift.xcconfig */,
+				FE290A7B51C6C0EAB57131DBF110832F /* FontAwesome.swift-dummy.m */,
+				021B0BB2CF7814C1A455435DAB43D628 /* FontAwesome.swift-Info.plist */,
+				8879CBBACB7EB4128D8B97A4E83E5014 /* FontAwesome.swift-prefix.pch */,
+				A717711AB5CA85E8ADE7ED52C6054DC8 /* FontAwesome.swift-umbrella.h */,
+				78C76268F5C2955D9ADA7EA1D7919B53 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
 			sourceTree = "<group>";
 		};
-		EC9CDCB0A13903EF3540D2737B523A94 /* SharkORM */ = {
+		E0A3A27754BB6FB1EE5CDEEA52BE08D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5ED4B002C198326BBB0B01BA741C0967 /* SharkORM.h */,
-				6A8726FA9BE6A402E1C1EB16C4C544F8 /* SharkORM.m */,
-				777D4BB98B833C97A4F6CE305CD1969A /* SharkORM+Private.h */,
-				A462E803D1684987E1D4DE2625446106 /* SharkSchemaManager.h */,
-				F7A6DE6D9440DA94B2C07354DBBA7CFA /* SharkSchemaManager.m */,
-				E89F582E18598DCD1DB659A6CDCE0E94 /* SharkSync.m */,
-				111F49B67970A5D58B92F5CA283DB3B5 /* SharkSync+Private.h */,
-				4F63BD5E47241588196103C087870571 /* SharkSyncChange.h */,
-				64672FDD7CFDC54051AD625B413E07E3 /* SharkSyncChange.m */,
-				A21DF74F06144EB1E68DB2901F84C726 /* SharkSyncGroup.h */,
-				E1B8BC20FFBA6D84517655CE967DB930 /* SharkSyncGroup.m */,
-				DA12B75CF2635F54522D6DEB8F71B079 /* sqlite3.c */,
-				B5EAF8C2CA21004119FA9EA732204F74 /* sqlite3.h */,
-				F0167D254DCFC6E14C0F28F4181CC409 /* sqlite3ext.h */,
-				8EFFA362E0537010F8AA218A674DADC9 /* SRKAES256Extension.h */,
-				4835850EBC938F74246DAB188D8679BB /* SRKAES256Extension.m */,
-				D52BF950202658882033F26C81AA6036 /* SRKCommitOptions.m */,
-				A07F5CDBFE287C042B866319A9BBAFC2 /* SRKCommitOptions+Private.h */,
-				42CE001CB686C71FAB8AE877EAF5FF9F /* SRKCompoundIndex.m */,
-				D8046A6BF8245FA3AABDCA4D79A6FFD9 /* SRKCompoundIndex+Private.h */,
-				DCFF9D68B2EB35654A0A093DAEC650F8 /* SRKContext.h */,
-				4B3B66968EB2AF723413FD232D44C570 /* SRKContext.m */,
-				F9E7B3B0AB4595D7C996C71A678D2BCC /* SRKDeferredChange.h */,
-				DC7D419AB5168FF3281DF6E0F7548266 /* SRKDeferredChange.m */,
-				F6ADB1B4C30511E4EBBBD874B96F5A75 /* SRKDefinitions.h */,
-				134E8AD17DEBB07F3CB8DF43003BA6F8 /* SRKDefunctObject.h */,
-				0B5CE67860DBC7958F96FAB683033378 /* SRKDefunctObject.m */,
-				4FE0849D3D29A846C74CA3D757828328 /* SRKEncryptedObject.h */,
-				E487D7015A1CB8703B16F5F8EB2A19BC /* SRKEncryptedObject.m */,
-				2A1341BA9F0FCA4B45470FBDD6A30B70 /* SRKEntity.m */,
-				A745F5D071E18B16AABA5B2E383857D2 /* SRKEntity+Private.h */,
-				F4BC9235339D7153AFC7B867A5FD1AD2 /* SRKEntityChain.h */,
-				AB726CEB4007CEF949C755046C1D06E5 /* SRKEntityChain.m */,
-				E151FC042750BFB56F7AB5CD44A9618C /* SRKError.m */,
-				80296935E75B46CC88A9DD0502327BD4 /* SRKEvent.m */,
-				F52D4FD3BE0BB97AB044FC64DF6D332E /* SRKEventBlockHolder.h */,
-				B6B298BD8B74C0B283CB5C978AB40CB9 /* SRKEventBlockHolder.m */,
-				4DA9A57FECD40D3170B84F3BE0929ECD /* SRKEventHandler.m */,
-				2706F197ACA5289EC62EF8585BB89A07 /* SRKEventHandler+Private.h */,
-				56F34213E2792D6D6E6737E778301329 /* SRKEventRegistryObject.h */,
-				8C8FB9CE7DCE3BD4B10DDAB25921B6EC /* SRKEventRegistryObject.m */,
-				AC4987EA85FCB202E106C2A8D14B5773 /* SRKGlobals.h */,
-				9FC1CB467135727213B147B6BF4EF116 /* SRKGlobals.m */,
-				DD37F164ED78A67EE100132377F5AEF0 /* SRKIndexDefinition.m */,
-				E321A9E747BFE7A3F6984A78B21A65E7 /* SRKIndexDefinition+Private.h */,
-				4398FE7A85268577FD67B26E26B6FF30 /* SRKIndexProperty.m */,
-				C874FA4B95004347AAB308063431A4F4 /* SRKJoinObject.h */,
-				85E19915FF5430778C80E8A25F416C7B /* SRKJoinObject.m */,
-				B5F75072E96AE6939C325F42BD7C3E6D /* SRKLazyLoader.h */,
-				A3CAF745CB70CA44FA48E502902B36C3 /* SRKLazyLoader.m */,
-				4A0F859CCDDF8F666149A443600D78CF /* SRKObject.m */,
-				71308F7137B32513A2924318B5F03A8D /* SRKQuery.m */,
-				6B77CF1F9A7E91176CD7C7F3FB172CB7 /* SRKQuery+Private.h */,
-				3BB41A7E2A4A6E1E176AFE795F835056 /* SRKQueryAsyncHandler.m */,
-				0A93B17D5E89CC287FD3586545896C3D /* SRKQueryAsyncHandler+Private.h */,
-				5F718B4403CBFFC8C4FDA7CE8CDF6DAA /* SRKQueryProfile.m */,
-				29039D1914843166AF48311F78F4745B /* SRKRawResults.m */,
-				B0DC55234A413B35EC31A9165C605777 /* SRKRegistry.h */,
-				5DA9611933B1EC6D832F4E67AFD8659D /* SRKRegistry.m */,
-				ED3E83210212936CDDD77F5C67A50EFA /* SRKRegistryEntry.h */,
-				0DC66BE437D4678F6E7BF45CD3029A73 /* SRKRegistryEntry.m */,
-				97120C5DD9F6B8891FF9D8A84C149517 /* SRKRelationship.h */,
-				74A747789AB836FFEC6F7F61DC338696 /* SRKRelationship.m */,
-				FB56B2D0BE102F9A07BB3A0073882281 /* SRKResultSet.m */,
-				036A8BECF77A90019EED9D852AAFDBB9 /* SRKResultSet+Private.h */,
-				50F7D175CAD681AE3CE8342971A98E9D /* SRKSettings.m */,
-				383007BF3B4631705035380205BF41E6 /* SRKSQLiteHandle.h */,
-				506EFC54C42318F0B444B7815CF75B96 /* SRKSQLiteHandle.m */,
-				561C138E0916204ABBE04123B254DAC2 /* SRKStringObject.m */,
-				F38FD7A5FCB0E51BB698D6BC84C914E0 /* SRKSyncNodesList.h */,
-				485EF3992B8E2F78D66C1F48AD90D53C /* SRKSyncNodesList.m */,
-				F4B13E3848A5F5F1C074FD61535A4DFA /* SRKSyncObject.m */,
-				AFC5697DEDB507B15FFC9AD87CD2F45B /* SRKSyncObject+Private.h */,
-				41483F415E67A7E2964B2B64B05D96F8 /* SRKSyncOptions.h */,
-				CE0F7E02137B074E37CA3CE62B0D1502 /* SRKSyncOptions.m */,
-				0D31FD5364B8DEA04C6A347AC66E6338 /* SRKSyncRegisteredClass.h */,
-				A7620D2659374D8756293E50638E0B97 /* SRKSyncRegisteredClass.m */,
-				7CA1FC0F682F39F88B2D4E6F184406D5 /* SRKTransaction.m */,
-				D4B1C95DC72587837578E6A2E2177F98 /* SRKTransaction+Private.h */,
-				6B9F5F9156DF7170DC21D6F664799BA8 /* SRKTransactionInfo.h */,
-				0733CBCB7B13CC68170C7A291F82FB69 /* SRKTransactionInfo.m */,
-				371D2F8F2A5A6DB46A10CFFCE1482F84 /* SRKUnsupportedObject.h */,
-				393C9AF91C3A1EF34D068831259178DD /* SRKUnsupportedObject.m */,
-				FEAF707630A91E1A6D400B4B39983372 /* SRKUtilities.h */,
-				1F7F9483C5F79800D4510B2E84BD40CD /* SRKUtilities.m */,
-				2798501B08F0B709FBB893C281805EE7 /* SyncComms.h */,
-				D816824D0D2129E3449FFB81C35273F0 /* SyncComms.m */,
-				3224CC3E941227AFC18D7A1FDAB4F047 /* SyncNetwork.h */,
-				8D1C232F98A208D5580489EEE04EB979 /* SyncNetwork.m */,
-				951DA0B20F4AF82D66C0C60124481DA5 /* SyncRequest.h */,
-				BA42D6ED95667B925B30264C3F655428 /* SyncRequest.m */,
-				00CAE719ED2F1AAC6BFD636A6323695E /* SyncService.h */,
-				37A0FF3DD3EF862A1D9E0BAEEC641B8E /* SyncService.m */,
-				9FF1897AC71A8C8AA70182B9BB6FD595 /* Support Files */,
+				851DAA030D39EC9C55CD708F9A5B3237 /* FontAwesome.swift */,
+				387D907D980A5DCC6A292827830BA2DA /* NumberPicker */,
+				7EBD1C0E9BE170172468B0E87722ABDA /* SharkORM */,
 			);
-			name = SharkORM;
-			path = SharkORM;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -535,11 +662,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9E7A49E45BEE8FB1691D2757348AF46 /* Headers */ = {
+		ECE4C7F4345CDC22DFD0DA8533F5F57B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B072DCDAEDB7CC106D87AC2FAED2748D /* Pods-eprimora-umbrella.h in Headers */,
+				9DE3360E24D9FE3ADA0C2162E8DBE1A5 /* FontAwesome.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F438D3D595480167B78E43EBD6C858C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BAE3981B0F62CD5C715CE4CC388438 /* Pods-eprimora-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,24 +768,61 @@
 			productReference = C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		514FB30ED07282CAAE4AAB03C965D56B /* Pods-eprimora */ = {
+		4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85F267E309A05BDB8C119463134CBDDF /* Build configuration list for PBXNativeTarget "Pods-eprimora" */;
+			buildConfigurationList = 162CE2CC222588C47F9D8623AC2D740C /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
 			buildPhases = (
-				E9E7A49E45BEE8FB1691D2757348AF46 /* Headers */,
-				8F0D4F74EFC0182C026CD5271413CA2B /* Sources */,
-				3C125EB7A89F6CEBCD9C944D0D065907 /* Frameworks */,
-				EB2BA4E1B8D93FF045781C0F4B051E8D /* Resources */,
+				A8047C3FFDA6444FE7150EE130F76CD6 /* Sources */,
+				B2E461109F7C8F6856E2B401CB6EBC27 /* Frameworks */,
+				894D7CAAA9B98700AF38B4C59C0C0BA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42C052B507F9F94F969AA493A340CCF2 /* PBXTargetDependency */,
-				CC9C2B5A0ECC1F0BA0BE4C137E411D98 /* PBXTargetDependency */,
+			);
+			name = "FontAwesome.swift-FontAwesome.swift";
+			productName = "FontAwesome.swift-FontAwesome.swift";
+			productReference = 3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		514FB30ED07282CAAE4AAB03C965D56B /* Pods-eprimora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4EA9A207F3582FA0B3C83BB2C895346 /* Build configuration list for PBXNativeTarget "Pods-eprimora" */;
+			buildPhases = (
+				F438D3D595480167B78E43EBD6C858C8 /* Headers */,
+				F3DEE21B2C8D4A3F0BF7638323C6A645 /* Sources */,
+				62F96AF46B13DB8FB3298A08BD38E542 /* Frameworks */,
+				1A0D176D62981EAAFAE476CD7E3B831C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B655161B2A7E1C5633E00B770B7F17C /* PBXTargetDependency */,
+				506BEF8A0A5EA0011DD3D83B23844FE2 /* PBXTargetDependency */,
+				AC3AA9CA0889961A42ECE6647E6C8BE9 /* PBXTargetDependency */,
 			);
 			name = "Pods-eprimora";
 			productName = "Pods-eprimora";
 			productReference = 210FD9AE772EC983AE8B76FAF8084AF0 /* Pods_eprimora.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72A36E6CAEEEF1BFE244B0DF658E365 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */;
+			buildPhases = (
+				ECE4C7F4345CDC22DFD0DA8533F5F57B /* Headers */,
+				A8925681EB2BF025BB55530B5E2900D4 /* Sources */,
+				889FC90E007AF2C9DE5C84516B57F606 /* Frameworks */,
+				F52DAFB0ECDBC2C21F9A22F311FDFDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DD140710EF752CE3A5897A912AAAA0 /* PBXTargetDependency */,
+			);
+			name = FontAwesome.swift;
+			productName = FontAwesome.swift;
+			productReference = 28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F11267DB4D5EE1D54642DD4AF5EC033C /* SharkORM */ = {
@@ -681,17 +853,19 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6F81A75C9439FA224D0A3AC993E928F6 /* Products */;
+			productRefGroup = 97E7E7B7255F5711E366FB51F2C9B076 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */,
+				4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */,
 				312C2515DD038726C0FB3BBC872539FA /* NumberPicker */,
 				404F33ED232A94416A1A7F8D462BC385 /* NumberPicker-NumberPicker */,
 				514FB30ED07282CAAE4AAB03C965D56B /* Pods-eprimora */,
@@ -706,6 +880,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9320914E24E912CE93A2DDD089F28F2 /* NumberPicker.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0D176D62981EAAFAE476CD7E3B831C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894D7CAAA9B98700AF38B4C59C0C0BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506ACADC63134125FA6DF10CF06FD027 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				55286D2DEC1DB91F601519B9649B49C2 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
+				88703EFA5F39A9C53799FB29E017AD42 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,10 +915,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB2BA4E1B8D93FF045781C0F4B051E8D /* Resources */ = {
+		F52DAFB0ECDBC2C21F9A22F311FDFDE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769E73BAE26F14766F3D2F8CC2A295EF /* FontAwesome.swift.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,14 +941,6 @@
 				A88AABB6F39D7C5BC4CDA412A5CF5C82 /* NumberPicker.swift in Sources */,
 				93F179F5224850FADA517589C06CD2E5 /* NumberPickerLineCell.swift in Sources */,
 				C2160AF518EC114F9BA238BBA5E2DF5F /* UIView+Extensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F0D4F74EFC0182C026CD5271413CA2B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AD645AB4534F00D8E20FD002E377602 /* Pods-eprimora-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -817,6 +1001,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8047C3FFDA6444FE7150EE130F76CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8925681EB2BF025BB55530B5E2900D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7A22B339CA1049C19D06C7A93DF302 /* Enum.swift in Sources */,
+				D71293F143E62C33E8676E4E6CC8DA6F /* FontAwesome.swift in Sources */,
+				0FB5FF51B597E1E0312C5F1438BAB51B /* FontAwesome.swift-dummy.m in Sources */,
+				7BFE4CB72D9AD8D1781B864B5C1EE1B6 /* FontAwesomeBarButtonItem.swift in Sources */,
+				81254017D2D4A97CBE1534E22E519329 /* FontAwesomeExtension.swift in Sources */,
+				632EC0ADDD99413F1C10964C64CF72B6 /* FontAwesomeImageRepresentable.swift in Sources */,
+				08FA521531A6DFC1209732035429ED00 /* FontAwesomeImageView.swift in Sources */,
+				8DC785D0EC04427925ED3F93017DC624 /* FontAwesomeSegmentedControl.swift in Sources */,
+				FE49B0792565E3DBA62187EBEB4E1E58 /* FontAwesomeStateRequirement.swift in Sources */,
+				C472BF180CE883EE3D8D12C5D1BFDFA7 /* FontAwesomeTabBarItem.swift in Sources */,
+				22CAB863C8E98C2BD1CEEA2381A46A34 /* FontAwesomeTextRepresentable.swift in Sources */,
+				A40FD679EA4164AAB96094D8AE90CD09 /* FontAwesomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DEE21B2C8D4A3F0BF7638323C6A645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF417E221A0D79FE3A6493D8FC37D9 /* Pods-eprimora-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -826,22 +1044,34 @@
 			target = 404F33ED232A94416A1A7F8D462BC385 /* NumberPicker-NumberPicker */;
 			targetProxy = 3EB2536158092BE8F48F129446531ED4 /* PBXContainerItemProxy */;
 		};
-		42C052B507F9F94F969AA493A340CCF2 /* PBXTargetDependency */ = {
+		46DD140710EF752CE3A5897A912AAAA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FontAwesome.swift-FontAwesome.swift";
+			target = 4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */;
+			targetProxy = D06B65A6786DC2E10084C7B8E08BEF0B /* PBXContainerItemProxy */;
+		};
+		506BEF8A0A5EA0011DD3D83B23844FE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NumberPicker;
 			target = 312C2515DD038726C0FB3BBC872539FA /* NumberPicker */;
-			targetProxy = E8092A1B95657BD07863E745F45EA908 /* PBXContainerItemProxy */;
+			targetProxy = 1F01781DBDF8025237A95435D7805B10 /* PBXContainerItemProxy */;
 		};
-		CC9C2B5A0ECC1F0BA0BE4C137E411D98 /* PBXTargetDependency */ = {
+		9B655161B2A7E1C5633E00B770B7F17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */;
+			targetProxy = 6E7A8BB2007268BDB2E68DC7A878589D /* PBXContainerItemProxy */;
+		};
+		AC3AA9CA0889961A42ECE6647E6C8BE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SharkORM;
 			target = F11267DB4D5EE1D54642DD4AF5EC033C /* SharkORM */;
-			targetProxy = 1115AB3AB4EED2CFC0CF059F947D1BBF /* PBXContainerItemProxy */;
+			targetProxy = A732CC36DC4C8E055DDD94F04855F785 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07D2238A1AB4825EA836453725FF85C2 /* Debug */ = {
+		074DDBD24E07286FA46F69BDDF9AB556 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53E587111C137AAF271CEAEC1EF28346 /* Pods-eprimora.debug.xcconfig */;
 			buildSettings = {
@@ -879,9 +1109,25 @@
 			};
 			name = Debug;
 		};
+		0D55D58CB3BF58392F364A398DA89209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E265812A2412FBE106C05C1211D6881 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		18A741609427CCC76796ED64EE9E4BC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */;
+			baseConfigurationReference = 4B42ACEDFA1CA98AE2520EC29AEBA2F5 /* NumberPicker.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -981,7 +1227,7 @@
 		};
 		26E7DA99C9D6125F86E8AFC5E8E72FA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */;
+			baseConfigurationReference = 4B42ACEDFA1CA98AE2520EC29AEBA2F5 /* NumberPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumberPicker";
@@ -992,6 +1238,81 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2C124DF7A47209A316F7950254079AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E265812A2412FBE106C05C1211D6881 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesome_swift;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36F8B6595867F1269AACA2F0EAB3B82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFD3C9513690A004486EA414C6EFA2E /* Pods-eprimora.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eprimora/Pods-eprimora-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eprimora/Pods-eprimora.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1055,48 +1376,9 @@
 			};
 			name = Release;
 		};
-		7F503ABEBB45E12430E3D324CD3658F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CFD3C9513690A004486EA414C6EFA2E /* Pods-eprimora.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-eprimora/Pods-eprimora-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-eprimora/Pods-eprimora.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9CB3139B60565A7B3B9FA1DD4951AAAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62EF2E0CF21EBD758A9F9566EBF4C7CB /* SharkORM.xcconfig */;
+			baseConfigurationReference = 32F7C0D68D84682B3CF2B9363803BF22 /* SharkORM.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1132,7 +1414,7 @@
 		};
 		AB51B88885B729DD4E853C0BA7C26F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */;
+			baseConfigurationReference = 4B42ACEDFA1CA98AE2520EC29AEBA2F5 /* NumberPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumberPicker";
@@ -1148,7 +1430,7 @@
 		};
 		CAE6DDD804967D82A3C820014C0BD94D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62EF2E0CF21EBD758A9F9566EBF4C7CB /* SharkORM.xcconfig */;
+			baseConfigurationReference = 32F7C0D68D84682B3CF2B9363803BF22 /* SharkORM.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1181,9 +1463,44 @@
 			};
 			name = Debug;
 		};
+		D1BAA4E174B801062C356040BA9F2063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E265812A2412FBE106C05C1211D6881 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesome_swift;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D763500B1E4C56441537F737EAE8BF11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */;
+			baseConfigurationReference = 4B42ACEDFA1CA98AE2520EC29AEBA2F5 /* NumberPicker.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1218,9 +1535,34 @@
 			};
 			name = Release;
 		};
+		DE373C0A0C90FF7FC6D3657592A3F4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E265812A2412FBE106C05C1211D6881 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		162CE2CC222588C47F9D8623AC2D740C /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D55D58CB3BF58392F364A398DA89209 /* Debug */,
+				DE373C0A0C90FF7FC6D3657592A3F4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1239,20 +1581,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85F267E309A05BDB8C119463134CBDDF /* Build configuration list for PBXNativeTarget "Pods-eprimora" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07D2238A1AB4825EA836453725FF85C2 /* Debug */,
-				7F503ABEBB45E12430E3D324CD3658F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A313E277BB9E99EF437D693F33359501 /* Build configuration list for PBXNativeTarget "NumberPicker-NumberPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB51B88885B729DD4E853C0BA7C26F79 /* Debug */,
 				26E7DA99C9D6125F86E8AFC5E8E72FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4EA9A207F3582FA0B3C83BB2C895346 /* Build configuration list for PBXNativeTarget "Pods-eprimora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074DDBD24E07286FA46F69BDDF9AB556 /* Debug */,
+				36F8B6595867F1269AACA2F0EAB3B82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72A36E6CAEEEF1BFE244B0DF658E365 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BAA4E174B801062C356040BA9F2063 /* Debug */,
+				2C124DF7A47209A316F7950254079AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

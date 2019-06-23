@@ -75,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				4CE14474225C2FDA0078B979 /* eprimora */,
-				4CE14473225C2FDA0078B979 /* Products */,
 				19CAE1DDC3AAAB662A67EDA8 /* Pods */,
 				FC23ADBEE3165AFBD3520903 /* Frameworks */,
 			);
@@ -87,6 +86,7 @@
 				4CE14472225C2FDA0078B979 /* eprimora.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4CE14474225C2FDA0078B979 /* eprimora */ = {
@@ -101,6 +101,7 @@
 				4CE1447E225C2FDB0078B979 /* LaunchScreen.storyboard */,
 				4CE14481225C2FDB0078B979 /* Info.plist */,
 				4C98B93122C00F050014DE3F /* PotenciaMedia.json */,
+				4CE14473225C2FDA0078B979 /* Products */,
 			);
 			path = eprimora;
 			sourceTree = "<group>";

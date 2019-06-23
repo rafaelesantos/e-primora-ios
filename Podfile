@@ -8,5 +8,6 @@ target 'eprimora' do
   # Pods for eprimora
   pod 'SharkORM'
   pod 'NumberPicker'
+  pod 'FontAwesome.swift'
   
 end
