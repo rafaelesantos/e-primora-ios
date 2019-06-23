@@ -7,5 +7,6 @@ target 'eprimora' do
 
   # Pods for eprimora
   pod 'SharkORM'
+  pod 'NumberPicker'
   
 end

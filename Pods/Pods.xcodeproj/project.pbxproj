@@ -7,236 +7,278 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01314E35952AB4EA8A4B95875D114FF6 /* SharkSyncChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D31984733D1A8A9AE4B0B5C1FC9AF95 /* SharkSyncChange.m */; };
-		03881A5249048030EB9C0DA05214F805 /* SRKLazyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF49697DD4A93A3B6C0515C8BA20E0 /* SRKLazyLoader.m */; };
-		056DFA2AA0F9DAD4898088516BA7FFDB /* SharkORM.m in Sources */ = {isa = PBXBuildFile; fileRef = 3261F98E632C19B93D2A657AAA7A7895 /* SharkORM.m */; };
-		0B5E62B93FA288343082C9911001F33E /* SyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDB871493A97B0B91E2A293ED0B37B /* SyncService.m */; };
-		0C7294EE90A6C656CD18FDEA3B7049D0 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 01973DF24F88526EF223C534B277FF98 /* sqlite3.c */; };
-		0E7103BD5F1466D7DF62CF18A4DB6247 /* SRKCompoundIndex+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD6F9003A640F0FDA3D72D2FB10A941 /* SRKCompoundIndex+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12041AE7F261F4808C47DDF30644353F /* SRKDefunctObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8CBF6DF394248AD5C0AC7EA823E912 /* SRKDefunctObject.m */; };
-		167FAB0D612B71609C1C9A85ABF5DB51 /* SRKIndexDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1AC62DEB592286E18C0CEB3030A7EA /* SRKIndexDefinition.m */; };
-		191CE24B3D98479A327822CE81DF344E /* SRKAES256Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 041782051EF23A96CD98AA14BCC8296C /* SRKAES256Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DC951CF981782A1E4410B701F1AFE00 /* SyncRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C899A2DEB9F09DF376BAF5173E860C /* SyncRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		292BEE45127CE4F8BA6013CA17DF9252 /* SharkSyncGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBB568490C02C102B69224CF1E951F /* SharkSyncGroup.m */; };
-		2ACE2F7656F5FCCAA603D77D61DA9DCB /* SRKSyncObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E646C720A0E529A9C831BE746C24519C /* SRKSyncObject.m */; };
-		2CB904FC3693D96A83653FEA91891ED2 /* SRKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EEDE2C5CA7BA3FF4C13F90F98AC25E /* SRKEvent.m */; };
-		2D1FE955128D8DC6FA5FEB8041D97A48 /* SRKLazyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB2317ABCC4E0C96DB7FE5BE2E9EE31 /* SRKLazyLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3503B5349093EACDC9498947D301D631 /* SRKQueryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = A36BFD3807D8029E1F73F6A345A56D2C /* SRKQueryProfile.m */; };
-		35A33458F35669587B876212538BC562 /* SRKEventRegistryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E09A5F765315EAFD7CAF3AC049F2EB1 /* SRKEventRegistryObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3798407B92E3A33233BFA2953B5416A5 /* SRKDeferredChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 659546F61ED4148031A7C2FC79F4FE4F /* SRKDeferredChange.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3968A87093F25D579EF9CEBBB668F79B /* SRKQueryAsyncHandler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EED72098816802CFE5BFF060E5DEBA1 /* SRKQueryAsyncHandler+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3EA2C7125C40AB301B09CB7341B97491 /* SRKEventRegistryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A02995353A021B158402AECA89553 /* SRKEventRegistryObject.m */; };
-		3EB3AC38FAFCDED57006954AEA8F2892 /* SharkSchemaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD7085F038BEBCF12B77372D8FBE7C /* SharkSchemaManager.m */; };
-		41E88AAEA9B194D018085D9CA897D996 /* SRKDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 272B9F70FDAC91408D79B5119F9DECC4 /* SRKDefinitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		517ACE974648340DFBACD94C054D2FAE /* SRKCommitOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8FE8451F0A7A5CF49F7303CF2C990A /* SRKCommitOptions.m */; };
-		522C8BC92EA877E8E22C2760CA1D25D3 /* SRKResultSet+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F9264748E93739ED4ABB7994C94660 /* SRKResultSet+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5232642BD9C7311DF89D0B5012349958 /* SRKCommitOptions+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B8048946653C58CE31D6F8E157EDBB /* SRKCommitOptions+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C370BE64CCD364AF32D4CBE288EAFB9 /* SharkORM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A05286C34B1D6E61EC2EAA7DA58038B0 /* SharkORM-dummy.m */; };
-		5D8EBB0378BD008B63A161979FF7D277 /* SRKAES256Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A7266F80C46534FD2C4AF5A0240E6336 /* SRKAES256Extension.m */; };
-		6391BF0508337838E9511069A2032CF2 /* SyncComms.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D0416C60A1B5766B106F107E601144 /* SyncComms.m */; };
-		669903B74FF7C9EA73EFCA0B17EFD762 /* SRKIndexDefinition+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF0D1F564544B9F5D07B8DB6DD2957C /* SRKIndexDefinition+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		68A62936379B52B3BB4F3613ADEEB17C /* SRKJoinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 633EB2C463B2A027D376E6BA2494CF0E /* SRKJoinObject.m */; };
-		69B9CFBF3399300C3EF03C008D1EA0EC /* SRKError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B33F621C15B41D067347CB0246394F3 /* SRKError.m */; };
-		6D06BF5D9F5867BCBCC0E349D3F72A7A /* SharkSync+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDD36CB8AB104B2D4EE1B491F91C5A5 /* SharkSync+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6DCC3301E80FD80984CD24C8F6582BE7 /* SRKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EED1F4270C788F58FCC56B6BE25DEC3 /* SRKUtilities.m */; };
-		6EC146FBB6C9239BED7D52A883518875 /* SRKEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D087F7698B6EBD351DC71E2F63361C05 /* SRKEntity.m */; };
-		6EF6665C2687E404963F928AE21ADE6D /* Pods-eprimora-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6959D27FF54C0C9D2A8763AF348FA339 /* Pods-eprimora-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		708B3E9FC80D7E83041BB50AC314CC52 /* SRKUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B20C18870F582E5558244E93240D91D /* SRKUnsupportedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		725CCB0E5DD1A75F1AAB88220912244D /* SRKDefunctObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FB83AA0A9D0798A78802524B5F6545 /* SRKDefunctObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		738A7DAAF6D4F559BD16D176C99549C9 /* SRKSyncNodesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEDA5EDA55BD3DDEBF85EF4C2EDE769 /* SRKSyncNodesList.m */; };
-		7395E1C95BDEA466C6D119B89A0713B9 /* SRKRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7C04E62151774A0ADA74CE7BE1F70 /* SRKRelationship.m */; };
-		74C8F4A90DEB0EEBAE95D65B48B1CF5E /* SyncComms.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F3BF5E92595E1198C6CF00CFE60A19 /* SyncComms.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		76D62EAFE7EB488D03956C510A611941 /* SRKRawResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 480CF9637FA5D25ADDED18D7AD3B8B33 /* SRKRawResults.m */; };
-		78B040449204FF48AFA490E3F11EA520 /* SRKContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C49D46A8220661B9E08FEBC605F4EA /* SRKContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7D20594E00793F5377EF0441D8E2BF15 /* SRKIndexProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD212EC00D956923A104F1FE88123E9 /* SRKIndexProperty.m */; };
-		8024B4B42F27E7201444EA21EB286B22 /* SRKEncryptedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BF817146D1EB082B6456872B45536ECC /* SRKEncryptedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		818A05002FDA4E205599DF42DA80665E /* SRKSQLiteHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 103ED82965FFB643916E76F3C3223491 /* SRKSQLiteHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		827BE414B4B68BD97BF6FE03773C7F64 /* SRKResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DFE656B5A298655AC31D46F9F9A7E4 /* SRKResultSet.m */; };
-		8465CF2637B1BD1DE6CEC26785A2F19D /* SyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F40EA2D412083FB12CDF1062D9D62 /* SyncRequest.m */; };
-		84EBDBB4FEFBFAF372D9D6A1FD0936DA /* Pods-eprimora-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7827AED4167041AAA360C1BFC3D830 /* Pods-eprimora-dummy.m */; };
-		8578643B2F268C1C0405D5B4104E5006 /* SharkORM.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BBCFD5273DAF292C8EB8DCEA526F77 /* SharkORM.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85C150E366FC5457E947CA2F31D68E88 /* SRKJoinObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F98B416A33A00096F1E72672115F928 /* SRKJoinObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		88E5CDE5B57F3ED058C6560A6F31A77C /* SRKEventBlockHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEAE36223C4D54C716AE67096DD3697 /* SRKEventBlockHolder.m */; };
-		8D7DA44EBDF4252D46B551DA1F95EDD5 /* SRKStringObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9C82210F664FD31120DB004E5F34CF /* SRKStringObject.m */; };
-		8DDEDF4EF2C42048BC056E3C8B706C97 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = A81D8CA3259E292650DC325316571933 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8F6B7FFB164AFD8FDC046E30D37684BD /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D70874DF5473AF3C1B1064AC8AD51B /* sqlite3.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8FBBD4BEA94399BFE439FFE2809B30E6 /* SharkSchemaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF15BD0A98A26D4D9E9040D71B810915 /* SharkSchemaManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9169CAECF86998DF4AA22BBEF85CEF66 /* SRKSyncObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8FF6A739E90E05D8DC15DCB2A2532D /* SRKSyncObject+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		92FAF7B92B94BE415A0C6C933AE47A67 /* SRKSyncRegisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FA57926F2F6F3CBE2DB970C658DD8 /* SRKSyncRegisteredClass.m */; };
-		95FDE6EC1AD4DF56621B641E36BBA02B /* SRKSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6E2B8DA0B7070A7F44D0273B2F5A99 /* SRKSettings.m */; };
-		9A510E68582B751EA50568B7C9DA0EDA /* SRKEncryptedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51311AE7FE07BAF8E5C4EDF3BBE03B /* SRKEncryptedObject.m */; };
-		A6295200D751E8ECBEBDB4F8D968C7F9 /* SRKRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2CB40D6154D9425534559D30C8833 /* SRKRegistry.m */; };
-		A698580DC1981176CBBE861D2A66C9D3 /* SRKTransaction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E71F6ECF9F4F2477398BFCEA0F8983E /* SRKTransaction+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A7188463C7AD2F65981522FA5F8B3BCE /* SyncNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E4C3EB2E0C46E9D75B4F5E75488BFE2 /* SyncNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A73E7A9061540ECD1CAC2E823E2BA443 /* SRKTransactionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F261D885F4193A15C9072F95F0B9E3 /* SRKTransactionInfo.m */; };
-		A7A9660AF5B6A163CF290953975B413F /* SRKQueryAsyncHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE43074BB673BE35AB45660814D22FD /* SRKQueryAsyncHandler.m */; };
-		A8C942B76AE447156EA83A7BA29E05EB /* SRKEntity+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 228FB993E274CAF35B7E4705758206E7 /* SRKEntity+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01314E35952AB4EA8A4B95875D114FF6 /* SharkSyncChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 64672FDD7CFDC54051AD625B413E07E3 /* SharkSyncChange.m */; };
+		03881A5249048030EB9C0DA05214F805 /* SRKLazyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CAF745CB70CA44FA48E502902B36C3 /* SRKLazyLoader.m */; };
+		056DFA2AA0F9DAD4898088516BA7FFDB /* SharkORM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8726FA9BE6A402E1C1EB16C4C544F8 /* SharkORM.m */; };
+		0B5E62B93FA288343082C9911001F33E /* SyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A0FF3DD3EF862A1D9E0BAEEC641B8E /* SyncService.m */; };
+		0C7294EE90A6C656CD18FDEA3B7049D0 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = DA12B75CF2635F54522D6DEB8F71B079 /* sqlite3.c */; };
+		0E7103BD5F1466D7DF62CF18A4DB6247 /* SRKCompoundIndex+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8046A6BF8245FA3AABDCA4D79A6FFD9 /* SRKCompoundIndex+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12041AE7F261F4808C47DDF30644353F /* SRKDefunctObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CE67860DBC7958F96FAB683033378 /* SRKDefunctObject.m */; };
+		167FAB0D612B71609C1C9A85ABF5DB51 /* SRKIndexDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DD37F164ED78A67EE100132377F5AEF0 /* SRKIndexDefinition.m */; };
+		191CE24B3D98479A327822CE81DF344E /* SRKAES256Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFFA362E0537010F8AA218A674DADC9 /* SRKAES256Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AD645AB4534F00D8E20FD002E377602 /* Pods-eprimora-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7827AED4167041AAA360C1BFC3D830 /* Pods-eprimora-dummy.m */; };
+		1DC951CF981782A1E4410B701F1AFE00 /* SyncRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 951DA0B20F4AF82D66C0C60124481DA5 /* SyncRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		292BEE45127CE4F8BA6013CA17DF9252 /* SharkSyncGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B8BC20FFBA6D84517655CE967DB930 /* SharkSyncGroup.m */; };
+		2ACE2F7656F5FCCAA603D77D61DA9DCB /* SRKSyncObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B13E3848A5F5F1C074FD61535A4DFA /* SRKSyncObject.m */; };
+		2CB904FC3693D96A83653FEA91891ED2 /* SRKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 80296935E75B46CC88A9DD0502327BD4 /* SRKEvent.m */; };
+		2D1FE955128D8DC6FA5FEB8041D97A48 /* SRKLazyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F75072E96AE6939C325F42BD7C3E6D /* SRKLazyLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D55B8795D70ABC2CF06DFA2E4819C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3503B5349093EACDC9498947D301D631 /* SRKQueryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F718B4403CBFFC8C4FDA7CE8CDF6DAA /* SRKQueryProfile.m */; };
+		35A33458F35669587B876212538BC562 /* SRKEventRegistryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F34213E2792D6D6E6737E778301329 /* SRKEventRegistryObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3798407B92E3A33233BFA2953B5416A5 /* SRKDeferredChange.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E7B3B0AB4595D7C996C71A678D2BCC /* SRKDeferredChange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3968A87093F25D579EF9CEBBB668F79B /* SRKQueryAsyncHandler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A93B17D5E89CC287FD3586545896C3D /* SRKQueryAsyncHandler+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EA2C7125C40AB301B09CB7341B97491 /* SRKEventRegistryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8FB9CE7DCE3BD4B10DDAB25921B6EC /* SRKEventRegistryObject.m */; };
+		3EB3AC38FAFCDED57006954AEA8F2892 /* SharkSchemaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6DE6D9440DA94B2C07354DBBA7CFA /* SharkSchemaManager.m */; };
+		41E88AAEA9B194D018085D9CA897D996 /* SRKDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ADB1B4C30511E4EBBBD874B96F5A75 /* SRKDefinitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D298A3DA32DD95C5E123BAAF121CF18 /* NumberPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */; };
+		517ACE974648340DFBACD94C054D2FAE /* SRKCommitOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D52BF950202658882033F26C81AA6036 /* SRKCommitOptions.m */; };
+		522C8BC92EA877E8E22C2760CA1D25D3 /* SRKResultSet+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 036A8BECF77A90019EED9D852AAFDBB9 /* SRKResultSet+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5232642BD9C7311DF89D0B5012349958 /* SRKCommitOptions+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A07F5CDBFE287C042B866319A9BBAFC2 /* SRKCommitOptions+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C370BE64CCD364AF32D4CBE288EAFB9 /* SharkORM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB72A912DCAC8CC8F3C1AF65B9811C /* SharkORM-dummy.m */; };
+		5D8EBB0378BD008B63A161979FF7D277 /* SRKAES256Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4835850EBC938F74246DAB188D8679BB /* SRKAES256Extension.m */; };
+		6391BF0508337838E9511069A2032CF2 /* SyncComms.m in Sources */ = {isa = PBXBuildFile; fileRef = D816824D0D2129E3449FFB81C35273F0 /* SyncComms.m */; };
+		669903B74FF7C9EA73EFCA0B17EFD762 /* SRKIndexDefinition+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E321A9E747BFE7A3F6984A78B21A65E7 /* SRKIndexDefinition+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68A62936379B52B3BB4F3613ADEEB17C /* SRKJoinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E19915FF5430778C80E8A25F416C7B /* SRKJoinObject.m */; };
+		69B9CFBF3399300C3EF03C008D1EA0EC /* SRKError.m in Sources */ = {isa = PBXBuildFile; fileRef = E151FC042750BFB56F7AB5CD44A9618C /* SRKError.m */; };
+		6D06BF5D9F5867BCBCC0E349D3F72A7A /* SharkSync+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 111F49B67970A5D58B92F5CA283DB3B5 /* SharkSync+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DCC3301E80FD80984CD24C8F6582BE7 /* SRKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F9483C5F79800D4510B2E84BD40CD /* SRKUtilities.m */; };
+		6EC146FBB6C9239BED7D52A883518875 /* SRKEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1341BA9F0FCA4B45470FBDD6A30B70 /* SRKEntity.m */; };
+		708B3E9FC80D7E83041BB50AC314CC52 /* SRKUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 371D2F8F2A5A6DB46A10CFFCE1482F84 /* SRKUnsupportedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		725CCB0E5DD1A75F1AAB88220912244D /* SRKDefunctObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 134E8AD17DEBB07F3CB8DF43003BA6F8 /* SRKDefunctObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		738A7DAAF6D4F559BD16D176C99549C9 /* SRKSyncNodesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 485EF3992B8E2F78D66C1F48AD90D53C /* SRKSyncNodesList.m */; };
+		7395E1C95BDEA466C6D119B89A0713B9 /* SRKRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A747789AB836FFEC6F7F61DC338696 /* SRKRelationship.m */; };
+		74C8F4A90DEB0EEBAE95D65B48B1CF5E /* SyncComms.h in Headers */ = {isa = PBXBuildFile; fileRef = 2798501B08F0B709FBB893C281805EE7 /* SyncComms.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76D62EAFE7EB488D03956C510A611941 /* SRKRawResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 29039D1914843166AF48311F78F4745B /* SRKRawResults.m */; };
+		78B040449204FF48AFA490E3F11EA520 /* SRKContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DCFF9D68B2EB35654A0A093DAEC650F8 /* SRKContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D20594E00793F5377EF0441D8E2BF15 /* SRKIndexProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4398FE7A85268577FD67B26E26B6FF30 /* SRKIndexProperty.m */; };
+		8024B4B42F27E7201444EA21EB286B22 /* SRKEncryptedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE0849D3D29A846C74CA3D757828328 /* SRKEncryptedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		818A05002FDA4E205599DF42DA80665E /* SRKSQLiteHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 383007BF3B4631705035380205BF41E6 /* SRKSQLiteHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		827BE414B4B68BD97BF6FE03773C7F64 /* SRKResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FB56B2D0BE102F9A07BB3A0073882281 /* SRKResultSet.m */; };
+		8465CF2637B1BD1DE6CEC26785A2F19D /* SyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA42D6ED95667B925B30264C3F655428 /* SyncRequest.m */; };
+		8578643B2F268C1C0405D5B4104E5006 /* SharkORM.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED4B002C198326BBB0B01BA741C0967 /* SharkORM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C150E366FC5457E947CA2F31D68E88 /* SRKJoinObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C874FA4B95004347AAB308063431A4F4 /* SRKJoinObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88E5CDE5B57F3ED058C6560A6F31A77C /* SRKEventBlockHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B298BD8B74C0B283CB5C978AB40CB9 /* SRKEventBlockHolder.m */; };
+		8D7DA44EBDF4252D46B551DA1F95EDD5 /* SRKStringObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 561C138E0916204ABBE04123B254DAC2 /* SRKStringObject.m */; };
+		8DDEDF4EF2C42048BC056E3C8B706C97 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = F0167D254DCFC6E14C0F28F4181CC409 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F6B7FFB164AFD8FDC046E30D37684BD /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EAF8C2CA21004119FA9EA732204F74 /* sqlite3.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FBBD4BEA94399BFE439FFE2809B30E6 /* SharkSchemaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A462E803D1684987E1D4DE2625446106 /* SharkSchemaManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9169CAECF86998DF4AA22BBEF85CEF66 /* SRKSyncObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC5697DEDB507B15FFC9AD87CD2F45B /* SRKSyncObject+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92FAF7B92B94BE415A0C6C933AE47A67 /* SRKSyncRegisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A7620D2659374D8756293E50638E0B97 /* SRKSyncRegisteredClass.m */; };
+		93F179F5224850FADA517589C06CD2E5 /* NumberPickerLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0935AA15BFBFFFDD079701EFD68B5CC1 /* NumberPickerLineCell.swift */; };
+		954664531AC4926541474B27116E3075 /* NumberPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FED6AAD581B61F243D5DA5816C80D27 /* NumberPicker-dummy.m */; };
+		95FDE6EC1AD4DF56621B641E36BBA02B /* SRKSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F7D175CAD681AE3CE8342971A98E9D /* SRKSettings.m */; };
+		9A510E68582B751EA50568B7C9DA0EDA /* SRKEncryptedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E487D7015A1CB8703B16F5F8EB2A19BC /* SRKEncryptedObject.m */; };
+		A6295200D751E8ECBEBDB4F8D968C7F9 /* SRKRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9611933B1EC6D832F4E67AFD8659D /* SRKRegistry.m */; };
+		A698580DC1981176CBBE861D2A66C9D3 /* SRKTransaction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B1C95DC72587837578E6A2E2177F98 /* SRKTransaction+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7188463C7AD2F65981522FA5F8B3BCE /* SyncNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 3224CC3E941227AFC18D7A1FDAB4F047 /* SyncNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A73E7A9061540ECD1CAC2E823E2BA443 /* SRKTransactionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0733CBCB7B13CC68170C7A291F82FB69 /* SRKTransactionInfo.m */; };
+		A7A9660AF5B6A163CF290953975B413F /* SRKQueryAsyncHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB41A7E2A4A6E1E176AFE795F835056 /* SRKQueryAsyncHandler.m */; };
+		A88AABB6F39D7C5BC4CDA412A5CF5C82 /* NumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF35019BB3CB3BDDFF5096C3168661 /* NumberPicker.swift */; };
+		A8C942B76AE447156EA83A7BA29E05EB /* SRKEntity+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A745F5D071E18B16AABA5B2E383857D2 /* SRKEntity+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9320914E24E912CE93A2DDD089F28F2 /* NumberPicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A2A127860AB3CFFFB8207F4A18ACC8 /* NumberPicker.xcassets */; };
 		AB653AF05EEA399413997BF1A4D5DA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AC38E8F77F083936C40EFD93EFFDAB58 /* SRKSyncNodesList.h in Headers */ = {isa = PBXBuildFile; fileRef = 709630302679D2ADEF0189386C8F4260 /* SRKSyncNodesList.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD77685CFE83CBB8517962EF685ECBE8 /* SRKDeferredChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37D91E16EFDA6B6902EF0ECF022C15 /* SRKDeferredChange.m */; };
-		AEFEC866E7889EDD5448FF3DE9F1CAC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AF5B55A1A98CE890404B9612F48357B5 /* SRKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE1AA041933813CF71046B37C2303EE /* SRKUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B7BCB13B7833CF480999678A2A3E3D5A /* SRKSQLiteHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E02FFE2AD53ED092149FE6A109988 /* SRKSQLiteHandle.m */; };
-		B9C4BF6300153E24675D597AB68B3384 /* SRKEventHandler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D56C2CAC487B5A05A91980BB2A381A1B /* SRKEventHandler+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BA059DB955E9F971A138BCF4EFBC788C /* SharkORM+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CA150545E5284CD7FE83152108C1AC3E /* SharkORM+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BCF05554BBDE4586EF2B70D266159783 /* SRKEntityChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A0D3AF5054C41E19A4BA86591FC828 /* SRKEntityChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD3255CCBD7AEA978392C75E8AC98C89 /* SRKTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3D95BB955E15A7625C24A64B686BE /* SRKTransaction.m */; };
-		BFDA9772C7B6D8AADBF3D92A82916B13 /* SRKTransactionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5D63E2764C0CDBDA9EAAE79F0A7D91 /* SRKTransactionInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C7F5BE79A6F08521FC643544339EB017 /* SharkSyncChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 508DA810550C2F7A7BE430CAE2EDA9AB /* SharkSyncChange.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CD8E84BFA1E06338943E1F923F627F53 /* SRKRegistryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF92650EB81CC38E90385F5D0C52A5F /* SRKRegistryEntry.m */; };
-		CDDE856FE465955C00EC2AA24F3BDEAA /* SRKQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEF3D3507697BC3E9CD1F635713A6 /* SRKQuery.m */; };
-		CFC415B0EF490051F1CF430EB2F8AB99 /* SRKRegistryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 660BB6342089C62EBABF4D07D49BDB8C /* SRKRegistryEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D37082BBD440882DDE085A323D084B62 /* SRKEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8F0D9EC69854D8EE82A5F3C89B4C4 /* SRKEventHandler.m */; };
-		D53A3583007A2D53F18482BA18025CF2 /* SRKRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF4A14A495EC0B21D300EB58CF30F57 /* SRKRelationship.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6ADCE39FFCAE34AFCCC612CDD59D5BC /* SRKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F792DE1B0E45EBC93B0996DE3F3C27 /* SRKContext.m */; };
-		DB57EDC045DDE71EA232C7BA9B61E228 /* SRKRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA697B2A07860241B0D1CAF425847B4 /* SRKRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DCC60350E57C6C47D318C6C26A9D3FFC /* SharkSyncGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A5FB3EFF7A1350481ADA3943C348B1 /* SharkSyncGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DDD53F845ED43039B5CDC6DDC05FAC05 /* SRKGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 377AC3506A369D793AD45693305B9BAA /* SRKGlobals.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE9425D61F27936C0EBB5B2117D3D5FE /* SRKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2253CC662A62D6B9B4C97424AA73F /* SRKObject.m */; };
-		E15288FFB9A806A957F354E585581E98 /* SRKGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC427AD6014F4A773649C4A578AC3B8 /* SRKGlobals.m */; };
-		E15F9EC6B4EF187170253E0DF3DDF7F6 /* SRKEventBlockHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 128133A41E0A4FC3CE67701E309897BA /* SRKEventBlockHolder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E48636FF1047B0A5447B9D1962D0350A /* SyncService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7D0AB8B2AD33FE519D83CCC38E2353 /* SyncService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E941C08753FBB9E9089EFC29D137C278 /* SRKSyncRegisteredClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A840999829A5D462EE4CF4C854F70B8 /* SRKSyncRegisteredClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB0B865B1DCF6689357130D9D7A7F118 /* SRKSyncOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9AEB5234F3C3330CCE6EC0F0135EE0 /* SRKSyncOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EDDDE706A6B902E28F083D5660F98F44 /* SyncNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF0269B42332C9CB398C9E120D2968 /* SyncNetwork.m */; };
-		EFC2CB7E5774E290B20823E751856434 /* SRKCompoundIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4D2A79612C88D901DC59E04CDB06C /* SRKCompoundIndex.m */; };
-		F4D2BF800286D169537A170AF4A277AB /* SRKQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CD44EBCF29F8A540D40267CCE9D43F /* SRKQuery+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7582C7D942920F4736D24F994D8EA81 /* SRKSyncOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = B71E725C056EB6F4F0D87FF563D4F583 /* SRKSyncOptions.m */; };
-		F9333A2CF271A50D46D2D0878D783E4D /* SRKEntityChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EED304BDFC63AC77F16B82F2F26CA62C /* SRKEntityChain.m */; };
-		FE32E8AACDCB8854C5D0FE33C11CCBAB /* SharkSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 47622686B3CA1E5F51CB14479D4FDD78 /* SharkSync.m */; };
-		FF444F58CCF74A7382F9D44ECD10339A /* SRKUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A58AB8967290E803A351BECA7143C2 /* SRKUnsupportedObject.m */; };
+		AC38E8F77F083936C40EFD93EFFDAB58 /* SRKSyncNodesList.h in Headers */ = {isa = PBXBuildFile; fileRef = F38FD7A5FCB0E51BB698D6BC84C914E0 /* SRKSyncNodesList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD77685CFE83CBB8517962EF685ECBE8 /* SRKDeferredChange.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7D419AB5168FF3281DF6E0F7548266 /* SRKDeferredChange.m */; };
+		AF5B55A1A98CE890404B9612F48357B5 /* SRKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAF707630A91E1A6D400B4B39983372 /* SRKUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B072DCDAEDB7CC106D87AC2FAED2748D /* Pods-eprimora-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6959D27FF54C0C9D2A8763AF348FA339 /* Pods-eprimora-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7BCB13B7833CF480999678A2A3E3D5A /* SRKSQLiteHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EFC54C42318F0B444B7815CF75B96 /* SRKSQLiteHandle.m */; };
+		B9C4BF6300153E24675D597AB68B3384 /* SRKEventHandler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2706F197ACA5289EC62EF8585BB89A07 /* SRKEventHandler+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA059DB955E9F971A138BCF4EFBC788C /* SharkORM+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 777D4BB98B833C97A4F6CE305CD1969A /* SharkORM+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCF05554BBDE4586EF2B70D266159783 /* SRKEntityChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BC9235339D7153AFC7B867A5FD1AD2 /* SRKEntityChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD3255CCBD7AEA978392C75E8AC98C89 /* SRKTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1FC0F682F39F88B2D4E6F184406D5 /* SRKTransaction.m */; };
+		BFB9D87C2EB49C7D6FC1773B666BA738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BFDA9772C7B6D8AADBF3D92A82916B13 /* SRKTransactionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9F5F9156DF7170DC21D6F664799BA8 /* SRKTransactionInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2160AF518EC114F9BA238BBA5E2DF5F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81A4C3A7F6C34377E8DA5B3F093C156 /* UIView+Extensions.swift */; };
+		C7F5BE79A6F08521FC643544339EB017 /* SharkSyncChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F63BD5E47241588196103C087870571 /* SharkSyncChange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD8E84BFA1E06338943E1F923F627F53 /* SRKRegistryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC66BE437D4678F6E7BF45CD3029A73 /* SRKRegistryEntry.m */; };
+		CDDE856FE465955C00EC2AA24F3BDEAA /* SRKQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 71308F7137B32513A2924318B5F03A8D /* SRKQuery.m */; };
+		CFC415B0EF490051F1CF430EB2F8AB99 /* SRKRegistryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3E83210212936CDDD77F5C67A50EFA /* SRKRegistryEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D37082BBD440882DDE085A323D084B62 /* SRKEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9A57FECD40D3170B84F3BE0929ECD /* SRKEventHandler.m */; };
+		D53A3583007A2D53F18482BA18025CF2 /* SRKRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 97120C5DD9F6B8891FF9D8A84C149517 /* SRKRelationship.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6ADCE39FFCAE34AFCCC612CDD59D5BC /* SRKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B66968EB2AF723413FD232D44C570 /* SRKContext.m */; };
+		DB57EDC045DDE71EA232C7BA9B61E228 /* SRKRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DC55234A413B35EC31A9165C605777 /* SRKRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCC60350E57C6C47D318C6C26A9D3FFC /* SharkSyncGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = A21DF74F06144EB1E68DB2901F84C726 /* SharkSyncGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDD53F845ED43039B5CDC6DDC05FAC05 /* SRKGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4987EA85FCB202E106C2A8D14B5773 /* SRKGlobals.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE9425D61F27936C0EBB5B2117D3D5FE /* SRKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F859CCDDF8F666149A443600D78CF /* SRKObject.m */; };
+		DFE4B95ADD5C09AA7C7887A206E7FF2F /* NumberPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5779D302F0C8E1036C45FF3A1BE9E103 /* NumberPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E15288FFB9A806A957F354E585581E98 /* SRKGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1CB467135727213B147B6BF4EF116 /* SRKGlobals.m */; };
+		E15F9EC6B4EF187170253E0DF3DDF7F6 /* SRKEventBlockHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = F52D4FD3BE0BB97AB044FC64DF6D332E /* SRKEventBlockHolder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E48636FF1047B0A5447B9D1962D0350A /* SyncService.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CAE719ED2F1AAC6BFD636A6323695E /* SyncService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E941C08753FBB9E9089EFC29D137C278 /* SRKSyncRegisteredClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D31FD5364B8DEA04C6A347AC66E6338 /* SRKSyncRegisteredClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB0B865B1DCF6689357130D9D7A7F118 /* SRKSyncOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 41483F415E67A7E2964B2B64B05D96F8 /* SRKSyncOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDDDE706A6B902E28F083D5660F98F44 /* SyncNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C232F98A208D5580489EEE04EB979 /* SyncNetwork.m */; };
+		EFC2CB7E5774E290B20823E751856434 /* SRKCompoundIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CE001CB686C71FAB8AE877EAF5FF9F /* SRKCompoundIndex.m */; };
+		F4D2BF800286D169537A170AF4A277AB /* SRKQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B77CF1F9A7E91176CD7C7F3FB172CB7 /* SRKQuery+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7582C7D942920F4736D24F994D8EA81 /* SRKSyncOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0F7E02137B074E37CA3CE62B0D1502 /* SRKSyncOptions.m */; };
+		F9333A2CF271A50D46D2D0878D783E4D /* SRKEntityChain.m in Sources */ = {isa = PBXBuildFile; fileRef = AB726CEB4007CEF949C755046C1D06E5 /* SRKEntityChain.m */; };
+		FE32E8AACDCB8854C5D0FE33C11CCBAB /* SharkSync.m in Sources */ = {isa = PBXBuildFile; fileRef = E89F582E18598DCD1DB659A6CDCE0E94 /* SharkSync.m */; };
+		FF444F58CCF74A7382F9D44ECD10339A /* SRKUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 393C9AF91C3A1EF34D068831259178DD /* SRKUnsupportedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		389DBFB69B582146EFC9E28606FCAC25 /* PBXContainerItemProxy */ = {
+		1115AB3AB4EED2CFC0CF059F947D1BBF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F11267DB4D5EE1D54642DD4AF5EC033C;
 			remoteInfo = SharkORM;
 		};
+		3EB2536158092BE8F48F129446531ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 404F33ED232A94416A1A7F8D462BC385;
+			remoteInfo = "NumberPicker-NumberPicker";
+		};
+		E8092A1B95657BD07863E745F45EA908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312C2515DD038726C0FB3BBC872539FA;
+			remoteInfo = NumberPicker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01973DF24F88526EF223C534B277FF98 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqlite3.c; path = SharkORM/SQLite/sqlite3.c; sourceTree = "<group>"; };
-		01F3BF5E92595E1198C6CF00CFE60A19 /* SyncComms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncComms.h; path = SharkORM/Sync/Comms/SyncComms.h; sourceTree = "<group>"; };
-		041782051EF23A96CD98AA14BCC8296C /* SRKAES256Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKAES256Extension.h; path = SharkORM/Core/PersistableObjects/SRKAES256Extension.h; sourceTree = "<group>"; };
-		0888D4F5BCFC86563C4E586F57B6D357 /* SharkORM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SharkORM.modulemap; sourceTree = "<group>"; };
-		0B20C18870F582E5558244E93240D91D /* SRKUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKUnsupportedObject.h; path = SharkORM/Core/PersistableObjects/SRKUnsupportedObject.h; sourceTree = "<group>"; };
-		0D31984733D1A8A9AE4B0B5C1FC9AF95 /* SharkSyncChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSyncChange.m; path = SharkORM/Sync/SharkSyncChange.m; sourceTree = "<group>"; };
-		0D5D63E2764C0CDBDA9EAAE79F0A7D91 /* SRKTransactionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKTransactionInfo.h; path = SharkORM/Core/Transactions/SRKTransactionInfo.h; sourceTree = "<group>"; };
-		0E37D91E16EFDA6B6902EF0ECF022C15 /* SRKDeferredChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKDeferredChange.m; path = SharkORM/Sync/SRKDeferredChange.m; sourceTree = "<group>"; };
-		0F98B416A33A00096F1E72672115F928 /* SRKJoinObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKJoinObject.h; path = SharkORM/Core/Queries/SRKJoinObject.h; sourceTree = "<group>"; };
-		0FF92650EB81CC38E90385F5D0C52A5F /* SRKRegistryEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRegistryEntry.m; path = SharkORM/Core/Registry/SRKRegistryEntry.m; sourceTree = "<group>"; };
-		103ED82965FFB643916E76F3C3223491 /* SRKSQLiteHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSQLiteHandle.h; path = SharkORM/Core/SRKSQLiteHandle.h; sourceTree = "<group>"; };
-		128133A41E0A4FC3CE67701E309897BA /* SRKEventBlockHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEventBlockHolder.h; path = SharkORM/Core/Events/SRKEventBlockHolder.h; sourceTree = "<group>"; };
+		00CAE719ED2F1AAC6BFD636A6323695E /* SyncService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncService.h; path = SharkORM/Sync/Comms/SyncService.h; sourceTree = "<group>"; };
+		036A8BECF77A90019EED9D852AAFDBB9 /* SRKResultSet+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKResultSet+Private.h"; path = "SharkORM/Private/SRKResultSet+Private.h"; sourceTree = "<group>"; };
+		05A2A127860AB3CFFFB8207F4A18ACC8 /* NumberPicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = NumberPicker.xcassets; path = NumberPicker/Assets/NumberPicker.xcassets; sourceTree = "<group>"; };
+		0733CBCB7B13CC68170C7A291F82FB69 /* SRKTransactionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKTransactionInfo.m; path = SharkORM/Core/Transactions/SRKTransactionInfo.m; sourceTree = "<group>"; };
+		0935AA15BFBFFFDD079701EFD68B5CC1 /* NumberPickerLineCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberPickerLineCell.swift; path = NumberPicker/Classes/NumberPickerLineCell.swift; sourceTree = "<group>"; };
+		099D2897295C7D0CE8687F810B47C8B5 /* SharkORM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SharkORM.modulemap; sourceTree = "<group>"; };
+		0A93B17D5E89CC287FD3586545896C3D /* SRKQueryAsyncHandler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKQueryAsyncHandler+Private.h"; path = "SharkORM/Private/SRKQueryAsyncHandler+Private.h"; sourceTree = "<group>"; };
+		0B5CE67860DBC7958F96FAB683033378 /* SRKDefunctObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKDefunctObject.m; path = SharkORM/Sync/SRKDefunctObject.m; sourceTree = "<group>"; };
+		0D31FD5364B8DEA04C6A347AC66E6338 /* SRKSyncRegisteredClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncRegisteredClass.h; path = SharkORM/Sync/SRKSyncRegisteredClass.h; sourceTree = "<group>"; };
+		0DC66BE437D4678F6E7BF45CD3029A73 /* SRKRegistryEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRegistryEntry.m; path = SharkORM/Core/Registry/SRKRegistryEntry.m; sourceTree = "<group>"; };
+		111F49B67970A5D58B92F5CA283DB3B5 /* SharkSync+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharkSync+Private.h"; path = "SharkORM/Sync/SharkSync+Private.h"; sourceTree = "<group>"; };
+		134E8AD17DEBB07F3CB8DF43003BA6F8 /* SRKDefunctObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDefunctObject.h; path = SharkORM/Sync/SRKDefunctObject.h; sourceTree = "<group>"; };
+		15D4394BDB55833661FD83589ACD1565 /* NumberPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NumberPicker-Info.plist"; sourceTree = "<group>"; };
 		169C324099934C87E6B23680FCB35388 /* SharkORM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SharkORM.framework; path = SharkORM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		187F40EA2D412083FB12CDF1062D9D62 /* SyncRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncRequest.m; path = SharkORM/Sync/Comms/SyncRequest.m; sourceTree = "<group>"; };
-		18EBB568490C02C102B69224CF1E951F /* SharkSyncGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSyncGroup.m; path = SharkORM/Sync/SharkSyncGroup.m; sourceTree = "<group>"; };
 		1958678518CEB1F9BCF170363E52862B /* Pods-eprimora-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eprimora-frameworks.sh"; sourceTree = "<group>"; };
-		1BC427AD6014F4A773649C4A578AC3B8 /* SRKGlobals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKGlobals.m; path = SharkORM/Core/SRKGlobals.m; sourceTree = "<group>"; };
-		1E4C3EB2E0C46E9D75B4F5E75488BFE2 /* SyncNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncNetwork.h; path = SharkORM/Sync/Comms/SyncNetwork.h; sourceTree = "<group>"; };
-		1E71F6ECF9F4F2477398BFCEA0F8983E /* SRKTransaction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKTransaction+Private.h"; path = "SharkORM/Private/SRKTransaction+Private.h"; sourceTree = "<group>"; };
+		1F7F9483C5F79800D4510B2E84BD40CD /* SRKUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKUtilities.m; path = SharkORM/Core/SRKUtilities.m; sourceTree = "<group>"; };
+		1FED6AAD581B61F243D5DA5816C80D27 /* NumberPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NumberPicker-dummy.m"; sourceTree = "<group>"; };
 		210FD9AE772EC983AE8B76FAF8084AF0 /* Pods_eprimora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_eprimora.framework; path = "Pods-eprimora.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		228FB993E274CAF35B7E4705758206E7 /* SRKEntity+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKEntity+Private.h"; path = "SharkORM/Private/SRKEntity+Private.h"; sourceTree = "<group>"; };
-		23A58AB8967290E803A351BECA7143C2 /* SRKUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKUnsupportedObject.m; path = SharkORM/Core/PersistableObjects/SRKUnsupportedObject.m; sourceTree = "<group>"; };
-		24D70874DF5473AF3C1B1064AC8AD51B /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = SharkORM/SQLite/sqlite3.h; sourceTree = "<group>"; };
-		26C49D46A8220661B9E08FEBC605F4EA /* SRKContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKContext.h; path = SharkORM/Core/Transactions/SRKContext.h; sourceTree = "<group>"; };
-		272B9F70FDAC91408D79B5119F9DECC4 /* SRKDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDefinitions.h; path = SharkORM/Core/SRKDefinitions.h; sourceTree = "<group>"; };
-		2D7A02995353A021B158402AECA89553 /* SRKEventRegistryObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventRegistryObject.m; path = SharkORM/Core/Events/SRKEventRegistryObject.m; sourceTree = "<group>"; };
-		2D8CBF6DF394248AD5C0AC7EA823E912 /* SRKDefunctObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKDefunctObject.m; path = SharkORM/Sync/SRKDefunctObject.m; sourceTree = "<group>"; };
-		2DDD36CB8AB104B2D4EE1B491F91C5A5 /* SharkSync+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharkSync+Private.h"; path = "SharkORM/Sync/SharkSync+Private.h"; sourceTree = "<group>"; };
-		2E8FF6A739E90E05D8DC15DCB2A2532D /* SRKSyncObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKSyncObject+Private.h"; path = "SharkORM/Sync/SRKSyncObject+Private.h"; sourceTree = "<group>"; };
+		21DE66C17C2EA08BE15BD2CDD8FCA2D4 /* NumberPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NumberPicker.modulemap; sourceTree = "<group>"; };
+		2706F197ACA5289EC62EF8585BB89A07 /* SRKEventHandler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKEventHandler+Private.h"; path = "SharkORM/Private/SRKEventHandler+Private.h"; sourceTree = "<group>"; };
+		2798501B08F0B709FBB893C281805EE7 /* SyncComms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncComms.h; path = SharkORM/Sync/Comms/SyncComms.h; sourceTree = "<group>"; };
+		29039D1914843166AF48311F78F4745B /* SRKRawResults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRawResults.m; path = SharkORM/Core/PersistableObjects/SRKRawResults.m; sourceTree = "<group>"; };
+		2A1341BA9F0FCA4B45470FBDD6A30B70 /* SRKEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEntity.m; path = SharkORM/Core/PersistableObjects/SRKEntity.m; sourceTree = "<group>"; };
 		2EE95AA8CD33ADA1B9BB43BCAF0FA8F4 /* Pods-eprimora-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eprimora-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2EED1F4270C788F58FCC56B6BE25DEC3 /* SRKUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKUtilities.m; path = SharkORM/Core/SRKUtilities.m; sourceTree = "<group>"; };
+		2F4C2FCE51FFF9EFA5A47BED5E7F7242 /* SharkORM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SharkORM-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3261F98E632C19B93D2A657AAA7A7895 /* SharkORM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkORM.m; path = SharkORM/Core/SharkORM.m; sourceTree = "<group>"; };
-		35C899A2DEB9F09DF376BAF5173E860C /* SyncRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncRequest.h; path = SharkORM/Sync/Comms/SyncRequest.h; sourceTree = "<group>"; };
-		377AC3506A369D793AD45693305B9BAA /* SRKGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKGlobals.h; path = SharkORM/Core/SRKGlobals.h; sourceTree = "<group>"; };
-		3AD212EC00D956923A104F1FE88123E9 /* SRKIndexProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKIndexProperty.m; path = SharkORM/Core/Indexing/SRKIndexProperty.m; sourceTree = "<group>"; };
-		3AE1AA041933813CF71046B37C2303EE /* SRKUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKUtilities.h; path = SharkORM/Core/SRKUtilities.h; sourceTree = "<group>"; };
-		3B33F621C15B41D067347CB0246394F3 /* SRKError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKError.m; path = SharkORM/Core/SRKError.m; sourceTree = "<group>"; };
+		3224CC3E941227AFC18D7A1FDAB4F047 /* SyncNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncNetwork.h; path = SharkORM/Sync/Comms/SyncNetwork.h; sourceTree = "<group>"; };
+		371D2F8F2A5A6DB46A10CFFCE1482F84 /* SRKUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKUnsupportedObject.h; path = SharkORM/Core/PersistableObjects/SRKUnsupportedObject.h; sourceTree = "<group>"; };
+		37A0FF3DD3EF862A1D9E0BAEEC641B8E /* SyncService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncService.m; path = SharkORM/Sync/Comms/SyncService.m; sourceTree = "<group>"; };
+		383007BF3B4631705035380205BF41E6 /* SRKSQLiteHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSQLiteHandle.h; path = SharkORM/Core/SRKSQLiteHandle.h; sourceTree = "<group>"; };
+		393C9AF91C3A1EF34D068831259178DD /* SRKUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKUnsupportedObject.m; path = SharkORM/Core/PersistableObjects/SRKUnsupportedObject.m; sourceTree = "<group>"; };
+		3BB41A7E2A4A6E1E176AFE795F835056 /* SRKQueryAsyncHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQueryAsyncHandler.m; path = SharkORM/Core/Queries/SRKQueryAsyncHandler.m; sourceTree = "<group>"; };
 		3E515414B9D776D065613B404B1C196A /* Pods-eprimora-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eprimora-acknowledgements.plist"; sourceTree = "<group>"; };
-		3EED72098816802CFE5BFF060E5DEBA1 /* SRKQueryAsyncHandler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKQueryAsyncHandler+Private.h"; path = "SharkORM/Private/SRKQueryAsyncHandler+Private.h"; sourceTree = "<group>"; };
+		41483F415E67A7E2964B2B64B05D96F8 /* SRKSyncOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncOptions.h; path = SharkORM/Sync/SRKSyncOptions.h; sourceTree = "<group>"; };
 		41D8B9FB26E11727525FA9C821779055 /* Pods-eprimora-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eprimora-Info.plist"; sourceTree = "<group>"; };
-		43A0D3AF5054C41E19A4BA86591FC828 /* SRKEntityChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEntityChain.h; path = SharkORM/Core/PersistableObjects/SRKEntityChain.h; sourceTree = "<group>"; };
-		46BBCFD5273DAF292C8EB8DCEA526F77 /* SharkORM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkORM.h; path = SharkORM/SharkORM.h; sourceTree = "<group>"; };
-		47622686B3CA1E5F51CB14479D4FDD78 /* SharkSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSync.m; path = SharkORM/Sync/SharkSync.m; sourceTree = "<group>"; };
-		480CF9637FA5D25ADDED18D7AD3B8B33 /* SRKRawResults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRawResults.m; path = SharkORM/Core/PersistableObjects/SRKRawResults.m; sourceTree = "<group>"; };
+		42CE001CB686C71FAB8AE877EAF5FF9F /* SRKCompoundIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKCompoundIndex.m; path = SharkORM/Core/Indexing/SRKCompoundIndex.m; sourceTree = "<group>"; };
+		4398FE7A85268577FD67B26E26B6FF30 /* SRKIndexProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKIndexProperty.m; path = SharkORM/Core/Indexing/SRKIndexProperty.m; sourceTree = "<group>"; };
+		4835850EBC938F74246DAB188D8679BB /* SRKAES256Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKAES256Extension.m; path = SharkORM/Core/PersistableObjects/SRKAES256Extension.m; sourceTree = "<group>"; };
 		4841CD51186832F2049996E13EC778C6 /* Pods-eprimora.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-eprimora.modulemap"; sourceTree = "<group>"; };
-		4A840999829A5D462EE4CF4C854F70B8 /* SRKSyncRegisteredClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncRegisteredClass.h; path = SharkORM/Sync/SRKSyncRegisteredClass.h; sourceTree = "<group>"; };
-		508DA810550C2F7A7BE430CAE2EDA9AB /* SharkSyncChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSyncChange.h; path = SharkORM/Sync/SharkSyncChange.h; sourceTree = "<group>"; };
+		485EF3992B8E2F78D66C1F48AD90D53C /* SRKSyncNodesList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncNodesList.m; path = SharkORM/Sync/Comms/SRKSyncNodesList.m; sourceTree = "<group>"; };
+		4A0F859CCDDF8F666149A443600D78CF /* SRKObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKObject.m; path = SharkORM/Core/PersistableObjects/SRKObject.m; sourceTree = "<group>"; };
+		4B3B66968EB2AF723413FD232D44C570 /* SRKContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKContext.m; path = SharkORM/Core/Transactions/SRKContext.m; sourceTree = "<group>"; };
+		4DA9A57FECD40D3170B84F3BE0929ECD /* SRKEventHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventHandler.m; path = SharkORM/Core/Events/SRKEventHandler.m; sourceTree = "<group>"; };
+		4DB56F69BF6CB0E964F67911EDFE3572 /* ResourceBundle-NumberPicker-NumberPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NumberPicker-NumberPicker-Info.plist"; sourceTree = "<group>"; };
+		4F63BD5E47241588196103C087870571 /* SharkSyncChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSyncChange.h; path = SharkORM/Sync/SharkSyncChange.h; sourceTree = "<group>"; };
+		4FE0849D3D29A846C74CA3D757828328 /* SRKEncryptedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEncryptedObject.h; path = SharkORM/Core/PersistableObjects/SRKEncryptedObject.h; sourceTree = "<group>"; };
+		506EFC54C42318F0B444B7815CF75B96 /* SRKSQLiteHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSQLiteHandle.m; path = SharkORM/Core/SRKSQLiteHandle.m; sourceTree = "<group>"; };
+		50F7D175CAD681AE3CE8342971A98E9D /* SRKSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSettings.m; path = SharkORM/Core/SRKSettings.m; sourceTree = "<group>"; };
 		53E587111C137AAF271CEAEC1EF28346 /* Pods-eprimora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eprimora.debug.xcconfig"; sourceTree = "<group>"; };
-		57CD44EBCF29F8A540D40267CCE9D43F /* SRKQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKQuery+Private.h"; path = "SharkORM/Private/SRKQuery+Private.h"; sourceTree = "<group>"; };
-		58EEEF3D3507697BC3E9CD1F635713A6 /* SRKQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQuery.m; path = SharkORM/Core/Queries/SRKQuery.m; sourceTree = "<group>"; };
-		5A7D0AB8B2AD33FE519D83CCC38E2353 /* SyncService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncService.h; path = SharkORM/Sync/Comms/SyncService.h; sourceTree = "<group>"; };
-		633EB2C463B2A027D376E6BA2494CF0E /* SRKJoinObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKJoinObject.m; path = SharkORM/Core/Queries/SRKJoinObject.m; sourceTree = "<group>"; };
-		659546F61ED4148031A7C2FC79F4FE4F /* SRKDeferredChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDeferredChange.h; path = SharkORM/Sync/SRKDeferredChange.h; sourceTree = "<group>"; };
-		660BB6342089C62EBABF4D07D49BDB8C /* SRKRegistryEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRegistryEntry.h; path = SharkORM/Core/Registry/SRKRegistryEntry.h; sourceTree = "<group>"; };
-		6623CE572944C3B1C85272306F3C86AC /* SharkORM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SharkORM.xcconfig; sourceTree = "<group>"; };
-		68F261D885F4193A15C9072F95F0B9E3 /* SRKTransactionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKTransactionInfo.m; path = SharkORM/Core/Transactions/SRKTransactionInfo.m; sourceTree = "<group>"; };
+		561C138E0916204ABBE04123B254DAC2 /* SRKStringObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKStringObject.m; path = SharkORM/Core/PersistableObjects/SRKStringObject.m; sourceTree = "<group>"; };
+		56F34213E2792D6D6E6737E778301329 /* SRKEventRegistryObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEventRegistryObject.h; path = SharkORM/Core/Events/SRKEventRegistryObject.h; sourceTree = "<group>"; };
+		5779D302F0C8E1036C45FF3A1BE9E103 /* NumberPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberPicker-umbrella.h"; sourceTree = "<group>"; };
+		5DA9611933B1EC6D832F4E67AFD8659D /* SRKRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRegistry.m; path = SharkORM/Core/Registry/SRKRegistry.m; sourceTree = "<group>"; };
+		5ED4B002C198326BBB0B01BA741C0967 /* SharkORM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkORM.h; path = SharkORM/SharkORM.h; sourceTree = "<group>"; };
+		5F718B4403CBFFC8C4FDA7CE8CDF6DAA /* SRKQueryProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQueryProfile.m; path = SharkORM/Core/Queries/SRKQueryProfile.m; sourceTree = "<group>"; };
+		62EF2E0CF21EBD758A9F9566EBF4C7CB /* SharkORM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SharkORM.xcconfig; sourceTree = "<group>"; };
+		64672FDD7CFDC54051AD625B413E07E3 /* SharkSyncChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSyncChange.m; path = SharkORM/Sync/SharkSyncChange.m; sourceTree = "<group>"; };
+		64A9D73983D38A1E3C6E6E838F91920D /* NumberPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberPicker-prefix.pch"; sourceTree = "<group>"; };
 		6959D27FF54C0C9D2A8763AF348FA339 /* Pods-eprimora-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eprimora-umbrella.h"; sourceTree = "<group>"; };
+		6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NumberPicker.xcconfig; sourceTree = "<group>"; };
+		6A8726FA9BE6A402E1C1EB16C4C544F8 /* SharkORM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkORM.m; path = SharkORM/Core/SharkORM.m; sourceTree = "<group>"; };
+		6B77CF1F9A7E91176CD7C7F3FB172CB7 /* SRKQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKQuery+Private.h"; path = "SharkORM/Private/SRKQuery+Private.h"; sourceTree = "<group>"; };
 		6B7827AED4167041AAA360C1BFC3D830 /* Pods-eprimora-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eprimora-dummy.m"; sourceTree = "<group>"; };
-		709630302679D2ADEF0189386C8F4260 /* SRKSyncNodesList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncNodesList.h; path = SharkORM/Sync/Comms/SRKSyncNodesList.h; sourceTree = "<group>"; };
-		72A5FB3EFF7A1350481ADA3943C348B1 /* SharkSyncGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSyncGroup.h; path = SharkORM/Sync/SharkSyncGroup.h; sourceTree = "<group>"; };
-		73FB83AA0A9D0798A78802524B5F6545 /* SRKDefunctObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDefunctObject.h; path = SharkORM/Sync/SRKDefunctObject.h; sourceTree = "<group>"; };
-		7A1AC62DEB592286E18C0CEB3030A7EA /* SRKIndexDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKIndexDefinition.m; path = SharkORM/Core/Indexing/SRKIndexDefinition.m; sourceTree = "<group>"; };
-		7BAF49697DD4A93A3B6C0515C8BA20E0 /* SRKLazyLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKLazyLoader.m; path = SharkORM/Core/SRKLazyLoader.m; sourceTree = "<group>"; };
-		7CB8F0D9EC69854D8EE82A5F3C89B4C4 /* SRKEventHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventHandler.m; path = SharkORM/Core/Events/SRKEventHandler.m; sourceTree = "<group>"; };
-		7CEDA5EDA55BD3DDEBF85EF4C2EDE769 /* SRKSyncNodesList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncNodesList.m; path = SharkORM/Sync/Comms/SRKSyncNodesList.m; sourceTree = "<group>"; };
-		7DB7C04E62151774A0ADA74CE7BE1F70 /* SRKRelationship.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRelationship.m; path = SharkORM/Core/SRKRelationship.m; sourceTree = "<group>"; };
-		7E09A5F765315EAFD7CAF3AC049F2EB1 /* SRKEventRegistryObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEventRegistryObject.h; path = SharkORM/Core/Events/SRKEventRegistryObject.h; sourceTree = "<group>"; };
-		821FA57926F2F6F3CBE2DB970C658DD8 /* SRKSyncRegisteredClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncRegisteredClass.m; path = SharkORM/Sync/SRKSyncRegisteredClass.m; sourceTree = "<group>"; };
-		8CE43074BB673BE35AB45660814D22FD /* SRKQueryAsyncHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQueryAsyncHandler.m; path = SharkORM/Core/Queries/SRKQueryAsyncHandler.m; sourceTree = "<group>"; };
-		8F51311AE7FE07BAF8E5C4EDF3BBE03B /* SRKEncryptedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEncryptedObject.m; path = SharkORM/Core/PersistableObjects/SRKEncryptedObject.m; sourceTree = "<group>"; };
-		8FB2253CC662A62D6B9B4C97424AA73F /* SRKObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKObject.m; path = SharkORM/Core/PersistableObjects/SRKObject.m; sourceTree = "<group>"; };
-		8FB2317ABCC4E0C96DB7FE5BE2E9EE31 /* SRKLazyLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKLazyLoader.h; path = SharkORM/Core/SRKLazyLoader.h; sourceTree = "<group>"; };
-		90DFE656B5A298655AC31D46F9F9A7E4 /* SRKResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKResultSet.m; path = SharkORM/Core/PersistableObjects/SRKResultSet.m; sourceTree = "<group>"; };
-		99D0416C60A1B5766B106F107E601144 /* SyncComms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncComms.m; path = SharkORM/Sync/Comms/SyncComms.m; sourceTree = "<group>"; };
-		9AF4A14A495EC0B21D300EB58CF30F57 /* SRKRelationship.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRelationship.h; path = SharkORM/Core/SRKRelationship.h; sourceTree = "<group>"; };
+		6B9F5F9156DF7170DC21D6F664799BA8 /* SRKTransactionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKTransactionInfo.h; path = SharkORM/Core/Transactions/SRKTransactionInfo.h; sourceTree = "<group>"; };
+		6EDF35019BB3CB3BDDFF5096C3168661 /* NumberPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberPicker.swift; path = NumberPicker/Classes/NumberPicker.swift; sourceTree = "<group>"; };
+		71308F7137B32513A2924318B5F03A8D /* SRKQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQuery.m; path = SharkORM/Core/Queries/SRKQuery.m; sourceTree = "<group>"; };
+		74A747789AB836FFEC6F7F61DC338696 /* SRKRelationship.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRelationship.m; path = SharkORM/Core/SRKRelationship.m; sourceTree = "<group>"; };
+		777D4BB98B833C97A4F6CE305CD1969A /* SharkORM+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharkORM+Private.h"; path = "SharkORM/Private/SharkORM+Private.h"; sourceTree = "<group>"; };
+		7CA1FC0F682F39F88B2D4E6F184406D5 /* SRKTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKTransaction.m; path = SharkORM/Core/Transactions/SRKTransaction.m; sourceTree = "<group>"; };
+		80296935E75B46CC88A9DD0502327BD4 /* SRKEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEvent.m; path = SharkORM/Core/Events/SRKEvent.m; sourceTree = "<group>"; };
+		85E19915FF5430778C80E8A25F416C7B /* SRKJoinObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKJoinObject.m; path = SharkORM/Core/Queries/SRKJoinObject.m; sourceTree = "<group>"; };
+		8AEB72A912DCAC8CC8F3C1AF65B9811C /* SharkORM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SharkORM-dummy.m"; sourceTree = "<group>"; };
+		8C8FB9CE7DCE3BD4B10DDAB25921B6EC /* SRKEventRegistryObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventRegistryObject.m; path = SharkORM/Core/Events/SRKEventRegistryObject.m; sourceTree = "<group>"; };
+		8D1C232F98A208D5580489EEE04EB979 /* SyncNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncNetwork.m; path = SharkORM/Sync/Comms/SyncNetwork.m; sourceTree = "<group>"; };
+		8EFFA362E0537010F8AA218A674DADC9 /* SRKAES256Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKAES256Extension.h; path = SharkORM/Core/PersistableObjects/SRKAES256Extension.h; sourceTree = "<group>"; };
+		951DA0B20F4AF82D66C0C60124481DA5 /* SyncRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncRequest.h; path = SharkORM/Sync/Comms/SyncRequest.h; sourceTree = "<group>"; };
+		97120C5DD9F6B8891FF9D8A84C149517 /* SRKRelationship.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRelationship.h; path = SharkORM/Core/SRKRelationship.h; sourceTree = "<group>"; };
 		9CFD3C9513690A004486EA414C6EFA2E /* Pods-eprimora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eprimora.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F9AEB5234F3C3330CCE6EC0F0135EE0 /* SRKSyncOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncOptions.h; path = SharkORM/Sync/SRKSyncOptions.h; sourceTree = "<group>"; };
-		A05286C34B1D6E61EC2EAA7DA58038B0 /* SharkORM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SharkORM-dummy.m"; sourceTree = "<group>"; };
-		A36BFD3807D8029E1F73F6A345A56D2C /* SRKQueryProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKQueryProfile.m; path = SharkORM/Core/Queries/SRKQueryProfile.m; sourceTree = "<group>"; };
-		A4EEDE2C5CA7BA3FF4C13F90F98AC25E /* SRKEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEvent.m; path = SharkORM/Core/Events/SRKEvent.m; sourceTree = "<group>"; };
-		A7266F80C46534FD2C4AF5A0240E6336 /* SRKAES256Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKAES256Extension.m; path = SharkORM/Core/PersistableObjects/SRKAES256Extension.m; sourceTree = "<group>"; };
-		A81D8CA3259E292650DC325316571933 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = SharkORM/SQLite/sqlite3ext.h; sourceTree = "<group>"; };
-		AC6E2B8DA0B7070A7F44D0273B2F5A99 /* SRKSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSettings.m; path = SharkORM/Core/SRKSettings.m; sourceTree = "<group>"; };
-		ACB3D95BB955E15A7625C24A64B686BE /* SRKTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKTransaction.m; path = SharkORM/Core/Transactions/SRKTransaction.m; sourceTree = "<group>"; };
-		B2F792DE1B0E45EBC93B0996DE3F3C27 /* SRKContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKContext.m; path = SharkORM/Core/Transactions/SRKContext.m; sourceTree = "<group>"; };
-		B5BDB871493A97B0B91E2A293ED0B37B /* SyncService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncService.m; path = SharkORM/Sync/Comms/SyncService.m; sourceTree = "<group>"; };
-		B71E725C056EB6F4F0D87FF563D4F583 /* SRKSyncOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncOptions.m; path = SharkORM/Sync/SRKSyncOptions.m; sourceTree = "<group>"; };
-		BCD6F9003A640F0FDA3D72D2FB10A941 /* SRKCompoundIndex+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKCompoundIndex+Private.h"; path = "SharkORM/Private/SRKCompoundIndex+Private.h"; sourceTree = "<group>"; };
-		BDA697B2A07860241B0D1CAF425847B4 /* SRKRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRegistry.h; path = SharkORM/Core/Registry/SRKRegistry.h; sourceTree = "<group>"; };
-		BF817146D1EB082B6456872B45536ECC /* SRKEncryptedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEncryptedObject.h; path = SharkORM/Core/PersistableObjects/SRKEncryptedObject.h; sourceTree = "<group>"; };
-		BF9C82210F664FD31120DB004E5F34CF /* SRKStringObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKStringObject.m; path = SharkORM/Core/PersistableObjects/SRKStringObject.m; sourceTree = "<group>"; };
-		CA150545E5284CD7FE83152108C1AC3E /* SharkORM+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SharkORM+Private.h"; path = "SharkORM/Private/SharkORM+Private.h"; sourceTree = "<group>"; };
-		CBDCCBEDD168815E20FC4C201A4E7467 /* SharkORM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SharkORM-Info.plist"; sourceTree = "<group>"; };
-		CBF0D1F564544B9F5D07B8DB6DD2957C /* SRKIndexDefinition+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKIndexDefinition+Private.h"; path = "SharkORM/Private/SRKIndexDefinition+Private.h"; sourceTree = "<group>"; };
-		CC4017BF75AE1B945ADD281AF635FCD2 /* SharkORM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SharkORM-prefix.pch"; sourceTree = "<group>"; };
-		CF15BD0A98A26D4D9E9040D71B810915 /* SharkSchemaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSchemaManager.h; path = SharkORM/Core/SharkSchemaManager.h; sourceTree = "<group>"; };
-		D087F7698B6EBD351DC71E2F63361C05 /* SRKEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEntity.m; path = SharkORM/Core/PersistableObjects/SRKEntity.m; sourceTree = "<group>"; };
-		D56C2CAC487B5A05A91980BB2A381A1B /* SRKEventHandler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKEventHandler+Private.h"; path = "SharkORM/Private/SRKEventHandler+Private.h"; sourceTree = "<group>"; };
-		DBEAE36223C4D54C716AE67096DD3697 /* SRKEventBlockHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventBlockHolder.m; path = SharkORM/Core/Events/SRKEventBlockHolder.m; sourceTree = "<group>"; };
-		E0B8048946653C58CE31D6F8E157EDBB /* SRKCommitOptions+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKCommitOptions+Private.h"; path = "SharkORM/Private/SRKCommitOptions+Private.h"; sourceTree = "<group>"; };
-		E0F9264748E93739ED4ABB7994C94660 /* SRKResultSet+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKResultSet+Private.h"; path = "SharkORM/Private/SRKResultSet+Private.h"; sourceTree = "<group>"; };
-		E646C720A0E529A9C831BE746C24519C /* SRKSyncObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncObject.m; path = SharkORM/Sync/SRKSyncObject.m; sourceTree = "<group>"; };
-		EB8FE8451F0A7A5CF49F7303CF2C990A /* SRKCommitOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKCommitOptions.m; path = SharkORM/Core/PersistableObjects/SRKCommitOptions.m; sourceTree = "<group>"; };
-		EED304BDFC63AC77F16B82F2F26CA62C /* SRKEntityChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEntityChain.m; path = SharkORM/Core/PersistableObjects/SRKEntityChain.m; sourceTree = "<group>"; };
-		F2BF0269B42332C9CB398C9E120D2968 /* SyncNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncNetwork.m; path = SharkORM/Sync/Comms/SyncNetwork.m; sourceTree = "<group>"; };
-		F7FD7085F038BEBCF12B77372D8FBE7C /* SharkSchemaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSchemaManager.m; path = SharkORM/Core/SharkSchemaManager.m; sourceTree = "<group>"; };
-		F85E02FFE2AD53ED092149FE6A109988 /* SRKSQLiteHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSQLiteHandle.m; path = SharkORM/Core/SRKSQLiteHandle.m; sourceTree = "<group>"; };
-		FCA2CB40D6154D9425534559D30C8833 /* SRKRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKRegistry.m; path = SharkORM/Core/Registry/SRKRegistry.m; sourceTree = "<group>"; };
-		FCC4D2A79612C88D901DC59E04CDB06C /* SRKCompoundIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKCompoundIndex.m; path = SharkORM/Core/Indexing/SRKCompoundIndex.m; sourceTree = "<group>"; };
+		9FC1CB467135727213B147B6BF4EF116 /* SRKGlobals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKGlobals.m; path = SharkORM/Core/SRKGlobals.m; sourceTree = "<group>"; };
+		A07F5CDBFE287C042B866319A9BBAFC2 /* SRKCommitOptions+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKCommitOptions+Private.h"; path = "SharkORM/Private/SRKCommitOptions+Private.h"; sourceTree = "<group>"; };
+		A21DF74F06144EB1E68DB2901F84C726 /* SharkSyncGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSyncGroup.h; path = SharkORM/Sync/SharkSyncGroup.h; sourceTree = "<group>"; };
+		A3CAF745CB70CA44FA48E502902B36C3 /* SRKLazyLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKLazyLoader.m; path = SharkORM/Core/SRKLazyLoader.m; sourceTree = "<group>"; };
+		A462E803D1684987E1D4DE2625446106 /* SharkSchemaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharkSchemaManager.h; path = SharkORM/Core/SharkSchemaManager.h; sourceTree = "<group>"; };
+		A745F5D071E18B16AABA5B2E383857D2 /* SRKEntity+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKEntity+Private.h"; path = "SharkORM/Private/SRKEntity+Private.h"; sourceTree = "<group>"; };
+		A7620D2659374D8756293E50638E0B97 /* SRKSyncRegisteredClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncRegisteredClass.m; path = SharkORM/Sync/SRKSyncRegisteredClass.m; sourceTree = "<group>"; };
+		AB726CEB4007CEF949C755046C1D06E5 /* SRKEntityChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEntityChain.m; path = SharkORM/Core/PersistableObjects/SRKEntityChain.m; sourceTree = "<group>"; };
+		AC4987EA85FCB202E106C2A8D14B5773 /* SRKGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKGlobals.h; path = SharkORM/Core/SRKGlobals.h; sourceTree = "<group>"; };
+		AFC5697DEDB507B15FFC9AD87CD2F45B /* SRKSyncObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKSyncObject+Private.h"; path = "SharkORM/Sync/SRKSyncObject+Private.h"; sourceTree = "<group>"; };
+		B0DC55234A413B35EC31A9165C605777 /* SRKRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRegistry.h; path = SharkORM/Core/Registry/SRKRegistry.h; sourceTree = "<group>"; };
+		B5EAF8C2CA21004119FA9EA732204F74 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = SharkORM/SQLite/sqlite3.h; sourceTree = "<group>"; };
+		B5F75072E96AE6939C325F42BD7C3E6D /* SRKLazyLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKLazyLoader.h; path = SharkORM/Core/SRKLazyLoader.h; sourceTree = "<group>"; };
+		B6B298BD8B74C0B283CB5C978AB40CB9 /* SRKEventBlockHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEventBlockHolder.m; path = SharkORM/Core/Events/SRKEventBlockHolder.m; sourceTree = "<group>"; };
+		BA42D6ED95667B925B30264C3F655428 /* SyncRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncRequest.m; path = SharkORM/Sync/Comms/SyncRequest.m; sourceTree = "<group>"; };
+		BC13C5EEC143ADA103CA339F05024018 /* NumberPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NumberPicker.framework; path = NumberPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81A4C3A7F6C34377E8DA5B3F093C156 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "NumberPicker/Classes/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C874FA4B95004347AAB308063431A4F4 /* SRKJoinObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKJoinObject.h; path = SharkORM/Core/Queries/SRKJoinObject.h; sourceTree = "<group>"; };
+		C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NumberPicker.bundle; path = "NumberPicker-NumberPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0F7E02137B074E37CA3CE62B0D1502 /* SRKSyncOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncOptions.m; path = SharkORM/Sync/SRKSyncOptions.m; sourceTree = "<group>"; };
+		D4B1C95DC72587837578E6A2E2177F98 /* SRKTransaction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKTransaction+Private.h"; path = "SharkORM/Private/SRKTransaction+Private.h"; sourceTree = "<group>"; };
+		D52BF950202658882033F26C81AA6036 /* SRKCommitOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKCommitOptions.m; path = SharkORM/Core/PersistableObjects/SRKCommitOptions.m; sourceTree = "<group>"; };
+		D8046A6BF8245FA3AABDCA4D79A6FFD9 /* SRKCompoundIndex+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKCompoundIndex+Private.h"; path = "SharkORM/Private/SRKCompoundIndex+Private.h"; sourceTree = "<group>"; };
+		D816824D0D2129E3449FFB81C35273F0 /* SyncComms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncComms.m; path = SharkORM/Sync/Comms/SyncComms.m; sourceTree = "<group>"; };
+		DA12B75CF2635F54522D6DEB8F71B079 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqlite3.c; path = SharkORM/SQLite/sqlite3.c; sourceTree = "<group>"; };
+		DC7D419AB5168FF3281DF6E0F7548266 /* SRKDeferredChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKDeferredChange.m; path = SharkORM/Sync/SRKDeferredChange.m; sourceTree = "<group>"; };
+		DCFF9D68B2EB35654A0A093DAEC650F8 /* SRKContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKContext.h; path = SharkORM/Core/Transactions/SRKContext.h; sourceTree = "<group>"; };
+		DD37F164ED78A67EE100132377F5AEF0 /* SRKIndexDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKIndexDefinition.m; path = SharkORM/Core/Indexing/SRKIndexDefinition.m; sourceTree = "<group>"; };
+		E151FC042750BFB56F7AB5CD44A9618C /* SRKError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKError.m; path = SharkORM/Core/SRKError.m; sourceTree = "<group>"; };
+		E1B8BC20FFBA6D84517655CE967DB930 /* SharkSyncGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSyncGroup.m; path = SharkORM/Sync/SharkSyncGroup.m; sourceTree = "<group>"; };
+		E321A9E747BFE7A3F6984A78B21A65E7 /* SRKIndexDefinition+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SRKIndexDefinition+Private.h"; path = "SharkORM/Private/SRKIndexDefinition+Private.h"; sourceTree = "<group>"; };
+		E487D7015A1CB8703B16F5F8EB2A19BC /* SRKEncryptedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKEncryptedObject.m; path = SharkORM/Core/PersistableObjects/SRKEncryptedObject.m; sourceTree = "<group>"; };
+		E89F582E18598DCD1DB659A6CDCE0E94 /* SharkSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSync.m; path = SharkORM/Sync/SharkSync.m; sourceTree = "<group>"; };
+		E8C6D5D00CA171F147051DFE9889FA06 /* SharkORM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SharkORM-Info.plist"; sourceTree = "<group>"; };
+		ED3E83210212936CDDD77F5C67A50EFA /* SRKRegistryEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKRegistryEntry.h; path = SharkORM/Core/Registry/SRKRegistryEntry.h; sourceTree = "<group>"; };
+		F0167D254DCFC6E14C0F28F4181CC409 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = SharkORM/SQLite/sqlite3ext.h; sourceTree = "<group>"; };
+		F38FD7A5FCB0E51BB698D6BC84C914E0 /* SRKSyncNodesList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKSyncNodesList.h; path = SharkORM/Sync/Comms/SRKSyncNodesList.h; sourceTree = "<group>"; };
+		F4B13E3848A5F5F1C074FD61535A4DFA /* SRKSyncObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKSyncObject.m; path = SharkORM/Sync/SRKSyncObject.m; sourceTree = "<group>"; };
+		F4BC9235339D7153AFC7B867A5FD1AD2 /* SRKEntityChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEntityChain.h; path = SharkORM/Core/PersistableObjects/SRKEntityChain.h; sourceTree = "<group>"; };
+		F52D4FD3BE0BB97AB044FC64DF6D332E /* SRKEventBlockHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKEventBlockHolder.h; path = SharkORM/Core/Events/SRKEventBlockHolder.h; sourceTree = "<group>"; };
+		F6ADB1B4C30511E4EBBBD874B96F5A75 /* SRKDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDefinitions.h; path = SharkORM/Core/SRKDefinitions.h; sourceTree = "<group>"; };
+		F7A6DE6D9440DA94B2C07354DBBA7CFA /* SharkSchemaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharkSchemaManager.m; path = SharkORM/Core/SharkSchemaManager.m; sourceTree = "<group>"; };
+		F9E7B3B0AB4595D7C996C71A678D2BCC /* SRKDeferredChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKDeferredChange.h; path = SharkORM/Sync/SRKDeferredChange.h; sourceTree = "<group>"; };
+		FB56B2D0BE102F9A07BB3A0073882281 /* SRKResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKResultSet.m; path = SharkORM/Core/PersistableObjects/SRKResultSet.m; sourceTree = "<group>"; };
+		FEAF707630A91E1A6D400B4B39983372 /* SRKUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKUtilities.h; path = SharkORM/Core/SRKUtilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D009E5DE6E52AE468EC1863C265D5A9 /* Frameworks */ = {
+		3C125EB7A89F6CEBCD9C944D0D065907 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFEC866E7889EDD5448FF3DE9F1CAC0 /* Foundation.framework in Frameworks */,
+				BFB9D87C2EB49C7D6FC1773B666BA738 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A858C5752415813CC30BB248922F4511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,16 +290,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D70A44650EFA4881CE00F8546905EB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D55B8795D70ABC2CF06DFA2E4819C5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E5A55BB3A3BD91630C85E17822577CE /* Products */ = {
+		1C6835FB7E5B4692C1D8F8031B53D62C /* NumberPicker */ = {
 			isa = PBXGroup;
 			children = (
-				210FD9AE772EC983AE8B76FAF8084AF0 /* Pods_eprimora.framework */,
-				169C324099934C87E6B23680FCB35388 /* SharkORM.framework */,
+				6EDF35019BB3CB3BDDFF5096C3168661 /* NumberPicker.swift */,
+				0935AA15BFBFFFDD079701EFD68B5CC1 /* NumberPickerLineCell.swift */,
+				C81A4C3A7F6C34377E8DA5B3F093C156 /* UIView+Extensions.swift */,
+				269CB112EE61D55C17D21313B3682D68 /* Resources */,
+				882A4E671A7DC67F21FC63DE5B712534 /* Support Files */,
 			);
-			name = Products;
+			name = NumberPicker;
+			path = NumberPicker;
+			sourceTree = "<group>";
+		};
+		269CB112EE61D55C17D21313B3682D68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05A2A127860AB3CFFFB8207F4A18ACC8 /* NumberPicker.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		4C706F681B2FC34902C8F3F4FD9180A9 /* Targets Support Files */ = {
@@ -268,12 +330,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		736CF390BAB8492A2716672088986AFC /* Pods */ = {
+		6F81A75C9439FA224D0A3AC993E928F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA4F6DA86E6251AA3D24D0A21D24654F /* SharkORM */,
+				C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */,
+				BC13C5EEC143ADA103CA339F05024018 /* NumberPicker.framework */,
+				210FD9AE772EC983AE8B76FAF8084AF0 /* Pods_eprimora.framework */,
+				169C324099934C87E6B23680FCB35388 /* SharkORM.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DE90793B1FB01CFD56D6B5DDDE062AE /* Pods-eprimora */ = {
@@ -293,106 +358,41 @@
 			path = "Target Support Files/Pods-eprimora";
 			sourceTree = "<group>";
 		};
-		AA4F6DA86E6251AA3D24D0A21D24654F /* SharkORM */ = {
+		882A4E671A7DC67F21FC63DE5B712534 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46BBCFD5273DAF292C8EB8DCEA526F77 /* SharkORM.h */,
-				3261F98E632C19B93D2A657AAA7A7895 /* SharkORM.m */,
-				CA150545E5284CD7FE83152108C1AC3E /* SharkORM+Private.h */,
-				CF15BD0A98A26D4D9E9040D71B810915 /* SharkSchemaManager.h */,
-				F7FD7085F038BEBCF12B77372D8FBE7C /* SharkSchemaManager.m */,
-				47622686B3CA1E5F51CB14479D4FDD78 /* SharkSync.m */,
-				2DDD36CB8AB104B2D4EE1B491F91C5A5 /* SharkSync+Private.h */,
-				508DA810550C2F7A7BE430CAE2EDA9AB /* SharkSyncChange.h */,
-				0D31984733D1A8A9AE4B0B5C1FC9AF95 /* SharkSyncChange.m */,
-				72A5FB3EFF7A1350481ADA3943C348B1 /* SharkSyncGroup.h */,
-				18EBB568490C02C102B69224CF1E951F /* SharkSyncGroup.m */,
-				01973DF24F88526EF223C534B277FF98 /* sqlite3.c */,
-				24D70874DF5473AF3C1B1064AC8AD51B /* sqlite3.h */,
-				A81D8CA3259E292650DC325316571933 /* sqlite3ext.h */,
-				041782051EF23A96CD98AA14BCC8296C /* SRKAES256Extension.h */,
-				A7266F80C46534FD2C4AF5A0240E6336 /* SRKAES256Extension.m */,
-				EB8FE8451F0A7A5CF49F7303CF2C990A /* SRKCommitOptions.m */,
-				E0B8048946653C58CE31D6F8E157EDBB /* SRKCommitOptions+Private.h */,
-				FCC4D2A79612C88D901DC59E04CDB06C /* SRKCompoundIndex.m */,
-				BCD6F9003A640F0FDA3D72D2FB10A941 /* SRKCompoundIndex+Private.h */,
-				26C49D46A8220661B9E08FEBC605F4EA /* SRKContext.h */,
-				B2F792DE1B0E45EBC93B0996DE3F3C27 /* SRKContext.m */,
-				659546F61ED4148031A7C2FC79F4FE4F /* SRKDeferredChange.h */,
-				0E37D91E16EFDA6B6902EF0ECF022C15 /* SRKDeferredChange.m */,
-				272B9F70FDAC91408D79B5119F9DECC4 /* SRKDefinitions.h */,
-				73FB83AA0A9D0798A78802524B5F6545 /* SRKDefunctObject.h */,
-				2D8CBF6DF394248AD5C0AC7EA823E912 /* SRKDefunctObject.m */,
-				BF817146D1EB082B6456872B45536ECC /* SRKEncryptedObject.h */,
-				8F51311AE7FE07BAF8E5C4EDF3BBE03B /* SRKEncryptedObject.m */,
-				D087F7698B6EBD351DC71E2F63361C05 /* SRKEntity.m */,
-				228FB993E274CAF35B7E4705758206E7 /* SRKEntity+Private.h */,
-				43A0D3AF5054C41E19A4BA86591FC828 /* SRKEntityChain.h */,
-				EED304BDFC63AC77F16B82F2F26CA62C /* SRKEntityChain.m */,
-				3B33F621C15B41D067347CB0246394F3 /* SRKError.m */,
-				A4EEDE2C5CA7BA3FF4C13F90F98AC25E /* SRKEvent.m */,
-				128133A41E0A4FC3CE67701E309897BA /* SRKEventBlockHolder.h */,
-				DBEAE36223C4D54C716AE67096DD3697 /* SRKEventBlockHolder.m */,
-				7CB8F0D9EC69854D8EE82A5F3C89B4C4 /* SRKEventHandler.m */,
-				D56C2CAC487B5A05A91980BB2A381A1B /* SRKEventHandler+Private.h */,
-				7E09A5F765315EAFD7CAF3AC049F2EB1 /* SRKEventRegistryObject.h */,
-				2D7A02995353A021B158402AECA89553 /* SRKEventRegistryObject.m */,
-				377AC3506A369D793AD45693305B9BAA /* SRKGlobals.h */,
-				1BC427AD6014F4A773649C4A578AC3B8 /* SRKGlobals.m */,
-				7A1AC62DEB592286E18C0CEB3030A7EA /* SRKIndexDefinition.m */,
-				CBF0D1F564544B9F5D07B8DB6DD2957C /* SRKIndexDefinition+Private.h */,
-				3AD212EC00D956923A104F1FE88123E9 /* SRKIndexProperty.m */,
-				0F98B416A33A00096F1E72672115F928 /* SRKJoinObject.h */,
-				633EB2C463B2A027D376E6BA2494CF0E /* SRKJoinObject.m */,
-				8FB2317ABCC4E0C96DB7FE5BE2E9EE31 /* SRKLazyLoader.h */,
-				7BAF49697DD4A93A3B6C0515C8BA20E0 /* SRKLazyLoader.m */,
-				8FB2253CC662A62D6B9B4C97424AA73F /* SRKObject.m */,
-				58EEEF3D3507697BC3E9CD1F635713A6 /* SRKQuery.m */,
-				57CD44EBCF29F8A540D40267CCE9D43F /* SRKQuery+Private.h */,
-				8CE43074BB673BE35AB45660814D22FD /* SRKQueryAsyncHandler.m */,
-				3EED72098816802CFE5BFF060E5DEBA1 /* SRKQueryAsyncHandler+Private.h */,
-				A36BFD3807D8029E1F73F6A345A56D2C /* SRKQueryProfile.m */,
-				480CF9637FA5D25ADDED18D7AD3B8B33 /* SRKRawResults.m */,
-				BDA697B2A07860241B0D1CAF425847B4 /* SRKRegistry.h */,
-				FCA2CB40D6154D9425534559D30C8833 /* SRKRegistry.m */,
-				660BB6342089C62EBABF4D07D49BDB8C /* SRKRegistryEntry.h */,
-				0FF92650EB81CC38E90385F5D0C52A5F /* SRKRegistryEntry.m */,
-				9AF4A14A495EC0B21D300EB58CF30F57 /* SRKRelationship.h */,
-				7DB7C04E62151774A0ADA74CE7BE1F70 /* SRKRelationship.m */,
-				90DFE656B5A298655AC31D46F9F9A7E4 /* SRKResultSet.m */,
-				E0F9264748E93739ED4ABB7994C94660 /* SRKResultSet+Private.h */,
-				AC6E2B8DA0B7070A7F44D0273B2F5A99 /* SRKSettings.m */,
-				103ED82965FFB643916E76F3C3223491 /* SRKSQLiteHandle.h */,
-				F85E02FFE2AD53ED092149FE6A109988 /* SRKSQLiteHandle.m */,
-				BF9C82210F664FD31120DB004E5F34CF /* SRKStringObject.m */,
-				709630302679D2ADEF0189386C8F4260 /* SRKSyncNodesList.h */,
-				7CEDA5EDA55BD3DDEBF85EF4C2EDE769 /* SRKSyncNodesList.m */,
-				E646C720A0E529A9C831BE746C24519C /* SRKSyncObject.m */,
-				2E8FF6A739E90E05D8DC15DCB2A2532D /* SRKSyncObject+Private.h */,
-				9F9AEB5234F3C3330CCE6EC0F0135EE0 /* SRKSyncOptions.h */,
-				B71E725C056EB6F4F0D87FF563D4F583 /* SRKSyncOptions.m */,
-				4A840999829A5D462EE4CF4C854F70B8 /* SRKSyncRegisteredClass.h */,
-				821FA57926F2F6F3CBE2DB970C658DD8 /* SRKSyncRegisteredClass.m */,
-				ACB3D95BB955E15A7625C24A64B686BE /* SRKTransaction.m */,
-				1E71F6ECF9F4F2477398BFCEA0F8983E /* SRKTransaction+Private.h */,
-				0D5D63E2764C0CDBDA9EAAE79F0A7D91 /* SRKTransactionInfo.h */,
-				68F261D885F4193A15C9072F95F0B9E3 /* SRKTransactionInfo.m */,
-				0B20C18870F582E5558244E93240D91D /* SRKUnsupportedObject.h */,
-				23A58AB8967290E803A351BECA7143C2 /* SRKUnsupportedObject.m */,
-				3AE1AA041933813CF71046B37C2303EE /* SRKUtilities.h */,
-				2EED1F4270C788F58FCC56B6BE25DEC3 /* SRKUtilities.m */,
-				01F3BF5E92595E1198C6CF00CFE60A19 /* SyncComms.h */,
-				99D0416C60A1B5766B106F107E601144 /* SyncComms.m */,
-				1E4C3EB2E0C46E9D75B4F5E75488BFE2 /* SyncNetwork.h */,
-				F2BF0269B42332C9CB398C9E120D2968 /* SyncNetwork.m */,
-				35C899A2DEB9F09DF376BAF5173E860C /* SyncRequest.h */,
-				187F40EA2D412083FB12CDF1062D9D62 /* SyncRequest.m */,
-				5A7D0AB8B2AD33FE519D83CCC38E2353 /* SyncService.h */,
-				B5BDB871493A97B0B91E2A293ED0B37B /* SyncService.m */,
-				D0D716227C8B6829299BAC07B688E83A /* Support Files */,
+				21DE66C17C2EA08BE15BD2CDD8FCA2D4 /* NumberPicker.modulemap */,
+				6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */,
+				1FED6AAD581B61F243D5DA5816C80D27 /* NumberPicker-dummy.m */,
+				15D4394BDB55833661FD83589ACD1565 /* NumberPicker-Info.plist */,
+				64A9D73983D38A1E3C6E6E838F91920D /* NumberPicker-prefix.pch */,
+				5779D302F0C8E1036C45FF3A1BE9E103 /* NumberPicker-umbrella.h */,
+				4DB56F69BF6CB0E964F67911EDFE3572 /* ResourceBundle-NumberPicker-NumberPicker-Info.plist */,
 			);
-			name = SharkORM;
-			path = SharkORM;
+			name = "Support Files";
+			path = "../Target Support Files/NumberPicker";
+			sourceTree = "<group>";
+		};
+		9468BCEEB01B2B82F01ACE61D974D0E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C6835FB7E5B4692C1D8F8031B53D62C /* NumberPicker */,
+				EC9CDCB0A13903EF3540D2737B523A94 /* SharkORM */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FF1897AC71A8C8AA70182B9BB6FD595 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				099D2897295C7D0CE8687F810B47C8B5 /* SharkORM.modulemap */,
+				62EF2E0CF21EBD758A9F9566EBF4C7CB /* SharkORM.xcconfig */,
+				8AEB72A912DCAC8CC8F3C1AF65B9811C /* SharkORM-dummy.m */,
+				E8C6D5D00CA171F147051DFE9889FA06 /* SharkORM-Info.plist */,
+				2F4C2FCE51FFF9EFA5A47BED5E7F7242 /* SharkORM-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SharkORM";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -408,23 +408,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				736CF390BAB8492A2716672088986AFC /* Pods */,
-				1E5A55BB3A3BD91630C85E17822577CE /* Products */,
+				9468BCEEB01B2B82F01ACE61D974D0E6 /* Pods */,
+				6F81A75C9439FA224D0A3AC993E928F6 /* Products */,
 				4C706F681B2FC34902C8F3F4FD9180A9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0D716227C8B6829299BAC07B688E83A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0888D4F5BCFC86563C4E586F57B6D357 /* SharkORM.modulemap */,
-				6623CE572944C3B1C85272306F3C86AC /* SharkORM.xcconfig */,
-				A05286C34B1D6E61EC2EAA7DA58038B0 /* SharkORM-dummy.m */,
-				CBDCCBEDD168815E20FC4C201A4E7467 /* SharkORM-Info.plist */,
-				CC4017BF75AE1B945ADD281AF635FCD2 /* SharkORM-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SharkORM";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -435,14 +422,124 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC9CDCB0A13903EF3540D2737B523A94 /* SharkORM */ = {
+			isa = PBXGroup;
+			children = (
+				5ED4B002C198326BBB0B01BA741C0967 /* SharkORM.h */,
+				6A8726FA9BE6A402E1C1EB16C4C544F8 /* SharkORM.m */,
+				777D4BB98B833C97A4F6CE305CD1969A /* SharkORM+Private.h */,
+				A462E803D1684987E1D4DE2625446106 /* SharkSchemaManager.h */,
+				F7A6DE6D9440DA94B2C07354DBBA7CFA /* SharkSchemaManager.m */,
+				E89F582E18598DCD1DB659A6CDCE0E94 /* SharkSync.m */,
+				111F49B67970A5D58B92F5CA283DB3B5 /* SharkSync+Private.h */,
+				4F63BD5E47241588196103C087870571 /* SharkSyncChange.h */,
+				64672FDD7CFDC54051AD625B413E07E3 /* SharkSyncChange.m */,
+				A21DF74F06144EB1E68DB2901F84C726 /* SharkSyncGroup.h */,
+				E1B8BC20FFBA6D84517655CE967DB930 /* SharkSyncGroup.m */,
+				DA12B75CF2635F54522D6DEB8F71B079 /* sqlite3.c */,
+				B5EAF8C2CA21004119FA9EA732204F74 /* sqlite3.h */,
+				F0167D254DCFC6E14C0F28F4181CC409 /* sqlite3ext.h */,
+				8EFFA362E0537010F8AA218A674DADC9 /* SRKAES256Extension.h */,
+				4835850EBC938F74246DAB188D8679BB /* SRKAES256Extension.m */,
+				D52BF950202658882033F26C81AA6036 /* SRKCommitOptions.m */,
+				A07F5CDBFE287C042B866319A9BBAFC2 /* SRKCommitOptions+Private.h */,
+				42CE001CB686C71FAB8AE877EAF5FF9F /* SRKCompoundIndex.m */,
+				D8046A6BF8245FA3AABDCA4D79A6FFD9 /* SRKCompoundIndex+Private.h */,
+				DCFF9D68B2EB35654A0A093DAEC650F8 /* SRKContext.h */,
+				4B3B66968EB2AF723413FD232D44C570 /* SRKContext.m */,
+				F9E7B3B0AB4595D7C996C71A678D2BCC /* SRKDeferredChange.h */,
+				DC7D419AB5168FF3281DF6E0F7548266 /* SRKDeferredChange.m */,
+				F6ADB1B4C30511E4EBBBD874B96F5A75 /* SRKDefinitions.h */,
+				134E8AD17DEBB07F3CB8DF43003BA6F8 /* SRKDefunctObject.h */,
+				0B5CE67860DBC7958F96FAB683033378 /* SRKDefunctObject.m */,
+				4FE0849D3D29A846C74CA3D757828328 /* SRKEncryptedObject.h */,
+				E487D7015A1CB8703B16F5F8EB2A19BC /* SRKEncryptedObject.m */,
+				2A1341BA9F0FCA4B45470FBDD6A30B70 /* SRKEntity.m */,
+				A745F5D071E18B16AABA5B2E383857D2 /* SRKEntity+Private.h */,
+				F4BC9235339D7153AFC7B867A5FD1AD2 /* SRKEntityChain.h */,
+				AB726CEB4007CEF949C755046C1D06E5 /* SRKEntityChain.m */,
+				E151FC042750BFB56F7AB5CD44A9618C /* SRKError.m */,
+				80296935E75B46CC88A9DD0502327BD4 /* SRKEvent.m */,
+				F52D4FD3BE0BB97AB044FC64DF6D332E /* SRKEventBlockHolder.h */,
+				B6B298BD8B74C0B283CB5C978AB40CB9 /* SRKEventBlockHolder.m */,
+				4DA9A57FECD40D3170B84F3BE0929ECD /* SRKEventHandler.m */,
+				2706F197ACA5289EC62EF8585BB89A07 /* SRKEventHandler+Private.h */,
+				56F34213E2792D6D6E6737E778301329 /* SRKEventRegistryObject.h */,
+				8C8FB9CE7DCE3BD4B10DDAB25921B6EC /* SRKEventRegistryObject.m */,
+				AC4987EA85FCB202E106C2A8D14B5773 /* SRKGlobals.h */,
+				9FC1CB467135727213B147B6BF4EF116 /* SRKGlobals.m */,
+				DD37F164ED78A67EE100132377F5AEF0 /* SRKIndexDefinition.m */,
+				E321A9E747BFE7A3F6984A78B21A65E7 /* SRKIndexDefinition+Private.h */,
+				4398FE7A85268577FD67B26E26B6FF30 /* SRKIndexProperty.m */,
+				C874FA4B95004347AAB308063431A4F4 /* SRKJoinObject.h */,
+				85E19915FF5430778C80E8A25F416C7B /* SRKJoinObject.m */,
+				B5F75072E96AE6939C325F42BD7C3E6D /* SRKLazyLoader.h */,
+				A3CAF745CB70CA44FA48E502902B36C3 /* SRKLazyLoader.m */,
+				4A0F859CCDDF8F666149A443600D78CF /* SRKObject.m */,
+				71308F7137B32513A2924318B5F03A8D /* SRKQuery.m */,
+				6B77CF1F9A7E91176CD7C7F3FB172CB7 /* SRKQuery+Private.h */,
+				3BB41A7E2A4A6E1E176AFE795F835056 /* SRKQueryAsyncHandler.m */,
+				0A93B17D5E89CC287FD3586545896C3D /* SRKQueryAsyncHandler+Private.h */,
+				5F718B4403CBFFC8C4FDA7CE8CDF6DAA /* SRKQueryProfile.m */,
+				29039D1914843166AF48311F78F4745B /* SRKRawResults.m */,
+				B0DC55234A413B35EC31A9165C605777 /* SRKRegistry.h */,
+				5DA9611933B1EC6D832F4E67AFD8659D /* SRKRegistry.m */,
+				ED3E83210212936CDDD77F5C67A50EFA /* SRKRegistryEntry.h */,
+				0DC66BE437D4678F6E7BF45CD3029A73 /* SRKRegistryEntry.m */,
+				97120C5DD9F6B8891FF9D8A84C149517 /* SRKRelationship.h */,
+				74A747789AB836FFEC6F7F61DC338696 /* SRKRelationship.m */,
+				FB56B2D0BE102F9A07BB3A0073882281 /* SRKResultSet.m */,
+				036A8BECF77A90019EED9D852AAFDBB9 /* SRKResultSet+Private.h */,
+				50F7D175CAD681AE3CE8342971A98E9D /* SRKSettings.m */,
+				383007BF3B4631705035380205BF41E6 /* SRKSQLiteHandle.h */,
+				506EFC54C42318F0B444B7815CF75B96 /* SRKSQLiteHandle.m */,
+				561C138E0916204ABBE04123B254DAC2 /* SRKStringObject.m */,
+				F38FD7A5FCB0E51BB698D6BC84C914E0 /* SRKSyncNodesList.h */,
+				485EF3992B8E2F78D66C1F48AD90D53C /* SRKSyncNodesList.m */,
+				F4B13E3848A5F5F1C074FD61535A4DFA /* SRKSyncObject.m */,
+				AFC5697DEDB507B15FFC9AD87CD2F45B /* SRKSyncObject+Private.h */,
+				41483F415E67A7E2964B2B64B05D96F8 /* SRKSyncOptions.h */,
+				CE0F7E02137B074E37CA3CE62B0D1502 /* SRKSyncOptions.m */,
+				0D31FD5364B8DEA04C6A347AC66E6338 /* SRKSyncRegisteredClass.h */,
+				A7620D2659374D8756293E50638E0B97 /* SRKSyncRegisteredClass.m */,
+				7CA1FC0F682F39F88B2D4E6F184406D5 /* SRKTransaction.m */,
+				D4B1C95DC72587837578E6A2E2177F98 /* SRKTransaction+Private.h */,
+				6B9F5F9156DF7170DC21D6F664799BA8 /* SRKTransactionInfo.h */,
+				0733CBCB7B13CC68170C7A291F82FB69 /* SRKTransactionInfo.m */,
+				371D2F8F2A5A6DB46A10CFFCE1482F84 /* SRKUnsupportedObject.h */,
+				393C9AF91C3A1EF34D068831259178DD /* SRKUnsupportedObject.m */,
+				FEAF707630A91E1A6D400B4B39983372 /* SRKUtilities.h */,
+				1F7F9483C5F79800D4510B2E84BD40CD /* SRKUtilities.m */,
+				2798501B08F0B709FBB893C281805EE7 /* SyncComms.h */,
+				D816824D0D2129E3449FFB81C35273F0 /* SyncComms.m */,
+				3224CC3E941227AFC18D7A1FDAB4F047 /* SyncNetwork.h */,
+				8D1C232F98A208D5580489EEE04EB979 /* SyncNetwork.m */,
+				951DA0B20F4AF82D66C0C60124481DA5 /* SyncRequest.h */,
+				BA42D6ED95667B925B30264C3F655428 /* SyncRequest.m */,
+				00CAE719ED2F1AAC6BFD636A6323695E /* SyncService.h */,
+				37A0FF3DD3EF862A1D9E0BAEEC641B8E /* SyncService.m */,
+				9FF1897AC71A8C8AA70182B9BB6FD595 /* Support Files */,
+			);
+			name = SharkORM;
+			path = SharkORM;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9BC77BB6F9D63ED633CC61BA784F1E52 /* Headers */ = {
+		7ABBC245C0CCF96549F29D460140B36D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EF6665C2687E404963F928AE21ADE6D /* Pods-eprimora-umbrella.h in Headers */,
+				DFE4B95ADD5C09AA7C7887A206E7FF2F /* NumberPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E7A49E45BEE8FB1691D2757348AF46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B072DCDAEDB7CC106D87AC2FAED2748D /* Pods-eprimora-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,19 +597,56 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		514FB30ED07282CAAE4AAB03C965D56B /* Pods-eprimora */ = {
+		312C2515DD038726C0FB3BBC872539FA /* NumberPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A95B2493022FAB525BCAEF380042084 /* Build configuration list for PBXNativeTarget "Pods-eprimora" */;
+			buildConfigurationList = EA6AE66A2DF6B46B032BE28779FBF965 /* Build configuration list for PBXNativeTarget "NumberPicker" */;
 			buildPhases = (
-				9BC77BB6F9D63ED633CC61BA784F1E52 /* Headers */,
-				9F654BB2C489C7BC58E7DD8A2F14F415 /* Sources */,
-				4D009E5DE6E52AE468EC1863C265D5A9 /* Frameworks */,
-				73E66FE2D135CC27A8835A044A611F88 /* Resources */,
+				7ABBC245C0CCF96549F29D460140B36D /* Headers */,
+				25B41D83EF7AA6AD1C1CE83F609E398C /* Sources */,
+				D70A44650EFA4881CE00F8546905EB88 /* Frameworks */,
+				9947F8450BEF207DD4B9AEF96FD3E975 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65A3F2CA0383D34E539C7F35BC6E24FE /* PBXTargetDependency */,
+				0BF9DEA61EBD9586B05780D3BF2DCDB4 /* PBXTargetDependency */,
+			);
+			name = NumberPicker;
+			productName = NumberPicker;
+			productReference = BC13C5EEC143ADA103CA339F05024018 /* NumberPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		404F33ED232A94416A1A7F8D462BC385 /* NumberPicker-NumberPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A313E277BB9E99EF437D693F33359501 /* Build configuration list for PBXNativeTarget "NumberPicker-NumberPicker" */;
+			buildPhases = (
+				119A2CE17C3E7B46FD912DE9A5857F6D /* Sources */,
+				A858C5752415813CC30BB248922F4511 /* Frameworks */,
+				198EED57832F8A403F1A52FF1143B679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NumberPicker-NumberPicker";
+			productName = "NumberPicker-NumberPicker";
+			productReference = C9AD801F3CD08F4B3918933ADD58C5B5 /* NumberPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		514FB30ED07282CAAE4AAB03C965D56B /* Pods-eprimora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F267E309A05BDB8C119463134CBDDF /* Build configuration list for PBXNativeTarget "Pods-eprimora" */;
+			buildPhases = (
+				E9E7A49E45BEE8FB1691D2757348AF46 /* Headers */,
+				8F0D4F74EFC0182C026CD5271413CA2B /* Sources */,
+				3C125EB7A89F6CEBCD9C944D0D065907 /* Frameworks */,
+				EB2BA4E1B8D93FF045781C0F4B051E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C052B507F9F94F969AA493A340CCF2 /* PBXTargetDependency */,
+				CC9C2B5A0ECC1F0BA0BE4C137E411D98 /* PBXTargetDependency */,
 			);
 			name = "Pods-eprimora";
 			productName = "Pods-eprimora";
@@ -554,10 +688,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1E5A55BB3A3BD91630C85E17822577CE /* Products */;
+			productRefGroup = 6F81A75C9439FA224D0A3AC993E928F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				312C2515DD038726C0FB3BBC872539FA /* NumberPicker */,
+				404F33ED232A94416A1A7F8D462BC385 /* NumberPicker-NumberPicker */,
 				514FB30ED07282CAAE4AAB03C965D56B /* Pods-eprimora */,
 				F11267DB4D5EE1D54642DD4AF5EC033C /* SharkORM */,
 			);
@@ -565,10 +701,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		73E66FE2D135CC27A8835A044A611F88 /* Resources */ = {
+		198EED57832F8A403F1A52FF1143B679 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9320914E24E912CE93A2DDD089F28F2 /* NumberPicker.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9947F8450BEF207DD4B9AEF96FD3E975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D298A3DA32DD95C5E123BAAF121CF18 /* NumberPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,9 +724,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB2BA4E1B8D93FF045781C0F4B051E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		119A2CE17C3E7B46FD912DE9A5857F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B41D83EF7AA6AD1C1CE83F609E398C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954664531AC4926541474B27116E3075 /* NumberPicker-dummy.m in Sources */,
+				A88AABB6F39D7C5BC4CDA412A5CF5C82 /* NumberPicker.swift in Sources */,
+				93F179F5224850FADA517589C06CD2E5 /* NumberPickerLineCell.swift in Sources */,
+				C2160AF518EC114F9BA238BBA5E2DF5F /* UIView+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D4F74EFC0182C026CD5271413CA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD645AB4534F00D8E20FD002E377602 /* Pods-eprimora-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B573F6843CAC4F4F4EC54EA83C23016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -639,26 +817,104 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F654BB2C489C7BC58E7DD8A2F14F415 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84EBDBB4FEFBFAF372D9D6A1FD0936DA /* Pods-eprimora-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65A3F2CA0383D34E539C7F35BC6E24FE /* PBXTargetDependency */ = {
+		0BF9DEA61EBD9586B05780D3BF2DCDB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NumberPicker-NumberPicker";
+			target = 404F33ED232A94416A1A7F8D462BC385 /* NumberPicker-NumberPicker */;
+			targetProxy = 3EB2536158092BE8F48F129446531ED4 /* PBXContainerItemProxy */;
+		};
+		42C052B507F9F94F969AA493A340CCF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NumberPicker;
+			target = 312C2515DD038726C0FB3BBC872539FA /* NumberPicker */;
+			targetProxy = E8092A1B95657BD07863E745F45EA908 /* PBXContainerItemProxy */;
+		};
+		CC9C2B5A0ECC1F0BA0BE4C137E411D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SharkORM;
 			target = F11267DB4D5EE1D54642DD4AF5EC033C /* SharkORM */;
-			targetProxy = 389DBFB69B582146EFC9E28606FCAC25 /* PBXContainerItemProxy */;
+			targetProxy = 1115AB3AB4EED2CFC0CF059F947D1BBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		07D2238A1AB4825EA836453725FF85C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E587111C137AAF271CEAEC1EF28346 /* Pods-eprimora.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eprimora/Pods-eprimora-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eprimora/Pods-eprimora.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18A741609427CCC76796ED64EE9E4BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NumberPicker/NumberPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NumberPicker/NumberPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NumberPicker/NumberPicker.modulemap";
+				PRODUCT_MODULE_NAME = NumberPicker;
+				PRODUCT_NAME = NumberPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -723,6 +979,22 @@
 			};
 			name = Debug;
 		};
+		26E7DA99C9D6125F86E8AFC5E8E72FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumberPicker";
+				INFOPLIST_FILE = "Target Support Files/NumberPicker/ResourceBundle-NumberPicker-NumberPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = NumberPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -783,45 +1055,7 @@
 			};
 			name = Release;
 		};
-		4BB44E097BE874BCBF28D0F792BF2C00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53E587111C137AAF271CEAEC1EF28346 /* Pods-eprimora.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-eprimora/Pods-eprimora-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-eprimora/Pods-eprimora.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5DEEA80EB99C823E19BBEC91D9088711 /* Release */ = {
+		7F503ABEBB45E12430E3D324CD3658F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CFD3C9513690A004486EA414C6EFA2E /* Pods-eprimora.release.xcconfig */;
 			buildSettings = {
@@ -862,7 +1096,7 @@
 		};
 		9CB3139B60565A7B3B9FA1DD4951AAAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6623CE572944C3B1C85272306F3C86AC /* SharkORM.xcconfig */;
+			baseConfigurationReference = 62EF2E0CF21EBD758A9F9566EBF4C7CB /* SharkORM.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -896,9 +1130,25 @@
 			};
 			name = Release;
 		};
+		AB51B88885B729DD4E853C0BA7C26F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumberPicker";
+				INFOPLIST_FILE = "Target Support Files/NumberPicker/ResourceBundle-NumberPicker-NumberPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = NumberPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		CAE6DDD804967D82A3C820014C0BD94D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6623CE572944C3B1C85272306F3C86AC /* SharkORM.xcconfig */;
+			baseConfigurationReference = 62EF2E0CF21EBD758A9F9566EBF4C7CB /* SharkORM.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -931,18 +1181,46 @@
 			};
 			name = Debug;
 		};
+		D763500B1E4C56441537F737EAE8BF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BB673A23FA66552D5973D6F1A04A2 /* NumberPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NumberPicker/NumberPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NumberPicker/NumberPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NumberPicker/NumberPicker.modulemap";
+				PRODUCT_MODULE_NAME = NumberPicker;
+				PRODUCT_NAME = NumberPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A95B2493022FAB525BCAEF380042084 /* Build configuration list for PBXNativeTarget "Pods-eprimora" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4BB44E097BE874BCBF28D0F792BF2C00 /* Debug */,
-				5DEEA80EB99C823E19BBEC91D9088711 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -957,6 +1235,33 @@
 			buildConfigurations = (
 				CAE6DDD804967D82A3C820014C0BD94D /* Debug */,
 				9CB3139B60565A7B3B9FA1DD4951AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85F267E309A05BDB8C119463134CBDDF /* Build configuration list for PBXNativeTarget "Pods-eprimora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D2238A1AB4825EA836453725FF85C2 /* Debug */,
+				7F503ABEBB45E12430E3D324CD3658F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A313E277BB9E99EF437D693F33359501 /* Build configuration list for PBXNativeTarget "NumberPicker-NumberPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB51B88885B729DD4E853C0BA7C26F79 /* Debug */,
+				26E7DA99C9D6125F86E8AFC5E8E72FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6AE66A2DF6B46B032BE28779FBF965 /* Build configuration list for PBXNativeTarget "NumberPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A741609427CCC76796ED64EE9E4BC6 /* Debug */,
+				D763500B1E4C56441537F737EAE8BF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
