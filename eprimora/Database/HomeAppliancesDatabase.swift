@@ -13,6 +13,9 @@ public class HomeAppliancesDatabase: SRKObject {
     
     @objc dynamic var productID: NSNumber?
     @objc dynamic var productName: NSString?
-    @objc dynamic var productCategories: NSString?
+    @objc dynamic var productConvenient: NSString?
     @objc dynamic var productPower: NSNumber?
+    @objc dynamic var productImage: NSData?
+    @objc dynamic var productMinPower: NSNumber?
+    @objc dynamic var productMaxPower: NSNumber?
 }

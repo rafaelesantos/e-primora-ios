@@ -7,22 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C98B93222C00F050014DE3F /* PotenciaMedia.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C98B93122C00F050014DE3F /* PotenciaMedia.json */; };
+		4C07F05822C292A70078BD7D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07F05722C292A70078BD7D /* UIViewExtension.swift */; };
+		4C07F05A22C292BB0078BD7D /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07F05922C292BB0078BD7D /* UIImageViewExtension.swift */; };
+		4C07F06522C2976F0078BD7D /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07F05E22C2976F0078BD7D /* UIView+Extensions.swift */; };
+		4C07F06722C2976F0078BD7D /* NumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07F06022C2976F0078BD7D /* NumberPicker.swift */; };
+		4C07F06822C2976F0078BD7D /* NumberPickerLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07F06122C2976F0078BD7D /* NumberPickerLineCell.swift */; };
+		4C07F06922C2976F0078BD7D /* NumberPicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C07F06322C2976F0078BD7D /* NumberPicker.xcassets */; };
+		4C6B99FB22C31A3D006C1B4A /* SPStorkHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99E922C31A3C006C1B4A /* SPStorkHaptic.swift */; };
+		4C6B99FC22C31A3D006C1B4A /* SPStorkSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99EA22C31A3C006C1B4A /* SPStorkSeque.swift */; };
+		4C6B99FD22C31A3D006C1B4A /* SPStorkCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99EC22C31A3C006C1B4A /* SPStorkCodeDraw.swift */; };
+		4C6B99FE22C31A3D006C1B4A /* SPStorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99ED22C31A3C006C1B4A /* SPStorkController.swift */; };
+		4C6B99FF22C31A3D006C1B4A /* SPStorkTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99EF22C31A3C006C1B4A /* SPStorkTransitioningDelegate.swift */; };
+		4C6B9A0022C31A3D006C1B4A /* SPStorkPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99F022C31A3C006C1B4A /* SPStorkPresentingAnimationController.swift */; };
+		4C6B9A0122C31A3D006C1B4A /* SPStorkPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99F122C31A3C006C1B4A /* SPStorkPresentationController.swift */; };
+		4C6B9A0222C31A3D006C1B4A /* SPStorkDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99F222C31A3C006C1B4A /* SPStorkDismissingAnimationController.swift */; };
+		4C6B9A0322C31A3D006C1B4A /* SPStorkViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99F422C31A3C006C1B4A /* SPStorkViewControllerExtenshion.swift */; };
+		4C6B9A0422C31A3D006C1B4A /* SPStorkCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99F622C31A3C006C1B4A /* SPStorkCloseButton.swift */; };
+		4C6B9A0522C31A3D006C1B4A /* SPStorkIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99F722C31A3C006C1B4A /* SPStorkIndicatorView.swift */; };
+		4C6B9A0622C31A3D006C1B4A /* SPStorkCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99F822C31A3C006C1B4A /* SPStorkCloseView.swift */; };
+		4C6B9A0722C31A3D006C1B4A /* SPStorkControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B99FA22C31A3C006C1B4A /* SPStorkControllerDelegate.swift */; };
 		4C98B93522C0113F0014DE3F /* HomeAppliancesDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B93422C0113F0014DE3F /* HomeAppliancesDatabase.swift */; };
-		4C98B93822C015040014DE3F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B93722C015040014DE3F /* GradientView.swift */; };
+		4C98B93822C015040014DE3F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B93722C015040014DE3F /* CustomView.swift */; };
+		4CA5745D22C07F81003CB217 /* SimpleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5745C22C07F81003CB217 /* SimpleSwitch.swift */; };
+		4CA5745F22C0802D003CB217 /* BaseSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5745E22C0802D003CB217 /* BaseSwitch.swift */; };
 		4CE14476225C2FDA0078B979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE14475225C2FDA0078B979 /* AppDelegate.swift */; };
 		4CE14478225C2FDA0078B979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE14477225C2FDA0078B979 /* ViewController.swift */; };
 		4CE1447B225C2FDA0078B979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE14479225C2FDA0078B979 /* Main.storyboard */; };
 		4CE1447D225C2FDB0078B979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1447C225C2FDB0078B979 /* Assets.xcassets */; };
 		4CE14480225C2FDB0078B979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1447E225C2FDB0078B979 /* LaunchScreen.storyboard */; };
+		4CFCD09422C150010087EBAE /* PotenciaMedia.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CFCD09322C150000087EBAE /* PotenciaMedia.json */; };
+		4CFCD09722C153640087EBAE /* DatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCD09622C153640087EBAE /* DatabaseModel.swift */; };
+		4CFCD09C22C167260087EBAE /* HomeApplianceSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCD09B22C167260087EBAE /* HomeApplianceSelectionVC.swift */; };
+		4CFCD09E22C1BD1C0087EBAE /* HomeApplianceSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCD09D22C1BD1C0087EBAE /* HomeApplianceSelectionModel.swift */; };
+		4CFCD0A522C1BF2D0087EBAE /* HomeApplianceSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCD0A422C1BF2D0087EBAE /* HomeApplianceSelectionCell.swift */; };
 		C0249F113E89BC3FFE4ED564 /* Pods_eprimora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C6E665E660863E532843FE /* Pods_eprimora.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49A9CC9A31A3BE37A2EC09E7 /* Pods-eprimora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eprimora.debug.xcconfig"; path = "Target Support Files/Pods-eprimora/Pods-eprimora.debug.xcconfig"; sourceTree = "<group>"; };
-		4C98B93122C00F050014DE3F /* PotenciaMedia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PotenciaMedia.json; sourceTree = "<group>"; };
+		4C07F05722C292A70078BD7D /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4C07F05922C292BB0078BD7D /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		4C07F05E22C2976F0078BD7D /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		4C07F06022C2976F0078BD7D /* NumberPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPicker.swift; sourceTree = "<group>"; };
+		4C07F06122C2976F0078BD7D /* NumberPickerLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPickerLineCell.swift; sourceTree = "<group>"; };
+		4C07F06322C2976F0078BD7D /* NumberPicker.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NumberPicker.xcassets; sourceTree = "<group>"; };
+		4C6B99E922C31A3C006C1B4A /* SPStorkHaptic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkHaptic.swift; sourceTree = "<group>"; };
+		4C6B99EA22C31A3C006C1B4A /* SPStorkSeque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkSeque.swift; sourceTree = "<group>"; };
+		4C6B99EC22C31A3C006C1B4A /* SPStorkCodeDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkCodeDraw.swift; sourceTree = "<group>"; };
+		4C6B99ED22C31A3C006C1B4A /* SPStorkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkController.swift; sourceTree = "<group>"; };
+		4C6B99EF22C31A3C006C1B4A /* SPStorkTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkTransitioningDelegate.swift; sourceTree = "<group>"; };
+		4C6B99F022C31A3C006C1B4A /* SPStorkPresentingAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkPresentingAnimationController.swift; sourceTree = "<group>"; };
+		4C6B99F122C31A3C006C1B4A /* SPStorkPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkPresentationController.swift; sourceTree = "<group>"; };
+		4C6B99F222C31A3C006C1B4A /* SPStorkDismissingAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkDismissingAnimationController.swift; sourceTree = "<group>"; };
+		4C6B99F422C31A3C006C1B4A /* SPStorkViewControllerExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		4C6B99F622C31A3C006C1B4A /* SPStorkCloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkCloseButton.swift; sourceTree = "<group>"; };
+		4C6B99F722C31A3C006C1B4A /* SPStorkIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkIndicatorView.swift; sourceTree = "<group>"; };
+		4C6B99F822C31A3C006C1B4A /* SPStorkCloseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkCloseView.swift; sourceTree = "<group>"; };
+		4C6B99FA22C31A3C006C1B4A /* SPStorkControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStorkControllerDelegate.swift; sourceTree = "<group>"; };
 		4C98B93422C0113F0014DE3F /* HomeAppliancesDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppliancesDatabase.swift; sourceTree = "<group>"; };
-		4C98B93722C015040014DE3F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4C98B93722C015040014DE3F /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		4CA5745C22C07F81003CB217 /* SimpleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwitch.swift; sourceTree = "<group>"; };
+		4CA5745E22C0802D003CB217 /* BaseSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSwitch.swift; sourceTree = "<group>"; };
 		4CE14472225C2FDA0078B979 /* eprimora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eprimora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE14475225C2FDA0078B979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CE14477225C2FDA0078B979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +75,11 @@
 		4CE1447C225C2FDB0078B979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CE1447F225C2FDB0078B979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CE14481225C2FDB0078B979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CFCD09322C150000087EBAE /* PotenciaMedia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PotenciaMedia.json; sourceTree = "<group>"; };
+		4CFCD09622C153640087EBAE /* DatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseModel.swift; sourceTree = "<group>"; };
+		4CFCD09B22C167260087EBAE /* HomeApplianceSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApplianceSelectionVC.swift; sourceTree = "<group>"; };
+		4CFCD09D22C1BD1C0087EBAE /* HomeApplianceSelectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApplianceSelectionModel.swift; sourceTree = "<group>"; };
+		4CFCD0A422C1BF2D0087EBAE /* HomeApplianceSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApplianceSelectionCell.swift; sourceTree = "<group>"; };
 		C5C6E665E660863E532843FE /* Pods_eprimora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eprimora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F707F2C5EAE5055B2E7F4D8A /* Pods-eprimora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eprimora.release.xcconfig"; path = "Target Support Files/Pods-eprimora/Pods-eprimora.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +105,110 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4C07F05622C2927B0078BD7D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C07F05722C292A70078BD7D /* UIViewExtension.swift */,
+				4C07F05922C292BB0078BD7D /* UIImageViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4C07F05C22C2976F0078BD7D /* NumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4C07F05D22C2976F0078BD7D /* Classes */,
+				4C07F06222C2976F0078BD7D /* Assets */,
+			);
+			path = NumberPicker;
+			sourceTree = "<group>";
+		};
+		4C07F05D22C2976F0078BD7D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C07F05E22C2976F0078BD7D /* UIView+Extensions.swift */,
+				4C07F06022C2976F0078BD7D /* NumberPicker.swift */,
+				4C07F06122C2976F0078BD7D /* NumberPickerLineCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4C07F06222C2976F0078BD7D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4C07F06322C2976F0078BD7D /* NumberPicker.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4C6B99E722C31A3C006C1B4A /* SPStorkController */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B99E822C31A3C006C1B4A /* Models */,
+				4C6B99EA22C31A3C006C1B4A /* SPStorkSeque.swift */,
+				4C6B99EB22C31A3C006C1B4A /* CodeDraw */,
+				4C6B99ED22C31A3C006C1B4A /* SPStorkController.swift */,
+				4C6B99EE22C31A3C006C1B4A /* TransitioningDelegate */,
+				4C6B99F322C31A3C006C1B4A /* Extenshion */,
+				4C6B99F522C31A3C006C1B4A /* Views */,
+				4C6B99F922C31A3C006C1B4A /* Protocols */,
+			);
+			path = SPStorkController;
+			sourceTree = "<group>";
+		};
+		4C6B99E822C31A3C006C1B4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B99E922C31A3C006C1B4A /* SPStorkHaptic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C6B99EB22C31A3C006C1B4A /* CodeDraw */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B99EC22C31A3C006C1B4A /* SPStorkCodeDraw.swift */,
+			);
+			path = CodeDraw;
+			sourceTree = "<group>";
+		};
+		4C6B99EE22C31A3C006C1B4A /* TransitioningDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B99EF22C31A3C006C1B4A /* SPStorkTransitioningDelegate.swift */,
+				4C6B99F022C31A3C006C1B4A /* SPStorkPresentingAnimationController.swift */,
+				4C6B99F122C31A3C006C1B4A /* SPStorkPresentationController.swift */,
+				4C6B99F222C31A3C006C1B4A /* SPStorkDismissingAnimationController.swift */,
+			);
+			path = TransitioningDelegate;
+			sourceTree = "<group>";
+		};
+		4C6B99F322C31A3C006C1B4A /* Extenshion */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B99F422C31A3C006C1B4A /* SPStorkViewControllerExtenshion.swift */,
+			);
+			path = Extenshion;
+			sourceTree = "<group>";
+		};
+		4C6B99F522C31A3C006C1B4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B99F622C31A3C006C1B4A /* SPStorkCloseButton.swift */,
+				4C6B99F722C31A3C006C1B4A /* SPStorkIndicatorView.swift */,
+				4C6B99F822C31A3C006C1B4A /* SPStorkCloseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C6B99F922C31A3C006C1B4A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B99FA22C31A3C006C1B4A /* SPStorkControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		4C98B93322C010FE0014DE3F /* Database */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +217,21 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
-		4C98B93622C014C40014DE3F /* GradientView */ = {
+		4C98B93622C014C40014DE3F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C98B93722C015040014DE3F /* GradientView.swift */,
+				4C98B93722C015040014DE3F /* CustomView.swift */,
 			);
-			path = GradientView;
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CA5745B22C07F69003CB217 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5745E22C0802D003CB217 /* BaseSwitch.swift */,
+				4CA5745C22C07F81003CB217 /* SimpleSwitch.swift */,
+			);
+			path = Switch;
 			sourceTree = "<group>";
 		};
 		4CE14469225C2FDA0078B979 = {
@@ -92,18 +255,50 @@
 		4CE14474225C2FDA0078B979 /* eprimora */ = {
 			isa = PBXGroup;
 			children = (
-				4C98B93622C014C40014DE3F /* GradientView */,
+				4C6B99E722C31A3C006C1B4A /* SPStorkController */,
+				4C07F05C22C2976F0078BD7D /* NumberPicker */,
+				4C07F05622C2927B0078BD7D /* Extension */,
+				4CA5745B22C07F69003CB217 /* Switch */,
+				4C98B93622C014C40014DE3F /* View */,
 				4C98B93322C010FE0014DE3F /* Database */,
+				4CFCD0A322C1BEEB0087EBAE /* Cell */,
+				4CFCD09522C153330087EBAE /* Model */,
+				4CFCD09A22C164F60087EBAE /* Controller */,
 				4CE14475225C2FDA0078B979 /* AppDelegate.swift */,
-				4CE14477225C2FDA0078B979 /* ViewController.swift */,
 				4CE14479225C2FDA0078B979 /* Main.storyboard */,
 				4CE1447C225C2FDB0078B979 /* Assets.xcassets */,
 				4CE1447E225C2FDB0078B979 /* LaunchScreen.storyboard */,
 				4CE14481225C2FDB0078B979 /* Info.plist */,
-				4C98B93122C00F050014DE3F /* PotenciaMedia.json */,
+				4CFCD09322C150000087EBAE /* PotenciaMedia.json */,
 				4CE14473225C2FDA0078B979 /* Products */,
 			);
 			path = eprimora;
+			sourceTree = "<group>";
+		};
+		4CFCD09522C153330087EBAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CFCD09622C153640087EBAE /* DatabaseModel.swift */,
+				4CFCD09D22C1BD1C0087EBAE /* HomeApplianceSelectionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CFCD09A22C164F60087EBAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CE14477225C2FDA0078B979 /* ViewController.swift */,
+				4CFCD09B22C167260087EBAE /* HomeApplianceSelectionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CFCD0A322C1BEEB0087EBAE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4CFCD0A422C1BF2D0087EBAE /* HomeApplianceSelectionCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		FC23ADBEE3165AFBD3520903 /* Frameworks */ = {
@@ -175,7 +370,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE14480225C2FDB0078B979 /* LaunchScreen.storyboard in Resources */,
-				4C98B93222C00F050014DE3F /* PotenciaMedia.json in Resources */,
+				4CFCD09422C150010087EBAE /* PotenciaMedia.json in Resources */,
+				4C07F06922C2976F0078BD7D /* NumberPicker.xcassets in Resources */,
 				4CE1447D225C2FDB0078B979 /* Assets.xcassets in Resources */,
 				4CE1447B225C2FDA0078B979 /* Main.storyboard in Resources */,
 			);
@@ -230,10 +426,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C07F06722C2976F0078BD7D /* NumberPicker.swift in Sources */,
+				4C6B9A0222C31A3D006C1B4A /* SPStorkDismissingAnimationController.swift in Sources */,
+				4CA5745F22C0802D003CB217 /* BaseSwitch.swift in Sources */,
 				4C98B93522C0113F0014DE3F /* HomeAppliancesDatabase.swift in Sources */,
+				4C07F05A22C292BB0078BD7D /* UIImageViewExtension.swift in Sources */,
+				4C6B9A0622C31A3D006C1B4A /* SPStorkCloseView.swift in Sources */,
+				4C07F05822C292A70078BD7D /* UIViewExtension.swift in Sources */,
+				4CA5745D22C07F81003CB217 /* SimpleSwitch.swift in Sources */,
+				4C6B9A0122C31A3D006C1B4A /* SPStorkPresentationController.swift in Sources */,
+				4C07F06522C2976F0078BD7D /* UIView+Extensions.swift in Sources */,
+				4C6B99FD22C31A3D006C1B4A /* SPStorkCodeDraw.swift in Sources */,
+				4C6B9A0422C31A3D006C1B4A /* SPStorkCloseButton.swift in Sources */,
+				4C6B9A0522C31A3D006C1B4A /* SPStorkIndicatorView.swift in Sources */,
+				4C6B99FC22C31A3D006C1B4A /* SPStorkSeque.swift in Sources */,
+				4CFCD09E22C1BD1C0087EBAE /* HomeApplianceSelectionModel.swift in Sources */,
+				4CFCD0A522C1BF2D0087EBAE /* HomeApplianceSelectionCell.swift in Sources */,
 				4CE14478225C2FDA0078B979 /* ViewController.swift in Sources */,
-				4C98B93822C015040014DE3F /* GradientView.swift in Sources */,
+				4C98B93822C015040014DE3F /* CustomView.swift in Sources */,
+				4CFCD09722C153640087EBAE /* DatabaseModel.swift in Sources */,
+				4C6B9A0722C31A3D006C1B4A /* SPStorkControllerDelegate.swift in Sources */,
+				4CFCD09C22C167260087EBAE /* HomeApplianceSelectionVC.swift in Sources */,
+				4C6B99FB22C31A3D006C1B4A /* SPStorkHaptic.swift in Sources */,
+				4C6B9A0322C31A3D006C1B4A /* SPStorkViewControllerExtenshion.swift in Sources */,
+				4C07F06822C2976F0078BD7D /* NumberPickerLineCell.swift in Sources */,
+				4C6B9A0022C31A3D006C1B4A /* SPStorkPresentingAnimationController.swift in Sources */,
 				4CE14476225C2FDA0078B979 /* AppDelegate.swift in Sources */,
+				4C6B99FE22C31A3D006C1B4A /* SPStorkController.swift in Sources */,
+				4C6B99FF22C31A3D006C1B4A /* SPStorkTransitioningDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q7QLR2PH2X;
 				INFOPLIST_FILE = eprimora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +611,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelescaleira.eprimora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -402,6 +623,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q7QLR2PH2X;
 				INFOPLIST_FILE = eprimora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,7 +631,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelescaleira.eprimora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
