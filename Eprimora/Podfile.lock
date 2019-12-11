@@ -1,0 +1,24 @@
+PODS:
+  - BetterSegmentedControl (1.2.1)
+  - Blueprints (0.12.1)
+  - SharkORM (2.3.62)
+
+DEPENDENCIES:
+  - BetterSegmentedControl
+  - Blueprints
+  - SharkORM
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BetterSegmentedControl
+    - Blueprints
+    - SharkORM
+
+SPEC CHECKSUMS:
+  BetterSegmentedControl: b27bddbdff29b6cae988678d6cd106858986cd03
+  Blueprints: a35723fafd8020c984e9d51817bd3c67f8d18ddc
+  SharkORM: ff65244dfc2e1fa4613badad7c42f6febc1951cc
+
+PODFILE CHECKSUM: bc205953b3fe5db7731e5e1cc4e214b8b25097ec
+
+COCOAPODS: 1.7.5

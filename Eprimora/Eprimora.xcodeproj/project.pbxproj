@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C757FD623692600000FA334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C757FD523692600000FA334 /* AppDelegate.swift */; };
+		4C757FD823692600000FA334 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C757FD723692600000FA334 /* SceneDelegate.swift */; };
+		4C757FDA23692600000FA334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C757FD923692600000FA334 /* ViewController.swift */; };
+		4C757FDD23692600000FA334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C757FDB23692600000FA334 /* Main.storyboard */; };
+		4C757FDF23692604000FA334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C757FDE23692604000FA334 /* Assets.xcassets */; };
+		4C757FE223692604000FA334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C757FE023692604000FA334 /* LaunchScreen.storyboard */; };
+		4C757FEB236933AD000FA334 /* ClassesConsumoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C757FEA236933AD000FA334 /* ClassesConsumoViewController.swift */; };
+		4CF177B523693DD500964856 /* EletrodomesticosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177B423693DD500964856 /* EletrodomesticosViewController.swift */; };
+		4CF177BA23694F4300964856 /* SelecionadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177B923694F4300964856 /* SelecionadosViewController.swift */; };
+		4CF177BC23695CC900964856 /* ResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177BB23695CC900964856 /* ResultadoViewController.swift */; };
+		4CF177BE2369659200964856 /* ComparacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177BD2369659200964856 /* ComparacaoViewController.swift */; };
+		A144971EA20B19F09F735C4B /* Pods_Eprimora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFD4FC62D2ECD635C06F176 /* Pods_Eprimora.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2165D7C29536E6816E17E280 /* Pods-Eprimora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eprimora.release.xcconfig"; path = "Target Support Files/Pods-Eprimora/Pods-Eprimora.release.xcconfig"; sourceTree = "<group>"; };
+		37F0E6C155B814D7FD89F5E8 /* Pods-Eprimora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eprimora.debug.xcconfig"; path = "Target Support Files/Pods-Eprimora/Pods-Eprimora.debug.xcconfig"; sourceTree = "<group>"; };
+		4BFD4FC62D2ECD635C06F176 /* Pods_Eprimora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eprimora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C757FD223692600000FA334 /* Eprimora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eprimora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C757FD523692600000FA334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C757FD723692600000FA334 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C757FD923692600000FA334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C757FDC23692600000FA334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C757FDE23692604000FA334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C757FE123692604000FA334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C757FE323692604000FA334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C757FEA236933AD000FA334 /* ClassesConsumoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesConsumoViewController.swift; sourceTree = "<group>"; };
+		4CF177B423693DD500964856 /* EletrodomesticosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EletrodomesticosViewController.swift; sourceTree = "<group>"; };
+		4CF177B923694F4300964856 /* SelecionadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelecionadosViewController.swift; sourceTree = "<group>"; };
+		4CF177BB23695CC900964856 /* ResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoViewController.swift; sourceTree = "<group>"; };
+		4CF177BD2369659200964856 /* ComparacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparacaoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C757FCF23692600000FA334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A144971EA20B19F09F735C4B /* Pods_Eprimora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB9A9D26D9CA61A750BFAFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD4FC62D2ECD635C06F176 /* Pods_Eprimora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C757FC923692600000FA334 = {
+			isa = PBXGroup;
+			children = (
+				4C757FD423692600000FA334 /* Eprimora */,
+				4C757FD323692600000FA334 /* Products */,
+				FA6695D4F40B27436798449C /* Pods */,
+				0AB9A9D26D9CA61A750BFAFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C757FD323692600000FA334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C757FD223692600000FA334 /* Eprimora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C757FD423692600000FA334 /* Eprimora */ = {
+			isa = PBXGroup;
+			children = (
+				4C757FE92369338F000FA334 /* Controllers */,
+				4C757FD523692600000FA334 /* AppDelegate.swift */,
+				4C757FD723692600000FA334 /* SceneDelegate.swift */,
+				4C757FDB23692600000FA334 /* Main.storyboard */,
+				4C757FDE23692604000FA334 /* Assets.xcassets */,
+				4C757FE023692604000FA334 /* LaunchScreen.storyboard */,
+				4C757FE323692604000FA334 /* Info.plist */,
+			);
+			path = Eprimora;
+			sourceTree = "<group>";
+		};
+		4C757FE92369338F000FA334 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C757FD923692600000FA334 /* ViewController.swift */,
+				4C757FEA236933AD000FA334 /* ClassesConsumoViewController.swift */,
+				4CF177B423693DD500964856 /* EletrodomesticosViewController.swift */,
+				4CF177B923694F4300964856 /* SelecionadosViewController.swift */,
+				4CF177BB23695CC900964856 /* ResultadoViewController.swift */,
+				4CF177BD2369659200964856 /* ComparacaoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA6695D4F40B27436798449C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37F0E6C155B814D7FD89F5E8 /* Pods-Eprimora.debug.xcconfig */,
+				2165D7C29536E6816E17E280 /* Pods-Eprimora.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C757FD123692600000FA334 /* Eprimora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C757FE623692604000FA334 /* Build configuration list for PBXNativeTarget "Eprimora" */;
+			buildPhases = (
+				B5587A741C8A2A2FC296422A /* [CP] Check Pods Manifest.lock */,
+				4C757FCE23692600000FA334 /* Sources */,
+				4C757FCF23692600000FA334 /* Frameworks */,
+				4C757FD023692600000FA334 /* Resources */,
+				2D437268F0181F1D2F588494 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eprimora;
+			productName = Eprimora;
+			productReference = 4C757FD223692600000FA334 /* Eprimora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C757FCA23692600000FA334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Rafael Escaleira";
+				TargetAttributes = {
+					4C757FD123692600000FA334 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 4C757FCD23692600000FA334 /* Build configuration list for PBXProject "Eprimora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C757FC923692600000FA334;
+			productRefGroup = 4C757FD323692600000FA334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C757FD123692600000FA334 /* Eprimora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C757FD023692600000FA334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C757FE223692604000FA334 /* LaunchScreen.storyboard in Resources */,
+				4C757FDF23692604000FA334 /* Assets.xcassets in Resources */,
+				4C757FDD23692600000FA334 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D437268F0181F1D2F588494 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eprimora/Pods-Eprimora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eprimora/Pods-Eprimora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eprimora/Pods-Eprimora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5587A741C8A2A2FC296422A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eprimora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C757FCE23692600000FA334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C757FDA23692600000FA334 /* ViewController.swift in Sources */,
+				4C757FD623692600000FA334 /* AppDelegate.swift in Sources */,
+				4CF177BC23695CC900964856 /* ResultadoViewController.swift in Sources */,
+				4C757FEB236933AD000FA334 /* ClassesConsumoViewController.swift in Sources */,
+				4C757FD823692600000FA334 /* SceneDelegate.swift in Sources */,
+				4CF177BA23694F4300964856 /* SelecionadosViewController.swift in Sources */,
+				4CF177BE2369659200964856 /* ComparacaoViewController.swift in Sources */,
+				4CF177B523693DD500964856 /* EletrodomesticosViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C757FDB23692600000FA334 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C757FDC23692600000FA334 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C757FE023692604000FA334 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C757FE123692604000FA334 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C757FE423692604000FA334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C757FE523692604000FA334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C757FE723692604000FA334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F0E6C155B814D7FD89F5E8 /* Pods-Eprimora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Eprimora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufms.Eprimora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C757FE823692604000FA334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2165D7C29536E6816E17E280 /* Pods-Eprimora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Eprimora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufms.Eprimora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C757FCD23692600000FA334 /* Build configuration list for PBXProject "Eprimora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C757FE423692604000FA334 /* Debug */,
+				4C757FE523692604000FA334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C757FE623692604000FA334 /* Build configuration list for PBXNativeTarget "Eprimora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C757FE723692604000FA334 /* Debug */,
+				4C757FE823692604000FA334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C757FCA23692600000FA334 /* Project object */;
+}
