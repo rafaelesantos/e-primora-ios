@@ -6,6 +6,12 @@ target 'Eprimora' do
   use_frameworks!
 
   # Pods for Eprimora
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Auth'
   pod 'Blueprints'
   pod 'SharkORM'
   pod 'BetterSegmentedControl'
