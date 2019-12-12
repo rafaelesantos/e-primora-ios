@@ -15,19 +15,12 @@ class BandeirasTarifariasViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var mostrarButton: UIButton!
     
-    var categoriaClasse: CategoriasClasses?
+    var categoriaClasse: CategoriasClassesCodable?
     var bandeiraTarifarias: BandeirasTarifariasCodable?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
-        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-        
         FirebaseObserve.bandeiraTarifarias { (value) in
             
             self.bandeiraTarifarias = value
@@ -37,6 +30,26 @@ class BandeirasTarifariasViewController: UIViewController {
             self.tableView.reloadData()
             self.activityIndicator.stopAnimating()
         }
+        
+        NetworkManager.sharedInstance.reachability.whenReachable = { (_) in
+            
+            FirebaseObserve.bandeiraTarifarias { (value) in
+                
+                self.bandeiraTarifarias = value
+                self.descricaoLabel.text = value.descricao
+                self.mostrarButton.setTitle("Mostrar mais", for: .normal)
+                
+                self.tableView.reloadData()
+                self.activityIndicator.stopAnimating()
+            }
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
     }
     
     // MARK: Button Action
@@ -102,7 +115,17 @@ extension BandeirasTarifariasViewController: UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let item = self.bandeiraTarifarias?.bandeiras?[indexPath.row]
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let controller = storyboard.instantiateViewController(identifier: "EletrodomesticosViewController") as? EletrodomesticosViewController else { return }
         
+        DispatchQueue.global(qos: .background).async {
+            
+            controller.bandeiraTarifaria = item
+            controller.categoriaClasse = self.categoriaClasse
+            
+            DispatchQueue.main.async { self.navigationController?.pushViewController(controller, animated: true) }
+        }
     }
 }
 

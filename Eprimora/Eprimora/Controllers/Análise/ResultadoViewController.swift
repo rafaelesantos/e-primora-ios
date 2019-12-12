@@ -36,17 +36,17 @@ extension ResultadoViewController: UICollectionViewDelegate, UICollectionViewDat
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return selected.count
+        return 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ResultadoCollectionViewCell", for: indexPath) as? ResultadoCollectionViewCell else { return UICollectionViewCell() }
         
-        cell.nameLabel.text = names[selected[indexPath.row]].lowercased().capitalized
-        cell.produtoImagem.image = UIImage(named: "\(selected[indexPath.row])")
-        cell.segmented.setIndex(segmentIndex[selected[indexPath.row]], animated: true)
-        cell.setSegmentedControl(segmented: cell.segmented, titles: ["A", "B", "C", "D"])
+//        cell.nameLabel.text = names[selected[indexPath.row]].lowercased().capitalized
+//        cell.produtoImagem.image = UIImage(named: "\(selected[indexPath.row])")
+//        cell.segmented.setIndex(segmentIndex[selected[indexPath.row]], animated: true)
+//        cell.setSegmentedControl(segmented: cell.segmented, titles: ["A", "B", "C", "D"])
         
         return cell
     }

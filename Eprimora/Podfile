@@ -15,4 +15,5 @@ target 'Eprimora' do
   pod 'Blueprints'
   pod 'SharkORM'
   pod 'BetterSegmentedControl'
+  pod 'ReachabilitySwift'
 end

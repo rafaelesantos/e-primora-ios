@@ -9,20 +9,85 @@
 import UIKit
 import BetterSegmentedControl
 
-let names: [String] = ["ar condicionado", "despertador", "liquidificador 1", "liquidificador 2", "liquidificador", "máquina de café", "encrespador", "lava-louças", "depilador", "extrator", "ventilador", "vaporizador de alimentos", "geladeira", "secador de cabelo", "ferro", "espremedor", "chaleira", "luminária, abajur", "moedor de carne", "forno de micro-ondas", "misturador 1", "misturador", "multi fogão", "reprodutor de música", "alto-falante de música", "forno", "câmera fotografica", "impressora", "geladeira", "máquina de costura", "barbeador 1", "barbeador", "fogão", "Telefone", "televisão", "torradeira", "escova de dente", "aspirador de pó 1", "aspirador de pó", "máquina de lavar"]
-var segmentIndex: [Int] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-var isOn: [Int] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-var selected: [Int] = []
-
 class EletrodomesticosViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var proximoButton: UIButton!
+    
+    var categoriaClasse: CategoriasClassesCodable?
+    var bandeiraTarifaria: BandeirasCodable?
+    var eletrodomesticos: [EletrodomesticoCodable] = []
+    var images: [String: UIImage] = [:]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 20, right: 0)
+        
+        self.images = (UserDefaults.standard.value(forKey: "imagesEletrodomesticos") as? [String: Data] ?? [:]).mapValues({ (pngData) -> UIImage in
+            
+            return UIImage(data: pngData) ?? UIImage()
+        })
+        
+        FirebaseObserve.eletrodomesticos { (value) in
+            
+            self.eletrodomesticos = value
+            self.tableView.reloadData()
+            self.activityIndicator.stopAnimating()
+            
+            URLRequest.downloadManyImages(urlsString: self.eletrodomesticos.map({ (eletrodomesticos) -> String in
+                return eletrodomesticos.imagem ?? ""
+            })) { (images) in
+                
+                self.images = images
+                
+                let imagesPNGData = self.images.mapValues({ (image) -> Data in
+                    return (image.pngData() ?? Data())
+                })
+                
+                UserDefaults.standard.set(imagesPNGData, forKey: "imagesEletrodomesticos")
+                
+                self.tableView.reloadData()
+                self.activityIndicator.stopAnimating()
+            }
+        }
+        
+        NetworkManager.sharedInstance.reachability.whenReachable = { (_) in
+            
+            FirebaseObserve.eletrodomesticos { (value) in
+                
+                self.eletrodomesticos = value
+                self.tableView.reloadData()
+                self.activityIndicator.stopAnimating()
+                
+                URLRequest.downloadManyImages(urlsString: self.eletrodomesticos.map({ (eletrodomesticos) -> String in
+                    return eletrodomesticos.imagem ?? ""
+                })) { (images) in
+                    
+                    self.images = images
+                    
+                    let imagesPNGData = self.images.mapValues({ (image) -> Data in
+                        return (image.pngData() ?? Data())
+                    })
+                    
+                    UserDefaults.standard.set(imagesPNGData, forKey: "imagesEletrodomesticos")
+                    
+                    self.tableView.reloadData()
+                    self.activityIndicator.stopAnimating()
+                }
+            }
+        }
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+    }
+    
+    // MARK: Button Action
     
     @IBAction func backButtonAction() {
         
@@ -31,54 +96,107 @@ class EletrodomesticosViewController: UIViewController {
     
     @objc func switchButtonAction(_ sender: UISwitch) {
         
-        isOn[sender.tag] = sender.isOn == false ? 0 : 1
-        
-        if sender.isOn == true { selected.append(sender.tag) }
-        else { selected.removeFirst(sender.tag) }
+        self.eletrodomesticos[sender.tag].estaSelecionado = sender.isOn
+        self.proximoButton.alpha = self.eletrodomesticos.contains(where: { (eletrodomestico) -> Bool in
+            return eletrodomestico.estaSelecionado
+            }) == true ? 1 : 0
     }
     
     @objc func segmentedButtonAction(_ sender: BetterSegmentedControl) {
         
-        segmentIndex[sender.tag] = sender.index
+        self.eletrodomesticos[sender.tag].categoriaSelecionada = sender.index
+    }
+    
+    @IBAction func proximoButtonAction(_ sender: UIButton) {
+        
+        let item = self.eletrodomesticos.filter { (eletrodomestico) -> Bool in
+            
+            return eletrodomestico.estaSelecionado
+        }
+        
+        let itemImages = self.images.filter { (image) -> Bool in
+            
+            return item.contains { (eletrodomestico) -> Bool in
+                
+                return eletrodomestico.imagem == image.key
+            }
+        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let controller = storyboard.instantiateViewController(identifier: "SelecionadosViewController") as? SelecionadosViewController else { return }
+        
+        DispatchQueue.global(qos: .background).async {
+            
+            controller.bandeiraTarifaria = self.bandeiraTarifaria
+            controller.categoriaClasse = self.categoriaClasse
+            controller.eletrodomesticos = item
+            controller.images = itemImages
+            
+            DispatchQueue.main.async { self.navigationController?.pushViewController(controller, animated: true) }
+        }
     }
 }
+
+// MARK: Gesture Recognizer
+
+extension EletrodomesticosViewController: UIGestureRecognizerDelegate {
+    
+    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+        
+        if gestureRecognizer == self.navigationController?.interactivePopGestureRecognizer {
+            return true
+        }
+        
+        return false
+    }
+}
+
+// MARK: Table View
 
 extension EletrodomesticosViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return names.count
+        return self.eletrodomesticos.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "EletrodomesticosTableViewCell", for: indexPath) as? EletrodomesticosTableViewCell else { return UITableViewCell() }
         
+        let item = self.eletrodomesticos[indexPath.row]
+        
         cell.selectionStyle = .none
+        cell.nomeLabel.text = item.nome?.lowercased().capitalized
+        cell.produtoImagem.image = self.images[item.imagem ?? ""]
         
-        cell.nameLabel.text = names[indexPath.row].lowercased().capitalized
-        cell.produtoImagem.image = UIImage(named: "\(indexPath.row)")
-        
-        cell.isAtivo.tag = indexPath.row
+        cell.estaAtivo.tag = indexPath.row
         cell.segmented.tag = indexPath.row
         
-        cell.segmented.setIndex(segmentIndex[indexPath.row], animated: true)
         cell.setSegmentedControl(segmented: cell.segmented, titles: ["A", "B", "C", "D"])
-        cell.isAtivo.isOn = isOn[indexPath.row] == 0 ? false : true
+        cell.segmented.setIndex(item.categoriaSelecionada, animated: true)
+        cell.estaAtivo.isOn = item.estaSelecionado
         
-        cell.isAtivo.addTarget(self, action: #selector(self.switchButtonAction(_:)), for: .touchUpInside)
+        cell.estaAtivo.addTarget(self, action: #selector(self.switchButtonAction(_:)), for: .valueChanged)
         cell.segmented.addTarget(self, action: #selector(self.segmentedButtonAction(_:)), for: .valueChanged)
         
         return cell
     }
 }
 
+// MARK: Table View Cell
+
 public class EletrodomesticosTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nomeLabel: UILabel!
     @IBOutlet weak var produtoImagem: UIImageView!
-    @IBOutlet weak var isAtivo: UISwitch!
+    @IBOutlet weak var estaAtivo: UISwitch!
     @IBOutlet weak var segmented: BetterSegmentedControl!
+    
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+        
+    }
     
     func setSegmentedControl(segmented: BetterSegmentedControl, titles: [String]) {
         

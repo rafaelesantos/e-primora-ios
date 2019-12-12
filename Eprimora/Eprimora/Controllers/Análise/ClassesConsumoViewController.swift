@@ -19,13 +19,6 @@ class ClassesConsumoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
-        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
         
         FirebaseObserve.classesDeConsumo { (value) in
             
@@ -36,6 +29,26 @@ class ClassesConsumoViewController: UIViewController {
             self.tableView.reloadData()
             self.activityIndicator.stopAnimating()
         }
+        
+        NetworkManager.sharedInstance.reachability.whenReachable = { (_) in
+            
+            FirebaseObserve.classesDeConsumo { (value) in
+                
+                self.classesDeConsumo = value
+                self.descricaoLabel.text = value.descricao
+                self.mostrarButton.setTitle("Mostrar mais", for: .normal)
+                
+                self.tableView.reloadData()
+                self.activityIndicator.stopAnimating()
+            }
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
     }
     
     // MARK: Button Action

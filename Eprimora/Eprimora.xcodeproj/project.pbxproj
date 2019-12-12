@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		4C14CB7F23A18F3C00A672BC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C14CB7E23A18F3C00A672BC /* UIColorExtension.swift */; };
 		4C14CB8123A1920900A672BC /* ClassesDeConsumoCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C14CB8023A1920900A672BC /* ClassesDeConsumoCodable.swift */; };
-		4C14CB8323A1925400A672BC /* CategoriasClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C14CB8223A1925400A672BC /* CategoriasClasses.swift */; };
 		4C5CCC1923A151A00093A8D0 /* EletrodomesticoCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CCC1823A151A00093A8D0 /* EletrodomesticoCodable.swift */; };
 		4C726CF423A168BC0087469E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C726CF323A168BC0087469E /* SignInViewController.swift */; };
 		4C726CF623A16C0D0087469E /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C726CF523A16C0D0087469E /* PresentationViewController.swift */; };
 		4C726CF823A1757A0087469E /* SobreEprimoraCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C726CF723A1757A0087469E /* SobreEprimoraCodable.swift */; };
-		4C726CFA23A17A2D0087469E /* VantagensCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C726CF923A17A2D0087469E /* VantagensCodable.swift */; };
 		4C726CFE23A17AB70087469E /* FirebasePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C726CFD23A17AB70087469E /* FirebasePaths.swift */; };
 		4C726D0023A17AF30087469E /* FirebaseObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C726CFF23A17AF30087469E /* FirebaseObserve.swift */; };
 		4C726D0223A17FD80087469E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C726D0123A17FD80087469E /* GoogleService-Info.plist */; };
@@ -27,7 +25,7 @@
 		4C757FEB236933AD000FA334 /* ClassesConsumoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C757FEA236933AD000FA334 /* ClassesConsumoViewController.swift */; };
 		4C88224823A199CE00BDCE3B /* BandeirasTarifariasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88224723A199CE00BDCE3B /* BandeirasTarifariasViewController.swift */; };
 		4C88224A23A19B4800BDCE3B /* BandeirasTarifariasCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88224923A19B4800BDCE3B /* BandeirasTarifariasCodable.swift */; };
-		4C88224C23A19B8100BDCE3B /* Bandeiras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88224B23A19B8100BDCE3B /* Bandeiras.swift */; };
+		4CA0C5F923A1AE070029DB47 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0C5F823A1AE070029DB47 /* NetworkManager.swift */; };
 		4CF177B523693DD500964856 /* EletrodomesticosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177B423693DD500964856 /* EletrodomesticosViewController.swift */; };
 		4CF177BA23694F4300964856 /* SelecionadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177B923694F4300964856 /* SelecionadosViewController.swift */; };
 		4CF177BC23695CC900964856 /* ResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177BB23695CC900964856 /* ResultadoViewController.swift */; };
@@ -41,12 +39,10 @@
 		4BFD4FC62D2ECD635C06F176 /* Pods_Eprimora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eprimora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C14CB7E23A18F3C00A672BC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		4C14CB8023A1920900A672BC /* ClassesDeConsumoCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesDeConsumoCodable.swift; sourceTree = "<group>"; };
-		4C14CB8223A1925400A672BC /* CategoriasClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasClasses.swift; sourceTree = "<group>"; };
 		4C5CCC1823A151A00093A8D0 /* EletrodomesticoCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EletrodomesticoCodable.swift; sourceTree = "<group>"; };
 		4C726CF323A168BC0087469E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4C726CF523A16C0D0087469E /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
 		4C726CF723A1757A0087469E /* SobreEprimoraCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreEprimoraCodable.swift; sourceTree = "<group>"; };
-		4C726CF923A17A2D0087469E /* VantagensCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VantagensCodable.swift; sourceTree = "<group>"; };
 		4C726CFD23A17AB70087469E /* FirebasePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePaths.swift; sourceTree = "<group>"; };
 		4C726CFF23A17AF30087469E /* FirebaseObserve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseObserve.swift; sourceTree = "<group>"; };
 		4C726D0123A17FD80087469E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -61,7 +57,7 @@
 		4C757FEA236933AD000FA334 /* ClassesConsumoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesConsumoViewController.swift; sourceTree = "<group>"; };
 		4C88224723A199CE00BDCE3B /* BandeirasTarifariasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandeirasTarifariasViewController.swift; sourceTree = "<group>"; };
 		4C88224923A19B4800BDCE3B /* BandeirasTarifariasCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandeirasTarifariasCodable.swift; sourceTree = "<group>"; };
-		4C88224B23A19B8100BDCE3B /* Bandeiras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandeiras.swift; sourceTree = "<group>"; };
+		4CA0C5F823A1AE070029DB47 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4CF177B423693DD500964856 /* EletrodomesticosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EletrodomesticosViewController.swift; sourceTree = "<group>"; };
 		4CF177B923694F4300964856 /* SelecionadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelecionadosViewController.swift; sourceTree = "<group>"; };
 		4CF177BB23695CC900964856 /* ResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoViewController.swift; sourceTree = "<group>"; };
@@ -93,11 +89,8 @@
 			children = (
 				4C5CCC1823A151A00093A8D0 /* EletrodomesticoCodable.swift */,
 				4C726CF723A1757A0087469E /* SobreEprimoraCodable.swift */,
-				4C726CF923A17A2D0087469E /* VantagensCodable.swift */,
 				4C14CB8023A1920900A672BC /* ClassesDeConsumoCodable.swift */,
-				4C14CB8223A1925400A672BC /* CategoriasClasses.swift */,
 				4C88224923A19B4800BDCE3B /* BandeirasTarifariasCodable.swift */,
-				4C88224B23A19B8100BDCE3B /* Bandeiras.swift */,
 			);
 			path = Codable;
 			sourceTree = "<group>";
@@ -164,6 +157,7 @@
 		4C757FD423692600000FA334 /* Eprimora */ = {
 			isa = PBXGroup;
 			children = (
+				4CA0C5F723A1AE070029DB47 /* Network */,
 				4C726D0323A182FA0087469E /* Extension */,
 				4C726CFC23A17A930087469E /* Cloud */,
 				4C5CCC1723A151600093A8D0 /* Codable */,
@@ -186,6 +180,14 @@
 				4C5CCC1A23A157310093A8D0 /* Análise */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4CA0C5F723A1AE070029DB47 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4CA0C5F823A1AE070029DB47 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		FA6695D4F40B27436798449C /* Pods */ = {
@@ -315,8 +317,8 @@
 			files = (
 				4C757FD623692600000FA334 /* AppDelegate.swift in Sources */,
 				4C726D0023A17AF30087469E /* FirebaseObserve.swift in Sources */,
-				4C14CB8323A1925400A672BC /* CategoriasClasses.swift in Sources */,
 				4CF177BC23695CC900964856 /* ResultadoViewController.swift in Sources */,
+				4CA0C5F923A1AE070029DB47 /* NetworkManager.swift in Sources */,
 				4C757FEB236933AD000FA334 /* ClassesConsumoViewController.swift in Sources */,
 				4C88224823A199CE00BDCE3B /* BandeirasTarifariasViewController.swift in Sources */,
 				4C5CCC1923A151A00093A8D0 /* EletrodomesticoCodable.swift in Sources */,
@@ -329,10 +331,8 @@
 				4C14CB7F23A18F3C00A672BC /* UIColorExtension.swift in Sources */,
 				4CF177BE2369659200964856 /* ComparacaoViewController.swift in Sources */,
 				4C726D0523A183110087469E /* URLResquestExtension.swift in Sources */,
-				4C88224C23A19B8100BDCE3B /* Bandeiras.swift in Sources */,
 				4C88224A23A19B4800BDCE3B /* BandeirasTarifariasCodable.swift in Sources */,
 				4C14CB8123A1920900A672BC /* ClassesDeConsumoCodable.swift in Sources */,
-				4C726CFA23A17A2D0087469E /* VantagensCodable.swift in Sources */,
 				4CF177B523693DD500964856 /* EletrodomesticosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

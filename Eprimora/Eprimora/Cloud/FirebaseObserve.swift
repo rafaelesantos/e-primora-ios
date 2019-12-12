@@ -12,46 +12,141 @@ public class FirebaseObserve: FirebasePaths {
     
     public static func sobreEprimora(completionHandler: @escaping (SobreEprimoraCodable) -> ()) {
         
-        self.sobreEprimora.observe(.value) { (values) in
+        self.sobreEprimora.keepSynced(true)
+        
+        NetworkManager.isReachable { (_) in
             
-            do {
+            self.sobreEprimora.observe(.value) { (values) in
                 
-                let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
-                let codable = try JSONDecoder().decode(SobreEprimoraCodable.self, from: data)
-                DispatchQueue.main.async { completionHandler(codable) }
+                do {
+                    
+                    let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
+                    let codable = try JSONDecoder().decode(SobreEprimoraCodable.self, from: data)
+                    DispatchQueue.main.async { completionHandler(codable) }
+                }
+                
+                catch { print(error.localizedDescription) }
             }
+        }
+        
+        NetworkManager.isUnreachable { (_) in
             
-            catch { print(error.localizedDescription) }
+            self.sobreEprimora.queryOrderedByKey().observe(.value) { (values) in
+                
+                do {
+                    
+                    let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
+                    let codable = try JSONDecoder().decode(SobreEprimoraCodable.self, from: data)
+                    DispatchQueue.main.async { completionHandler(codable) }
+                }
+                
+                catch { print(error.localizedDescription) }
+            }
         }
     }
     
     public static func classesDeConsumo(completionHandler: @escaping (ClassesDeConsumoCodable) -> ()) {
         
-        self.classesDeConsumo.observe(.value) { (values) in
+        self.classesDeConsumo.keepSynced(true)
+        
+        NetworkManager.isReachable { (_) in
             
-            do {
+            self.classesDeConsumo.observe(.value) { (values) in
                 
-                let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
-                let codable = try JSONDecoder().decode(ClassesDeConsumoCodable.self, from: data)
-                DispatchQueue.main.async { completionHandler(codable) }
+                do {
+                    
+                    let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
+                    let codable = try JSONDecoder().decode(ClassesDeConsumoCodable.self, from: data)
+                    DispatchQueue.main.async { completionHandler(codable) }
+                }
+                
+                catch { print(error.localizedDescription) }
             }
+        }
+        
+        NetworkManager.isUnreachable { (_) in
             
-            catch { print(error.localizedDescription) }
+            self.classesDeConsumo.queryOrderedByKey().observe(.value) { (values) in
+                
+                do {
+                    
+                    let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
+                    let codable = try JSONDecoder().decode(ClassesDeConsumoCodable.self, from: data)
+                    DispatchQueue.main.async { completionHandler(codable) }
+                }
+                
+                catch { print(error.localizedDescription) }
+            }
         }
     }
     
     public static func bandeiraTarifarias(completionHandler: @escaping (BandeirasTarifariasCodable) -> ()) {
         
-        self.bandeiraTarifarias.observe(.value) { (values) in
+        self.bandeiraTarifarias.keepSynced(true)
+        
+        NetworkManager.isReachable { (_) in
             
-            do {
+            self.bandeiraTarifarias.observe(.value) { (values) in
                 
-                let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
-                let codable = try JSONDecoder().decode(BandeirasTarifariasCodable.self, from: data)
-                DispatchQueue.main.async { completionHandler(codable) }
+                do {
+                    
+                    let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
+                    let codable = try JSONDecoder().decode(BandeirasTarifariasCodable.self, from: data)
+                    DispatchQueue.main.async { completionHandler(codable) }
+                }
+                
+                catch { print(error.localizedDescription) }
             }
+        }
+        
+        NetworkManager.isUnreachable { (_) in
             
-            catch { print(error.localizedDescription) }
+            self.bandeiraTarifarias.queryOrderedByKey().observe(.value) { (values) in
+                
+                do {
+                    
+                    let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
+                    let codable = try JSONDecoder().decode(BandeirasTarifariasCodable.self, from: data)
+                    DispatchQueue.main.async { completionHandler(codable) }
+                }
+                
+                catch { print(error.localizedDescription) }
+            }
+        }
+    }
+    
+    public static func eletrodomesticos(completionHandler: @escaping ([EletrodomesticoCodable]) -> ()) {
+        
+        self.eletrodomesticos.keepSynced(true)
+        
+        NetworkManager.isReachable { (_) in
+            
+            self.eletrodomesticos.observe(.value) { (values) in
+                
+                do {
+                    
+                    let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
+                    let codable = try JSONDecoder().decode([EletrodomesticoCodable].self, from: data)
+                    DispatchQueue.main.async { completionHandler(codable) }
+                }
+                
+                catch { print(error.localizedDescription) }
+            }
+        }
+        
+        NetworkManager.isUnreachable { (_) in
+            
+            self.eletrodomesticos.queryOrderedByKey().observe(.value) { (values) in
+                
+                do {
+                    
+                    let data = try JSONSerialization.data(withJSONObject: values.value ?? [], options: .prettyPrinted)
+                    let codable = try JSONDecoder().decode([EletrodomesticoCodable].self, from: data)
+                    DispatchQueue.main.async { completionHandler(codable) }
+                }
+                
+                catch { print(error.localizedDescription) }
+            }
         }
     }
 }

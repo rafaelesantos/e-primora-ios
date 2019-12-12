@@ -28,7 +28,7 @@ extension ComparacaoViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return selected.count
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -37,8 +37,8 @@ extension ComparacaoViewController: UITableViewDataSource, UITableViewDelegate {
         
         cell.selectionStyle = .none
         
-        cell.nameLabel.text = names[selected[indexPath.row]].lowercased().capitalized
-        cell.produtoImagem.image = UIImage(named: "\(selected[indexPath.row])")
+//        cell.nameLabel.text = names[selected[indexPath.row]].lowercased().capitalized
+//        cell.produtoImagem.image = UIImage(named: "\(selected[indexPath.row])")
         cell.precoIdealLabel.text = "R$ 14,17"
         cell.seuPrecoLabel.text = "R$ 31,89"
         cell.economiaLabel.text = "R$ 17,71"

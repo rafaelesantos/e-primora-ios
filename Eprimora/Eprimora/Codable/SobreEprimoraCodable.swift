@@ -11,7 +11,7 @@ import Foundation
 public struct SobreEprimoraCodable: Codable {
     
     let descricao: String?
-    let vantagens: [Vantagens]?
+    let vantagens: [VantagensCodable]?
 
     enum CodingKeys: String, CodingKey {
 
@@ -24,6 +24,29 @@ public struct SobreEprimoraCodable: Codable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         
         descricao = try values.decodeIfPresent(String.self, forKey: .descricao)
-        vantagens = try values.decodeIfPresent([Vantagens].self, forKey: .vantagens)
+        vantagens = try values.decodeIfPresent([VantagensCodable].self, forKey: .vantagens)
+    }
+}
+
+struct VantagensCodable: Codable {
+    
+    let descricao: String?
+    let imagem: String?
+    let titulo: String?
+
+    enum CodingKeys: String, CodingKey {
+
+        case descricao = "descricao"
+        case imagem = "imagem"
+        case titulo = "titulo"
+    }
+
+    init(from decoder: Decoder) throws {
+        
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        
+        descricao = try values.decodeIfPresent(String.self, forKey: .descricao)
+        imagem = try values.decodeIfPresent(String.self, forKey: .imagem)
+        titulo = try values.decodeIfPresent(String.self, forKey: .titulo)
     }
 }

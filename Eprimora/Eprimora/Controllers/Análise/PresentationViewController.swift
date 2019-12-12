@@ -19,27 +19,68 @@ class PresentationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
         
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        self.images = (UserDefaults.standard.value(forKey: "imagesPresentation") as? [String: Data] ?? [:]).mapValues({ (pngData) -> UIImage in
+            
+            return UIImage(data: pngData) ?? UIImage()
+        })
         
         FirebaseObserve.sobreEprimora { (value) in
             
             self.sobreEprimora = value
             self.descricaoLabel.text = value.descricao
+            self.tableView.reloadData()
+            self.activityIndicator.stopAnimating()
             
             URLRequest.downloadManyImages(urlsString: self.sobreEprimora?.vantagens?.map({ (vantagens) -> String in
                 return vantagens.imagem ?? ""
             }) ?? []) { (images) in
                 
                 self.images = images
+                
+                let imagesPNGData = self.images.mapValues({ (image) -> Data in
+                    return (image.pngData() ?? Data())
+                })
+                
+                UserDefaults.standard.set(imagesPNGData, forKey: "imagesPresentation")
+                
                 self.tableView.reloadData()
                 self.activityIndicator.stopAnimating()
             }
         }
+        
+        NetworkManager.sharedInstance.reachability.whenReachable = { (_) in
+            
+            FirebaseObserve.sobreEprimora { (value) in
+                
+                self.sobreEprimora = value
+                self.descricaoLabel.text = value.descricao
+                self.tableView.reloadData()
+                self.activityIndicator.stopAnimating()
+                
+                URLRequest.downloadManyImages(urlsString: self.sobreEprimora?.vantagens?.map({ (vantagens) -> String in
+                    return vantagens.imagem ?? ""
+                }) ?? []) { (images) in
+                    
+                    self.images = images
+                    
+                    let imagesPNGData = self.images.mapValues({ (image) -> Data in
+                        return (image.pngData() ?? Data())
+                    })
+                    
+                    UserDefaults.standard.set(imagesPNGData, forKey: "imagesPresentation")
+                    
+                    self.tableView.reloadData()
+                    self.activityIndicator.stopAnimating()
+                }
+            }
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 }
 
