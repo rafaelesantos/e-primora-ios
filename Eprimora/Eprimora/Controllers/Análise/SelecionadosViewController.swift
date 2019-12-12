@@ -66,10 +66,10 @@ class SelecionadosViewController: UIViewController {
         
         DispatchQueue.global(qos: .background).async {
             
-//            controller.bandeiraTarifaria = self.bandeiraTarifaria
-//            controller.categoriaClasse = self.categoriaClasse
-//            controller.eletrodomesticos = item
-//            controller.images = itemImages
+            controller.bandeiraTarifaria = self.bandeiraTarifaria
+            controller.categoriaClasse = self.categoriaClasse
+            controller.eletrodomesticos = self.eletrodomesticos
+            controller.images = self.images
             
             DispatchQueue.main.async { self.navigationController?.pushViewController(controller, animated: true) }
         }
