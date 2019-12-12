@@ -90,6 +90,7 @@ public class NumberPicker: UIViewController {
         
         initializeViews()
         addViews()
+        viewWillLayoutSubviews()
     }
     
     override public func viewWillAppear(_ animated: Bool) {
@@ -100,6 +101,12 @@ public class NumberPicker: UIViewController {
             self.animatePickerView()
             self.scrollToDefaultNumber(self.defaultSelectedNumber)
         }
+    }
+    
+    public override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        pickerView.applyGradient(colors: bgGradients, type: .cross)
     }
     
     func initializeViews() {
@@ -115,7 +122,7 @@ public class NumberPicker: UIViewController {
         doneBtn = createBtn(getImageFromBundle("done"))
         doneBtn.tag = 99
         
-        titleLbl = createLabel(heading, fontSize: 18)
+        titleLbl = createLabel(heading, fontSize: 22)
         numberLbl = createLabel("0", fontSize: 30)
         
         collectionView.register(NumberPickerLineCell.self, forCellWithReuseIdentifier: cellId)
@@ -141,7 +148,7 @@ public class NumberPicker: UIViewController {
         pickerView.heightAnchor.constraint(equalToConstant: 250 + bottomPadding).isActive = true
         
         pickerView.applyGradient(colors: bgGradients, type: .cross)
-        pickerView.roundCorners([.topLeft, .topRight], radius: 10)
+        pickerView.roundCorners([.topLeft, .topRight], radius: 25)
         
         pickerView.addSubview(cancelBtn)
         
@@ -170,6 +177,7 @@ public class NumberPicker: UIViewController {
         
         numberLbl.centerXAnchor.constraint(equalTo: pickerView.centerXAnchor).isActive = true
         numberLbl.topAnchor.constraint(equalTo: titleLbl.bottomAnchor).isActive = true
+        numberLbl.textColor = #colorLiteral(red: 0.3843137255, green: 0.7294117647, blue: 0.2784313725, alpha: 1)
         
         pickerView.addSubview(collectionView)
         
@@ -257,7 +265,7 @@ public class NumberPicker: UIViewController {
         
         let lbl = UILabel()
         lbl.translatesAutoresizingMaskIntoConstraints = false
-        lbl.font = UIFont(name: "HelveticaNeue-Medium", size: fontSize)
+        lbl.font = .boldSystemFont(ofSize: fontSize)
         lbl.text = text
         lbl.textColor = tintColor
         

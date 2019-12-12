@@ -105,6 +105,7 @@ class EletrodomesticosViewController: UIViewController {
     @objc func segmentedButtonAction(_ sender: BetterSegmentedControl) {
         
         self.eletrodomesticos[sender.tag].categoriaSelecionada = sender.index
+        self.eletrodomesticos[sender.tag].potenciaSelecionada = self.eletrodomesticos[sender.tag].categorias?[sender.index] ?? 0
     }
     
     @IBAction func proximoButtonAction(_ sender: UIButton) {
@@ -179,6 +180,8 @@ extension EletrodomesticosViewController: UITableViewDataSource, UITableViewDele
         
         cell.estaAtivo.addTarget(self, action: #selector(self.switchButtonAction(_:)), for: .valueChanged)
         cell.segmented.addTarget(self, action: #selector(self.segmentedButtonAction(_:)), for: .valueChanged)
+        
+        self.segmentedButtonAction(cell.segmented)
         
         return cell
     }

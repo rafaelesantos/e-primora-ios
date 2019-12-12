@@ -16,4 +16,5 @@ target 'Eprimora' do
   pod 'SharkORM'
   pod 'BetterSegmentedControl'
   pod 'ReachabilitySwift'
+  pod 'McPicker'
 end

@@ -26,6 +26,10 @@
 		4C88224823A199CE00BDCE3B /* BandeirasTarifariasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88224723A199CE00BDCE3B /* BandeirasTarifariasViewController.swift */; };
 		4C88224A23A19B4800BDCE3B /* BandeirasTarifariasCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88224923A19B4800BDCE3B /* BandeirasTarifariasCodable.swift */; };
 		4CA0C5F923A1AE070029DB47 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0C5F823A1AE070029DB47 /* NetworkManager.swift */; };
+		4CDF818E23A1F5640004448B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF818923A1F5640004448B /* UIView+Extensions.swift */; };
+		4CDF818F23A1F5640004448B /* NumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF818A23A1F5640004448B /* NumberPicker.swift */; };
+		4CDF819023A1F5640004448B /* NumberPickerLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF818B23A1F5640004448B /* NumberPickerLineCell.swift */; };
+		4CDF819123A1F5640004448B /* NumberPicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDF818D23A1F5640004448B /* NumberPicker.xcassets */; };
 		4CF177B523693DD500964856 /* EletrodomesticosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177B423693DD500964856 /* EletrodomesticosViewController.swift */; };
 		4CF177BA23694F4300964856 /* SelecionadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177B923694F4300964856 /* SelecionadosViewController.swift */; };
 		4CF177BC23695CC900964856 /* ResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF177BB23695CC900964856 /* ResultadoViewController.swift */; };
@@ -58,6 +62,10 @@
 		4C88224723A199CE00BDCE3B /* BandeirasTarifariasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandeirasTarifariasViewController.swift; sourceTree = "<group>"; };
 		4C88224923A19B4800BDCE3B /* BandeirasTarifariasCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandeirasTarifariasCodable.swift; sourceTree = "<group>"; };
 		4CA0C5F823A1AE070029DB47 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4CDF818923A1F5640004448B /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		4CDF818A23A1F5640004448B /* NumberPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPicker.swift; sourceTree = "<group>"; };
+		4CDF818B23A1F5640004448B /* NumberPickerLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPickerLineCell.swift; sourceTree = "<group>"; };
+		4CDF818D23A1F5640004448B /* NumberPicker.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NumberPicker.xcassets; sourceTree = "<group>"; };
 		4CF177B423693DD500964856 /* EletrodomesticosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EletrodomesticosViewController.swift; sourceTree = "<group>"; };
 		4CF177B923694F4300964856 /* SelecionadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelecionadosViewController.swift; sourceTree = "<group>"; };
 		4CF177BB23695CC900964856 /* ResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +165,7 @@
 		4C757FD423692600000FA334 /* Eprimora */ = {
 			isa = PBXGroup;
 			children = (
+				4CDF818723A1F5640004448B /* NumberPicker */,
 				4CA0C5F723A1AE070029DB47 /* Network */,
 				4C726D0323A182FA0087469E /* Extension */,
 				4C726CFC23A17A930087469E /* Cloud */,
@@ -188,6 +197,33 @@
 				4CA0C5F823A1AE070029DB47 /* NetworkManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		4CDF818723A1F5640004448B /* NumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF818823A1F5640004448B /* Classes */,
+				4CDF818C23A1F5640004448B /* Assets */,
+			);
+			path = NumberPicker;
+			sourceTree = "<group>";
+		};
+		4CDF818823A1F5640004448B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF818923A1F5640004448B /* UIView+Extensions.swift */,
+				4CDF818A23A1F5640004448B /* NumberPicker.swift */,
+				4CDF818B23A1F5640004448B /* NumberPickerLineCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4CDF818C23A1F5640004448B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF818D23A1F5640004448B /* NumberPicker.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		FA6695D4F40B27436798449C /* Pods */ = {
@@ -263,6 +299,7 @@
 				4C726D0223A17FD80087469E /* GoogleService-Info.plist in Resources */,
 				4C757FDF23692604000FA334 /* Assets.xcassets in Resources */,
 				4C757FDD23692600000FA334 /* Main.storyboard in Resources */,
+				4CDF819123A1F5640004448B /* NumberPicker.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,10 +354,12 @@
 			files = (
 				4C757FD623692600000FA334 /* AppDelegate.swift in Sources */,
 				4C726D0023A17AF30087469E /* FirebaseObserve.swift in Sources */,
+				4CDF818E23A1F5640004448B /* UIView+Extensions.swift in Sources */,
 				4CF177BC23695CC900964856 /* ResultadoViewController.swift in Sources */,
 				4CA0C5F923A1AE070029DB47 /* NetworkManager.swift in Sources */,
 				4C757FEB236933AD000FA334 /* ClassesConsumoViewController.swift in Sources */,
 				4C88224823A199CE00BDCE3B /* BandeirasTarifariasViewController.swift in Sources */,
+				4CDF818F23A1F5640004448B /* NumberPicker.swift in Sources */,
 				4C5CCC1923A151A00093A8D0 /* EletrodomesticoCodable.swift in Sources */,
 				4C757FD823692600000FA334 /* SceneDelegate.swift in Sources */,
 				4C726CFE23A17AB70087469E /* FirebasePaths.swift in Sources */,
@@ -333,6 +372,7 @@
 				4C726D0523A183110087469E /* URLResquestExtension.swift in Sources */,
 				4C88224A23A19B4800BDCE3B /* BandeirasTarifariasCodable.swift in Sources */,
 				4C14CB8123A1920900A672BC /* ClassesDeConsumoCodable.swift in Sources */,
+				4CDF819023A1F5640004448B /* NumberPickerLineCell.swift in Sources */,
 				4CF177B523693DD500964856 /* EletrodomesticosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

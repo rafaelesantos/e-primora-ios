@@ -100,6 +100,7 @@ PODS:
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.3.0)
   - leveldb-library (1.22)
+  - McPicker (2.0.1)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
@@ -118,6 +119,7 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Messaging
   - Firebase/Storage
+  - McPicker
   - ReachabilitySwift
   - SharkORM
 
@@ -143,6 +145,7 @@ SPEC REPOS:
     - GoogleUtilities
     - GTMSessionFetcher
     - leveldb-library
+    - McPicker
     - nanopb
     - Protobuf
     - ReachabilitySwift
@@ -169,11 +172,12 @@ SPEC CHECKSUMS:
   GoogleUtilities: 547a86735c6f0ee30ad17e94df4fc21f616b71cb
   GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  McPicker: a0a6b8ece8f1642e05401a29867463aba501188b
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Protobuf: 394b2bf29ec303f4325e3ee4892c09e675647152
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   SharkORM: ff65244dfc2e1fa4613badad7c42f6febc1951cc
 
-PODFILE CHECKSUM: 9d1d1489fdf98e2eaec7ed129e6f8d3fe00cb607
+PODFILE CHECKSUM: b5d7e143971027d09863027f8df8e646e298422f
 
 COCOAPODS: 1.8.4
