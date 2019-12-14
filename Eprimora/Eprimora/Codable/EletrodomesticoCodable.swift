@@ -23,6 +23,8 @@ public struct EletrodomesticoCodable: Codable {
     var quantidade: Int = Int.random(in: 1 ... 6)
     var marcaSelecionada: String = "Selecione uma marca"
     var potenciaSelecionada: Int = 0
+    var totalConsumoDiario: Double = 0
+    var totalConsumoMensal: Double = 0
     
     enum CodingKeys: String, CodingKey {
         
