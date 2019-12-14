@@ -24,7 +24,7 @@ class ResultadoViewController: UIViewController {
         super.viewWillLayoutSubviews()
         
         let itemsPerRow: CGFloat = (self.view.frame.width / 162).rounded(.down)
-        let height: CGFloat = 190
+        let height: CGFloat = 200
         let layout = VerticalBlueprintLayout(itemsPerRow: itemsPerRow, height: height, minimumInteritemSpacing: 10, minimumLineSpacing: 10, sectionInset: UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20), stickyHeaders: false, stickyFooters: false)
         self.collectionView.collectionViewLayout = layout
     }

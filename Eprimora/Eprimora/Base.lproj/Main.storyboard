@@ -784,7 +784,7 @@
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cbt-K4-EoU">
                                                                     <rect key="frame" x="7" y="7" width="156" height="86"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="width" secondItem="cbt-K4-EoU" secondAttribute="height" multiplier="400:220" id="O2l-Gf-e36"/>
+                                                                        <constraint firstAttribute="height" constant="86" id="SAy-Qc-oGI"/>
                                                                     </constraints>
                                                                 </imageView>
                                                             </subviews>
@@ -1333,7 +1333,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Informe seu e-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WIA-zz-iJK">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Informe sua senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WIA-zz-iJK">
                                         <rect key="frame" x="20" y="81" width="334" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="IjY-oJ-Xtx"/>
