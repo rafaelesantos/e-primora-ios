@@ -18,15 +18,23 @@
 
 <p align="center">
 <img src="Assets/Screen 1.png" width="40%"/>
-<img src="Assets/Screen 2.png" width="40%"/>
-<img src="Assets/Screen 3.png" width="40%"/>
-<img src="Assets/Screen 4.png" width="40%"/>
-<img src="Assets/Screen 5.png" width="40%"/>
-<img src="Assets/Screen 6.png" width="40%"/>
-<img src="Assets/Screen 7.png" width="40%"/>
-<img src="Assets/Screen 8.png" width="40%"/>
-<img src="Assets/Screen 9.png" width="40%"/>
-<img src="Assets/Screen 10.png" width="40%"/>
 <img src="Assets/Screen 11.png" width="40%"/>
+<img src="Assets/Screen 2.png" width="40%"/>
 <img src="Assets/Screen 12.png" width="40%"/>
+<img src="Assets/Screen 3.png" width="40%"/>
+<img src="Assets/Screen 13.png" width="40%"/>
+<img src="Assets/Screen 4.png" width="40%"/>
+<img src="Assets/Screen 14.png" width="40%"/>
+<img src="Assets/Screen 5.png" width="40%"/>
+<img src="Assets/Screen 15.png" width="40%"/>
+<img src="Assets/Screen 6.png" width="40%"/>
+<img src="Assets/Screen 16.png" width="40%"/>
+<img src="Assets/Screen 7.png" width="40%"/>
+<img src="Assets/Screen 17.png" width="40%"/>
+<img src="Assets/Screen 8.png" width="40%"/>
+<img src="Assets/Screen 18.png" width="40%"/>
+<img src="Assets/Screen 9.png" width="40%"/>
+<img src="Assets/Screen 19.png" width="40%"/>
+<img src="Assets/Screen 10.png" width="40%"/>
+<img src="Assets/Screen 20.png" width="40%"/>
 </p>
