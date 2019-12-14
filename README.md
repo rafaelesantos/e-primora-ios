@@ -17,24 +17,24 @@
 ## Screenshot
 
 <p align="center">
-<img src="Assets/Screen 1.png" width="40%"/>
-<img src="Assets/Screen 11.png" width="40%"/>
-<img src="Assets/Screen 2.png" width="40%"/>
-<img src="Assets/Screen 12.png" width="40%"/>
-<img src="Assets/Screen 3.png" width="40%"/>
-<img src="Assets/Screen 13.png" width="40%"/>
-<img src="Assets/Screen 4.png" width="40%"/>
-<img src="Assets/Screen 14.png" width="40%"/>
-<img src="Assets/Screen 5.png" width="40%"/>
-<img src="Assets/Screen 15.png" width="40%"/>
-<img src="Assets/Screen 6.png" width="40%"/>
-<img src="Assets/Screen 16.png" width="40%"/>
-<img src="Assets/Screen 7.png" width="40%"/>
-<img src="Assets/Screen 17.png" width="40%"/>
-<img src="Assets/Screen 8.png" width="40%"/>
-<img src="Assets/Screen 18.png" width="40%"/>
-<img src="Assets/Screen 9.png" width="40%"/>
-<img src="Assets/Screen 19.png" width="40%"/>
-<img src="Assets/Screen 10.png" width="40%"/>
-<img src="Assets/Screen 20.png" width="40%"/>
+<img src="Assets/Screenshot 1.png" width="40%"/>
+<img src="Assets/Screenshot 11.png" width="40%"/>
+<img src="Assets/Screenshot 2.png" width="40%"/>
+<img src="Assets/Screenshot 12.png" width="40%"/>
+<img src="Assets/Screenshot 3.png" width="40%"/>
+<img src="Assets/Screenshot 13.png" width="40%"/>
+<img src="Assets/Screenshot 4.png" width="40%"/>
+<img src="Assets/Screenshot 14.png" width="40%"/>
+<img src="Assets/Screenshot 5.png" width="40%"/>
+<img src="Assets/Screenshot 15.png" width="40%"/>
+<img src="Assets/Screenshot 6.png" width="40%"/>
+<img src="Assets/Screenshot 16.png" width="40%"/>
+<img src="Assets/Screenshot 7.png" width="40%"/>
+<img src="Assets/Screenshot 17.png" width="40%"/>
+<img src="Assets/Screenshot 8.png" width="40%"/>
+<img src="Assets/Screenshot 18.png" width="40%"/>
+<img src="Assets/Screenshot 9.png" width="40%"/>
+<img src="Assets/Screenshot 19.png" width="40%"/>
+<img src="Assets/Screenshot 10.png" width="40%"/>
+<img src="Assets/Screenshot 20.png" width="40%"/>
 </p>
