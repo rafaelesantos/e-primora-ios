@@ -16,9 +16,7 @@
 
 ## Screenshot
 
-<p align="center">
-<img src="Assets/Screenshot 1.png" width="40%"/>
-<img src="Assets/Screenshot 11.png" width="40%"/>
+<p align="center">\
 <img src="Assets/Screenshot 2.png" width="40%"/>
 <img src="Assets/Screenshot 12.png" width="40%"/>
 <img src="Assets/Screenshot 3.png" width="40%"/>
