@@ -14,25 +14,30 @@
 
 <p align="left">Este aplicativo foi desenvolvido para um trabalho acadêmico, o qual utiliza a TI Verde como suporte a economia financeira. Desse modo, desenvolvemos uma interface interativa e inovadora, para facilitar a entrada de dados fornecida pelo usuário, aprimorando assim, seu consumo de energia.</p>
 
-## Screenshot
+## Light
 
-<p align="center">\
-<img src="Assets/Screenshot 2.png" width="40%"/>
-<img src="Assets/Screenshot 12.png" width="40%"/>
-<img src="Assets/Screenshot 3.png" width="40%"/>
-<img src="Assets/Screenshot 13.png" width="40%"/>
-<img src="Assets/Screenshot 4.png" width="40%"/>
-<img src="Assets/Screenshot 14.png" width="40%"/>
-<img src="Assets/Screenshot 5.png" width="40%"/>
-<img src="Assets/Screenshot 15.png" width="40%"/>
-<img src="Assets/Screenshot 6.png" width="40%"/>
-<img src="Assets/Screenshot 16.png" width="40%"/>
-<img src="Assets/Screenshot 7.png" width="40%"/>
-<img src="Assets/Screenshot 17.png" width="40%"/>
-<img src="Assets/Screenshot 8.png" width="40%"/>
-<img src="Assets/Screenshot 18.png" width="40%"/>
-<img src="Assets/Screenshot 9.png" width="40%"/>
-<img src="Assets/Screenshot 19.png" width="40%"/>
-<img src="Assets/Screenshot 10.png" width="40%"/>
-<img src="Assets/Screenshot 20.png" width="40%"/>
+<p align="center">
+<img src="Assets/Screenshot 2.png" width="25%"/>
+<img src="Assets/Screenshot 3.png" width="25%"/>
+<img src="Assets/Screenshot 4.png" width="25%"/>
+<img src="Assets/Screenshot 5.png" width="25%"/>
+<img src="Assets/Screenshot 6.png" width="25%"/>
+<img src="Assets/Screenshot 7.png" width="25%"/>
+<img src="Assets/Screenshot 8.png" width="25%"/>
+<img src="Assets/Screenshot 9.png" width="25%"/>
+<img src="Assets/Screenshot 10.png" width="25%"/>
+</p>
+
+## Dark
+
+<p align="center">
+<img src="Assets/Screenshot 12.png" width="25%"/>
+<img src="Assets/Screenshot 13.png" width="25%"/>
+<img src="Assets/Screenshot 14.png" width="25%"/>
+<img src="Assets/Screenshot 15.png" width="25%"/>
+<img src="Assets/Screenshot 16.png" width="25%"/>
+<img src="Assets/Screenshot 17.png" width="25%"/>
+<img src="Assets/Screenshot 18.png" width="25%"/>
+<img src="Assets/Screenshot 19.png" width="25%"/>
+<img src="Assets/Screenshot 20.png" width="25%"/>
 </p>
