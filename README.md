@@ -1,5 +1,5 @@
 <div align = "center">
-<img src="Assets/Logo.png" width="200" />
+<img src="Assets/Icon.png" width="200" />
 </div>
 
 <h1><div align = "center"> Eprimora </div></h1>
